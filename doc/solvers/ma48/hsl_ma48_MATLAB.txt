@@ -1,0 +1,206 @@
+-----------------------------------------------------------------
+1. Introduction
+-----------------------------------------------------------------
+HSL_MA48 solves the system
+                  A * X = B
+where A is a specified m x n unsymmetric or rectangular matrix, B is an m x k
+specified set of k right-hand sides and X are the corresponding k unknowns of
+dimension n. If k=1, this simplifies
+to A * x = b.
+A direct method is used, performing the factorization PAQ = LU where P and Q
+are permutation matrices.
+
+If A is symmetric, consider using MA57/ME57, HSL_MA86/HSL_MA87 or HSL_MA97
+instead.
+
+-----------------------------------------------------------------
+2. Requirements
+-----------------------------------------------------------------
+
+These instructions are for linux-based systems (both 32-bit and 64-bit machines
+are supported).
+
+Requirements:
+ - Matlab 2008a or more recent version
+ - The gfortran or g95 compiler
+ - The MATLAB environment variable must point to your system matlab directory
+   (see INSTALL for further details)
+
+We note that the gfortran compiler is NOT SUPPORTED by Mathworks on Linux prior
+to MATLAB 2011a, however g95 has considerably poorer code optimization.
+
+
+-----------------------------------------------------------------
+3. Installation
+-----------------------------------------------------------------
+Instructions for installing the Matlab Interface for HSL_MA48 are located in
+INSTALL.
+
+-----------------------------------------------------------------
+4. Using the Matlab interface
+-----------------------------------------------------------------
+
+There are two approaches for using HSL_MA48 under Matlab.
+(a) Just use hsl_ma48_backslash in place of matlab's own X = A \ B.
+(b) Use the "expert" interface that allows a factorization to be preserved and
+    multiple subsequent solves to be performed using it.
+
+Approach (a) is offered as a subset of the functions implemented in (b).
+
+-----------------------------------------------------------------
+4(a). As a replacement backslash routine
+-----------------------------------------------------------------
+
+- If not already in the search paths, add the directory where you installed the
+  interface to the search paths, e.g.
+   >> addpath('ma48_matlab')
+   >> javaaddpath('ma48_matlab')
+   where ma48_matlab is the directory.
+   [ You can add these paths permanently (see 'help pathtool')]
+
+- To solve the equation AX = B for X:
+   >> X = hsl_ma48_backslash(A, B)
+
+-----------------------------------------------------------------
+4(b). The "expert" interface
+-----------------------------------------------------------------
+The expert interface has the concept of handles. These are integers that refer
+to factorizations held in memory. The factorization will continue to take up
+memory until the 'destroy' call is used on that particular handle. The use
+of these handles allows for storing multiple matrix factors simultaneously
+without the inefficiency of translating internal data formats to MATLAB arrays.
+
+- If not already in the search paths, add the directory where you installed the
+  interface to the search paths, e.g.
+   >> addpath('ma48_matlab')
+   >> javaaddpath('ma48_matlab')
+  where ma48_matlab is the directory.
+  [ You can add these paths permanently (see 'help pathtool') ]
+
+- hsl_ma48_factor may be used to perform the factorization of a matrix A.
+  This is equivalent to calling the Fortran routines ma48_analyse and
+  ma48_factor.
+   >> handle = hsl_ma48_factor(A)
+  Optionally control and info structures may be used
+   >> [handle, info] = hsl_ma48_factor(A, control)
+  If the user wishes to provide a row permutation P and a column permutation Q
+  they may be specified as the fourth and fifth arguments (P cannot be supplied
+  without also supplying Q):
+   >> handle = hsl_ma48_factor(A, [], P, Q)
+  where for example P=1:size(A,1) and Q is a vector as returned by colamd(A).
+  If P and Q are supplied the block triangular form is not used. The row
+  permutation may be deviated from for stability reasons.
+
+- hsl_ma48_solve may be used to perform the solution of AX=B where A has
+  already been factorized by a previous call to hsl_ma48_factor or
+  hsl_ma48_backslash. This is equivalent to calling the Fortran routine
+  ma48_solve.
+   >> X = hsl_ma48_solve(handle, B)
+  Optionally control and info structures may be used
+   >> [X, info] = hsl_ma48_solve(handle, B, control)
+
+- hsl_ma48_backslash may be used to perform a combined factorization and
+   solve. This is equivalent to calling the Fortran routines ma48_analyse,
+   and ma48_factor and ma48_solve.
+    >> X = hsl_ma48_backslash(A, B)
+   Optionally control and info structures may be used
+    >> [X, info] = hsl_ma48_backslash(A, B, control)
+   It is possible to preserve the factorization in memory by supplying an
+   output variable to store the handle
+    >> [X, info, handle] = hsl_ma48_backslash(A, B)
+   As in the 'factor' call permutations P and Q may be supplied by the user
+    >> X = hsl_ma48_backslash(A, B, [], P, Q)
+
+-----------------------------------------------------------------
+5. Control and information structures
+-----------------------------------------------------------------
+A limited subset of the Fortran control and information parameters may be
+used through the expert MATLAB interface. The full range of these parameters
+is available through the Fortran interface.
+
+-----------------------------------------------------------------
+5(a). The control structure
+-----------------------------------------------------------------
+The argument control may have any of the following components set. If
+unrecognised components are present a warning is issued. If a component
+is not present its default value is used.
+
+control.drop         - Any entry with modulus less than this is set to zero.
+                       Default is 0.
+control.factor_blocking - Block size to use for BLAS. Default is 32.
+control.maxit        - Maximum number of iterative refinement iterations. Set
+                       to zero to disable IR. Default is 10.
+control.switch       - Dense linear algebra is used to factorize blocks when
+                       nz(sparse)/nz(dense) > control.sparse. Default is 0.5.
+control.u            - Relative pivot tolerance threshold. Default is 0.01.
+
+A fuller description for many of the components is available in the Fortran
+documentation.
+
+-----------------------------------------------------------------
+5(b). The info structure
+-----------------------------------------------------------------
+On return from a routine, the output argument info is a structure that will
+have one or more of the following components set:
+
+info.drop               - Number of dropped entries (see control.drop).
+info.ops                - Number of floating point operations for factorization.
+info.rank               - Estimate of matrix rank.
+info.size_factor        - Total number of entries in factors.
+info.struc_rank         - Structural rank of matrix.
+info.analyse_time       - Wall clock time for Fortran ma48_analyse call
+info.factor_time        - Wall clock time for Fortran ma48_factor call
+info.solve_time         - Wall clock time for Fortran ma48_solve call
+
+A fuller description for many of the components is available in the Fortran
+documentation.
+
+
+-----------------------------------------------------------------
+6. Example
+-----------------------------------------------------------------
+The following MATLAB session shows an example of using hsl_ma48 to solve a
+system using the backslash action.
+
+>> A = sparse([1 1 2 2 2 3 4], [1 3 1 2 4 2 3], [1.1 3.1 1.2 2.2 4.2 2.3 3.4])
+
+A =
+
+   (1,1)       1.1000
+   (2,1)       1.2000
+   (2,2)       2.2000
+   (3,2)       2.3000
+   (1,3)       3.1000
+   (4,3)       3.4000
+   (2,4)       4.2000
+
+>> x = rand(size(A,1), 2)        
+
+x =
+
+    0.0400    0.1219
+    0.3092    0.6074
+    0.9671    0.6454
+    0.2670    0.8744
+
+>> b = A*x;
+>> [soln, info] = hsl_ma48_backslash(A, b)
+
+soln =
+
+    0.0400    0.1219
+    0.3092    0.6074
+    0.9671    0.6454
+    0.2670    0.8744
+
+
+info = 
+
+            drop: 0
+             ops: 0
+            rank: 4
+     size_factor: 7
+      struc_rank: 4
+    analyse_time: 0
+     factor_time: 0
+      solve_time: 0

@@ -1,0 +1,3915 @@
+Inconsistent q-value for    nen     n     p                          netsu:  0.00E+00 netwinv:  7.82E-01
+Inconsistent q-value for   nebp     p     n                          netsu:  0.00E+00 netwinv: -7.82E-01
+Inconsistent q-value for   lznu   li7   be7                          netsu:  0.00E+00 netwinv: -8.62E-01
+Inconsistent q-value for   lzan   be7   li7                          netsu:  0.00E+00 netwinv:  8.62E-01
+Inconsistent q-value for   lznu   c13   n13                          netsu:  0.00E+00 netwinv: -2.22E+00
+Inconsistent q-value for   lznu   c14   n14                          netsu:  0.00E+00 netwinv:  1.56E-01
+Inconsistent q-value for   lzan   n13   c13                          netsu:  0.00E+00 netwinv:  2.22E+00
+Inconsistent q-value for   lzan   n14   c14                          netsu:  0.00E+00 netwinv: -1.56E-01
+Inconsistent q-value for   lznu   n14   o14                          netsu:  0.00E+00 netwinv: -5.14E+00
+Inconsistent q-value for   lznu   n15   o15                          netsu:  0.00E+00 netwinv: -2.75E+00
+Inconsistent q-value for   lzan   o14   n14                          netsu:  0.00E+00 netwinv:  5.14E+00
+Inconsistent q-value for   lzan   o15   n15                          netsu:  0.00E+00 netwinv:  2.75E+00
+Inconsistent q-value for   lznu   o17   f17                          netsu:  0.00E+00 netwinv: -2.76E+00
+Inconsistent q-value for    ffn   o17   f17                          netsu: -2.25E+00 netwinv: -2.76E+00
+Inconsistent q-value for   lznu   o18   f18                          netsu:  0.00E+00 netwinv: -1.66E+00
+Inconsistent q-value for    ffn   o18   f18                          netsu: -1.14E+00 netwinv: -1.66E+00
+Inconsistent q-value for   lzan   f17   o17                          netsu:  0.00E+00 netwinv:  2.76E+00
+Inconsistent q-value for    ffn   f17   o17                          netsu:  2.25E+00 netwinv:  2.76E+00
+Inconsistent q-value for   lzan   f18   o18                          netsu:  0.00E+00 netwinv:  1.66E+00
+Inconsistent q-value for    ffn   f18   o18                          netsu:  1.14E+00 netwinv:  1.66E+00
+Inconsistent q-value for   lznu   f18  ne18                          netsu:  0.00E+00 netwinv: -4.44E+00
+Inconsistent q-value for    ffn   f18  ne18                          netsu: -3.94E+00 netwinv: -4.44E+00
+Inconsistent q-value for   lznu   f19  ne19                          netsu:  0.00E+00 netwinv: -3.24E+00
+Inconsistent q-value for    ffn   f19  ne19                          netsu: -2.73E+00 netwinv: -3.24E+00
+Inconsistent q-value for   lzan  ne18   f18                          netsu:  0.00E+00 netwinv:  4.44E+00
+Inconsistent q-value for    ffn  ne18   f18                          netsu:  3.94E+00 netwinv:  4.44E+00
+Inconsistent q-value for   lzan  ne19   f19                          netsu:  0.00E+00 netwinv:  3.24E+00
+Inconsistent q-value for    ffn  ne19   f19                          netsu:  2.73E+00 netwinv:  3.24E+00
+Inconsistent q-value for   lznu  ne21  na21                          netsu:  0.00E+00 netwinv: -3.55E+00
+Inconsistent q-value for    ffn  ne21  na21                          netsu: -3.04E+00 netwinv: -3.55E+00
+Inconsistent q-value for   lznu  ne22  na22                          netsu:  0.00E+00 netwinv: -2.84E+00
+Inconsistent q-value for    ffn  ne22  na22                          netsu: -2.33E+00 netwinv: -2.84E+00
+Inconsistent q-value for   lzan  na21  ne21                          netsu:  0.00E+00 netwinv:  3.55E+00
+Inconsistent q-value for    ffn  na21  ne21                          netsu:  3.04E+00 netwinv:  3.55E+00
+Inconsistent q-value for   lzan  na22  ne22                          netsu:  0.00E+00 netwinv:  2.84E+00
+Inconsistent q-value for    ffn  na22  ne22                          netsu:  2.33E+00 netwinv:  2.84E+00
+Inconsistent q-value for   lznu  na23  mg23                          netsu:  0.00E+00 netwinv: -4.06E+00
+Inconsistent q-value for    ffn  na23  mg23                          netsu: -3.55E+00 netwinv: -4.06E+00
+Inconsistent q-value for   lzan  mg23  na23                          netsu:  0.00E+00 netwinv:  4.06E+00
+Inconsistent q-value for    ffn  mg23  na23                          netsu:  3.55E+00 netwinv:  4.06E+00
+Inconsistent q-value for   lznu  mg25  al25                          netsu:  0.00E+00 netwinv: -4.28E+00
+Inconsistent q-value for    ffn  mg25  al25                          netsu: -3.77E+00 netwinv: -4.28E+00
+Inconsistent q-value for   lznu  mg26  al26                          netsu:  0.00E+00 netwinv: -4.00E+00
+Inconsistent q-value for    ffn  mg26  al26                          netsu: -3.49E+00 netwinv: -4.00E+00
+Inconsistent q-value for   lzan  al25  mg25                          netsu:  0.00E+00 netwinv:  4.28E+00
+Inconsistent q-value for    ffn  al25  mg25                          netsu:  3.77E+00 netwinv:  4.28E+00
+Inconsistent q-value for   lzan  al26  mg26                          netsu:  0.00E+00 netwinv:  4.00E+00
+Inconsistent q-value for    ffn  al26  mg26                          netsu:  3.49E+00 netwinv:  4.00E+00
+Inconsistent q-value for   lznu  si29   p29                          netsu:  0.00E+00 netwinv: -4.94E+00
+Inconsistent q-value for    ffn  si29   p29                          netsu: -4.43E+00 netwinv: -4.94E+00
+Inconsistent q-value for   lznu  si30   p30                          netsu:  0.00E+00 netwinv: -4.23E+00
+Inconsistent q-value for    ffn  si30   p30                          netsu: -3.71E+00 netwinv: -4.23E+00
+Inconsistent q-value for   lznu  si31   p31                          netsu:  0.00E+00 netwinv:  1.49E+00
+Inconsistent q-value for    ffn  si31   p31                          netsu:  2.00E+00 netwinv:  1.49E+00
+Inconsistent q-value for   lznu  si32   p32                          netsu:  0.00E+00 netwinv:  2.27E-01
+Inconsistent q-value for    ffn  si32   p32                          netsu:  7.36E-01 netwinv:  2.27E-01
+Inconsistent q-value for   lzan   p29  si29                          netsu:  0.00E+00 netwinv:  4.94E+00
+Inconsistent q-value for    ffn   p29  si29                          netsu:  4.43E+00 netwinv:  4.94E+00
+Inconsistent q-value for   lzan   p30  si30                          netsu:  0.00E+00 netwinv:  4.23E+00
+Inconsistent q-value for    ffn   p30  si30                          netsu:  3.71E+00 netwinv:  4.23E+00
+Inconsistent q-value for   lzan   p31  si31                          netsu:  0.00E+00 netwinv: -1.49E+00
+Inconsistent q-value for    ffn   p31  si31                          netsu: -2.00E+00 netwinv: -1.49E+00
+Inconsistent q-value for   lzan   p32  si32                          netsu:  0.00E+00 netwinv: -2.27E-01
+Inconsistent q-value for    ffn   p32  si32                          netsu: -7.36E-01 netwinv: -2.27E-01
+Inconsistent q-value for   lznu   p32   s32                          netsu:  0.00E+00 netwinv:  1.71E+00
+Inconsistent q-value for    ffn   p32   s32                          netsu:  2.22E+00 netwinv:  1.71E+00
+Inconsistent q-value for   lznu   p33   s33                          netsu:  0.00E+00 netwinv:  2.49E-01
+Inconsistent q-value for    ffn   p33   s33                          netsu:  7.59E-01 netwinv:  2.49E-01
+Inconsistent q-value for   lzan   s32   p32                          netsu:  0.00E+00 netwinv: -1.71E+00
+Inconsistent q-value for    ffn   s32   p32                          netsu: -2.22E+00 netwinv: -1.71E+00
+Inconsistent q-value for   lzan   s33   p33                          netsu:  0.00E+00 netwinv: -2.49E-01
+Inconsistent q-value for    ffn   s33   p33                          netsu: -7.59E-01 netwinv: -2.49E-01
+Inconsistent q-value for   lznu   s33  cl33                          netsu:  0.00E+00 netwinv: -5.58E+00
+Inconsistent q-value for    ffn   s33  cl33                          netsu: -5.07E+00 netwinv: -5.58E+00
+Inconsistent q-value for   lznu   s34  cl34                          netsu:  0.00E+00 netwinv: -5.49E+00
+Inconsistent q-value for    ffn   s34  cl34                          netsu: -4.98E+00 netwinv: -5.49E+00
+Inconsistent q-value for   lznu   s35  cl35                          netsu:  0.00E+00 netwinv:  1.67E-01
+Inconsistent q-value for    ffn   s35  cl35                          netsu:  6.78E-01 netwinv:  1.67E-01
+Inconsistent q-value for   lznu   s36  cl36                          netsu:  0.00E+00 netwinv: -1.14E+00
+Inconsistent q-value for    ffn   s36  cl36                          netsu: -6.31E-01 netwinv: -1.14E+00
+Inconsistent q-value for   lzan  cl33   s33                          netsu:  0.00E+00 netwinv:  5.58E+00
+Inconsistent q-value for    ffn  cl33   s33                          netsu:  5.07E+00 netwinv:  5.58E+00
+Inconsistent q-value for   lzan  cl34   s34                          netsu:  0.00E+00 netwinv:  5.49E+00
+Inconsistent q-value for    ffn  cl34   s34                          netsu:  4.98E+00 netwinv:  5.49E+00
+Inconsistent q-value for   lzan  cl35   s35                          netsu:  0.00E+00 netwinv: -1.67E-01
+Inconsistent q-value for    ffn  cl35   s35                          netsu: -6.78E-01 netwinv: -1.67E-01
+Inconsistent q-value for   lzan  cl36   s36                          netsu:  0.00E+00 netwinv:  1.14E+00
+Inconsistent q-value for    ffn  cl36   s36                          netsu:  6.31E-01 netwinv:  1.14E+00
+Inconsistent q-value for   lznu  cl36  ar36                          netsu:  0.00E+00 netwinv:  7.10E-01
+Inconsistent q-value for    ffn  cl36  ar36                          netsu:  1.22E+00 netwinv:  7.10E-01
+Inconsistent q-value for   lznu  cl37  ar37                          netsu:  0.00E+00 netwinv: -8.14E-01
+Inconsistent q-value for    ffn  cl37  ar37                          netsu: -3.03E-01 netwinv: -8.14E-01
+Inconsistent q-value for   lzan  ar36  cl36                          netsu:  0.00E+00 netwinv: -7.10E-01
+Inconsistent q-value for    ffn  ar36  cl36                          netsu: -1.22E+00 netwinv: -7.10E-01
+Inconsistent q-value for   lzan  ar37  cl37                          netsu:  0.00E+00 netwinv:  8.14E-01
+Inconsistent q-value for    ffn  ar37  cl37                          netsu:  3.03E-01 netwinv:  8.14E-01
+Inconsistent q-value for   lznu  ar37   k37                          netsu:  0.00E+00 netwinv: -6.15E+00
+Inconsistent q-value for   lznu  ar38   k38                          netsu:  0.00E+00 netwinv: -5.91E+00
+Inconsistent q-value for   lznu  ar39   k39                          netsu:  0.00E+00 netwinv:  5.65E-01
+Inconsistent q-value for   lznu  ar40   k40                          netsu:  0.00E+00 netwinv: -1.50E+00
+Inconsistent q-value for   lzan   k37  ar37                          netsu:  0.00E+00 netwinv:  6.15E+00
+Inconsistent q-value for   lzan   k38  ar38                          netsu:  0.00E+00 netwinv:  5.91E+00
+Inconsistent q-value for   lzan   k39  ar39                          netsu:  0.00E+00 netwinv: -5.65E-01
+Inconsistent q-value for   lzan   k40  ar40                          netsu:  0.00E+00 netwinv:  1.50E+00
+Inconsistent q-value for   lznu   k40  ca40                          netsu:  0.00E+00 netwinv:  1.31E+00
+Inconsistent q-value for   lznu   k41  ca41                          netsu:  0.00E+00 netwinv: -4.22E-01
+Inconsistent q-value for   lzan  ca40   k40                          netsu:  0.00E+00 netwinv: -1.31E+00
+Inconsistent q-value for   lzan  ca41   k41                          netsu:  0.00E+00 netwinv:  4.22E-01
+Inconsistent q-value for   lznu  ca43  sc43                          netsu:  0.00E+00 netwinv: -2.22E+00
+Inconsistent q-value for   lznu  ca44  sc44                          netsu:  0.00E+00 netwinv: -3.65E+00
+Inconsistent q-value for   lznu  ca45  sc45                          netsu:  0.00E+00 netwinv:  2.58E-01
+Inconsistent q-value for   lznu  ca46  sc46                          netsu:  0.00E+00 netwinv: -1.38E+00
+Inconsistent q-value for   lznu  ca47  sc47                          netsu:  0.00E+00 netwinv:  1.99E+00
+Inconsistent q-value for   lznu  ca48  sc48                          netsu:  0.00E+00 netwinv:  2.79E-01
+Inconsistent q-value for   lzan  sc43  ca43                          netsu:  0.00E+00 netwinv:  2.22E+00
+Inconsistent q-value for   lzan  sc44  ca44                          netsu:  0.00E+00 netwinv:  3.65E+00
+Inconsistent q-value for   lznu  sc44  ti44                          netsu:  0.00E+00 netwinv: -2.68E-01
+Inconsistent q-value for   lzan  sc45  ca45                          netsu:  0.00E+00 netwinv: -2.58E-01
+Inconsistent q-value for   lznu  sc45  ti45                          netsu:  0.00E+00 netwinv: -2.06E+00
+Inconsistent q-value for   lzan  sc46  ca46                          netsu:  0.00E+00 netwinv:  1.38E+00
+Inconsistent q-value for   lznu  sc46  ti46                          netsu:  0.00E+00 netwinv:  2.37E+00
+Inconsistent q-value for   lzan  sc47  ca47                          netsu:  0.00E+00 netwinv: -1.99E+00
+Inconsistent q-value for   lznu  sc47  ti47                          netsu:  0.00E+00 netwinv:  6.00E-01
+Inconsistent q-value for   lzan  sc48  ca48                          netsu:  0.00E+00 netwinv: -2.79E-01
+Inconsistent q-value for   lznu  sc48  ti48                          netsu:  0.00E+00 netwinv:  3.99E+00
+Inconsistent q-value for   lznu  sc49  ti49                          netsu:  0.00E+00 netwinv:  2.00E+00
+Inconsistent q-value for   lzan  ti44  sc44                          netsu:  0.00E+00 netwinv:  2.68E-01
+Inconsistent q-value for   lzan  ti45  sc45                          netsu:  0.00E+00 netwinv:  2.06E+00
+Inconsistent q-value for   lzan  ti46  sc46                          netsu:  0.00E+00 netwinv: -2.37E+00
+Inconsistent q-value for   lznu  ti46   v46                          netsu:  0.00E+00 netwinv: -7.05E+00
+Inconsistent q-value for   lzan  ti47  sc47                          netsu:  0.00E+00 netwinv: -6.00E-01
+Inconsistent q-value for   lznu  ti47   v47                          netsu:  0.00E+00 netwinv: -2.93E+00
+Inconsistent q-value for   lzan  ti48  sc48                          netsu:  0.00E+00 netwinv: -3.99E+00
+Inconsistent q-value for   lznu  ti48   v48                          netsu:  0.00E+00 netwinv: -4.02E+00
+Inconsistent q-value for   lzan  ti49  sc49                          netsu:  0.00E+00 netwinv: -2.00E+00
+Inconsistent q-value for   lznu  ti49   v49                          netsu:  0.00E+00 netwinv: -6.02E-01
+Inconsistent q-value for   lznu  ti50   v50                          netsu:  0.00E+00 netwinv: -2.21E+00
+Inconsistent q-value for   lznu  ti51   v51                          netsu:  0.00E+00 netwinv:  2.47E+00
+Inconsistent q-value for   lzan   v46  ti46                          netsu:  0.00E+00 netwinv:  7.05E+00
+Inconsistent q-value for   lzan   v47  ti47                          netsu:  0.00E+00 netwinv:  2.93E+00
+Inconsistent q-value for   lzan   v48  ti48                          netsu:  0.00E+00 netwinv:  4.02E+00
+Inconsistent q-value for   lznu   v48  cr48                          netsu:  0.00E+00 netwinv: -1.65E+00
+Inconsistent q-value for   lzan   v49  ti49                          netsu:  0.00E+00 netwinv:  6.02E-01
+Inconsistent q-value for   lznu   v49  cr49                          netsu:  0.00E+00 netwinv: -2.63E+00
+Inconsistent q-value for   lzan   v50  ti50                          netsu:  0.00E+00 netwinv:  2.21E+00
+Inconsistent q-value for   lznu   v50  cr50                          netsu:  0.00E+00 netwinv:  1.04E+00
+Inconsistent q-value for   lzan   v51  ti51                          netsu:  0.00E+00 netwinv: -2.47E+00
+Inconsistent q-value for   lznu   v51  cr51                          netsu:  0.00E+00 netwinv: -7.53E-01
+Inconsistent q-value for   lznu   v52  cr52                          netsu:  0.00E+00 netwinv:  3.97E+00
+Inconsistent q-value for   lzan  cr48   v48                          netsu:  0.00E+00 netwinv:  1.65E+00
+Inconsistent q-value for   lzan  cr49   v49                          netsu:  0.00E+00 netwinv:  2.63E+00
+Inconsistent q-value for   lzan  cr50   v50                          netsu:  0.00E+00 netwinv: -1.04E+00
+Inconsistent q-value for   lznu  cr50  mn50                          netsu:  0.00E+00 netwinv: -7.63E+00
+Inconsistent q-value for   lzan  cr51   v51                          netsu:  0.00E+00 netwinv:  7.53E-01
+Inconsistent q-value for   lznu  cr51  mn51                          netsu:  0.00E+00 netwinv: -3.21E+00
+Inconsistent q-value for   lzan  cr52   v52                          netsu:  0.00E+00 netwinv: -3.97E+00
+Inconsistent q-value for   lznu  cr52  mn52                          netsu:  0.00E+00 netwinv: -4.71E+00
+Inconsistent q-value for   lznu  cr53  mn53                          netsu:  0.00E+00 netwinv: -5.97E-01
+Inconsistent q-value for   lznu  cr54  mn54                          netsu:  0.00E+00 netwinv: -1.38E+00
+Inconsistent q-value for   lzan  mn50  cr50                          netsu:  0.00E+00 netwinv:  7.63E+00
+Inconsistent q-value for   lzan  mn51  cr51                          netsu:  0.00E+00 netwinv:  3.21E+00
+Inconsistent q-value for   lzan  mn52  cr52                          netsu:  0.00E+00 netwinv:  4.71E+00
+Inconsistent q-value for   lznu  mn52  fe52                          netsu:  0.00E+00 netwinv: -2.37E+00
+Inconsistent q-value for   lzan  mn53  cr53                          netsu:  0.00E+00 netwinv:  5.97E-01
+Inconsistent q-value for   lznu  mn53  fe53                          netsu:  0.00E+00 netwinv: -3.74E+00
+Inconsistent q-value for   lzan  mn54  cr54                          netsu:  0.00E+00 netwinv:  1.38E+00
+Inconsistent q-value for   lznu  mn54  fe54                          netsu:  0.00E+00 netwinv:  6.97E-01
+Inconsistent q-value for   lznu  mn55  fe55                          netsu:  0.00E+00 netwinv: -2.31E-01
+Inconsistent q-value for   lzan  fe52  mn52                          netsu:  0.00E+00 netwinv:  2.37E+00
+Inconsistent q-value for   lzan  fe53  mn53                          netsu:  0.00E+00 netwinv:  3.74E+00
+Inconsistent q-value for   lznu  fe53  co53                          netsu:  0.00E+00 netwinv: -8.29E+00
+Inconsistent q-value for   lzan  fe54  mn54                          netsu:  0.00E+00 netwinv: -6.97E-01
+Inconsistent q-value for   lznu  fe54  co54                          netsu:  0.00E+00 netwinv: -8.24E+00
+Inconsistent q-value for   lzan  fe55  mn55                          netsu:  0.00E+00 netwinv:  2.31E-01
+Inconsistent q-value for   lznu  fe55  co55                          netsu:  0.00E+00 netwinv: -3.45E+00
+Inconsistent q-value for   lznu  fe56  co56                          netsu:  0.00E+00 netwinv: -4.57E+00
+Inconsistent q-value for   lznu  fe57  co57                          netsu:  0.00E+00 netwinv: -8.36E-01
+Inconsistent q-value for   lznu  fe58  co58                          netsu:  0.00E+00 netwinv: -2.31E+00
+Inconsistent q-value for   lzan  co53  fe53                          netsu:  0.00E+00 netwinv:  8.29E+00
+Inconsistent q-value for   lzan  co54  fe54                          netsu:  0.00E+00 netwinv:  8.24E+00
+Inconsistent q-value for   lzan  co55  fe55                          netsu:  0.00E+00 netwinv:  3.45E+00
+Inconsistent q-value for   lzan  co56  fe56                          netsu:  0.00E+00 netwinv:  4.57E+00
+Inconsistent q-value for   lznu  co56  ni56                          netsu:  0.00E+00 netwinv: -2.13E+00
+Inconsistent q-value for   lzan  co57  fe57                          netsu:  0.00E+00 netwinv:  8.36E-01
+Inconsistent q-value for   lznu  co57  ni57                          netsu:  0.00E+00 netwinv: -3.26E+00
+Inconsistent q-value for   lzan  co58  fe58                          netsu:  0.00E+00 netwinv:  2.31E+00
+Inconsistent q-value for   lznu  co58  ni58                          netsu:  0.00E+00 netwinv:  3.82E-01
+Inconsistent q-value for   lznu  co59  ni59                          netsu:  0.00E+00 netwinv: -1.07E+00
+Inconsistent q-value for   lzan  ni56  co56                          netsu:  0.00E+00 netwinv:  2.13E+00
+Inconsistent q-value for   lzan  ni57  co57                          netsu:  0.00E+00 netwinv:  3.26E+00
+Inconsistent q-value for   lznu  ni57  cu57                          netsu:  0.00E+00 netwinv: -8.77E+00
+Inconsistent q-value for   lzan  ni58  co58                          netsu:  0.00E+00 netwinv: -3.82E-01
+Inconsistent q-value for   lznu  ni58  cu58                          netsu:  0.00E+00 netwinv: -8.56E+00
+Inconsistent q-value for   lzan  ni59  co59                          netsu:  0.00E+00 netwinv:  1.07E+00
+Inconsistent q-value for   lznu  ni59  cu59                          netsu:  0.00E+00 netwinv: -4.80E+00
+Inconsistent q-value for   lznu  ni60  cu60                          netsu:  0.00E+00 netwinv: -6.13E+00
+Inconsistent q-value for   lznu  ni61  cu61                          netsu:  0.00E+00 netwinv: -2.24E+00
+Inconsistent q-value for   lznu  ni62  cu62                          netsu:  0.00E+00 netwinv: -3.96E+00
+Inconsistent q-value for   lznu  ni63  cu63                          netsu:  0.00E+00 netwinv:  6.70E-02
+Inconsistent q-value for   lznu  ni64  cu64                          netsu:  0.00E+00 netwinv: -1.67E+00
+Inconsistent q-value for   lzan  cu57  ni57                          netsu:  0.00E+00 netwinv:  8.77E+00
+Inconsistent q-value for   lzan  cu58  ni58                          netsu:  0.00E+00 netwinv:  8.56E+00
+Inconsistent q-value for   lzan  cu59  ni59                          netsu:  0.00E+00 netwinv:  4.80E+00
+Inconsistent q-value for   lznu  cu59  zn59                          netsu:  0.00E+00 netwinv: -9.14E+00
+Inconsistent q-value for   lzan  cu60  ni60                          netsu:  0.00E+00 netwinv:  6.13E+00
+Inconsistent q-value for   lznu  cu60  zn60                          netsu:  0.00E+00 netwinv: -4.17E+00
+Inconsistent q-value for   lzan  cu61  ni61                          netsu:  0.00E+00 netwinv:  2.24E+00
+Inconsistent q-value for   lznu  cu61  zn61                          netsu:  0.00E+00 netwinv: -5.64E+00
+Inconsistent q-value for   lzan  cu62  ni62                          netsu:  0.00E+00 netwinv:  3.96E+00
+Inconsistent q-value for   lznu  cu62  zn62                          netsu:  0.00E+00 netwinv: -1.62E+00
+Inconsistent q-value for   lzan  cu63  ni63                          netsu:  0.00E+00 netwinv: -6.70E-02
+Inconsistent q-value for   lznu  cu63  zn63                          netsu:  0.00E+00 netwinv: -3.37E+00
+Inconsistent q-value for   lzan  cu64  ni64                          netsu:  0.00E+00 netwinv:  1.67E+00
+Inconsistent q-value for   lznu  cu64  zn64                          netsu:  0.00E+00 netwinv:  5.80E-01
+Inconsistent q-value for   lznu  cu65  zn65                          netsu:  0.00E+00 netwinv: -1.35E+00
+Inconsistent q-value for   lzan  zn59  cu59                          netsu:  0.00E+00 netwinv:  9.14E+00
+Inconsistent q-value for   lzan  zn60  cu60                          netsu:  0.00E+00 netwinv:  4.17E+00
+Inconsistent q-value for   lzan  zn61  cu61                          netsu:  0.00E+00 netwinv:  5.64E+00
+Inconsistent q-value for   lzan  zn62  cu62                          netsu:  0.00E+00 netwinv:  1.62E+00
+Inconsistent q-value for   lznu  zn62  ga62                          netsu:  0.00E+00 netwinv: -9.18E+00
+Inconsistent q-value for   lzan  zn63  cu63                          netsu:  0.00E+00 netwinv:  3.37E+00
+Inconsistent q-value for   lznu  zn63  ga63                          netsu:  0.00E+00 netwinv: -5.67E+00
+Inconsistent q-value for   lzan  zn64  cu64                          netsu:  0.00E+00 netwinv: -5.80E-01
+Inconsistent q-value for   lznu  zn64  ga64                          netsu:  0.00E+00 netwinv: -7.17E+00
+Inconsistent q-value for   lzan  zn65  cu65                          netsu:  0.00E+00 netwinv:  1.35E+00
+Inconsistent q-value for   lzan  ga62  zn62                          netsu:  0.00E+00 netwinv:  9.18E+00
+Inconsistent q-value for   lzan  ga63  zn63                          netsu:  0.00E+00 netwinv:  5.67E+00
+Inconsistent q-value for   lznu  ga63  ge63                          netsu:  0.00E+00 netwinv: -9.63E+00
+Inconsistent q-value for   lzan  ga64  zn64                          netsu:  0.00E+00 netwinv:  7.17E+00
+Inconsistent q-value for   lznu  ga64  ge64                          netsu:  0.00E+00 netwinv: -4.52E+00
+Inconsistent q-value for   lzan  ge63  ga63                          netsu:  0.00E+00 netwinv:  9.63E+00
+Inconsistent q-value for   lzan  ge64  ga64                          netsu:  0.00E+00 netwinv:  4.52E+00
+Inconsistent q-value for   ths8   he4  zn59     p  ga62              netsu: -1.24E-01 netwinv: -9.26E-02
+Inconsistent q-value for   ths8     p  ga62   he4  zn59              netsu:  1.24E-01 netwinv:  9.26E-02
+--
+    n           -->     p ===  ===        nen 0 0     1  7.8235E-01
+--
+    n           -->     p ===  ===        ffn 0 0     2  7.8235E-01
+--
+    p           -->     n ===  ===       nebp 0 0    -3 -7.8235E-01
+--
+    p           -->     n ===  ===        ffn 0 0    -4 -7.8235E-01
+--
+  li7           -->   be7 ===  ===       lznu 0 0    -5 -8.6189E-01
+--
+  be7           -->   li7 ===  ===       lzan 0 0     6  8.6189E-01
+--
+  be7           -->   li7 ===  ===         ec 0 0     7  8.6189E-01
+--
+  c13           -->   n13 ===  ===       lznu 0 0    -8 -2.2205E+00
+--
+  c14           -->   n14 ===  ===       lznu 0 0     9  1.5648E-01
+--
+  c14           -->   n14 ===  ===       wc12 0 0    10  1.5648E-01
+--
+  n13           -->   c13 ===  ===       lzan 0 0    11  2.2205E+00
+--
+  n13           -->   c13 ===  ===       wc12 0 0    12  2.2205E+00
+--
+  n14           -->   c14 ===  ===       lzan 0 0   -13 -1.5648E-01
+--
+  n14           -->   o14 ===  ===       lznu 0 0   -14 -5.1440E+00
+--
+  n15           -->   o15 ===  ===       lznu 0 0   -15 -2.7542E+00
+--
+  o14           -->   n14 ===  ===       lzan 0 0    16  5.1440E+00
+--
+  o14           -->   n14 ===  ===       wc12 0 0    17  5.1440E+00
+--
+  o15           -->   n15 ===  ===       lzan 0 0    18  2.7542E+00
+--
+  o15           -->   n15 ===  ===       wc12 0 0    19  2.7542E+00
+--
+  o17           -->   f17 ===  ===       lznu 0 0   -20 -2.7605E+00
+--
+  o17           -->   f17 ===  ===        ffn 0 0   -21 -2.7605E+00
+--
+  o18           -->   f18 ===  ===       lznu 0 0   -22 -1.6559E+00
+--
+  o18           -->   f18 ===  ===        ffn 0 0   -23 -1.6559E+00
+--
+  f17           -->   o17 ===  ===       lzan 0 0    24  2.7605E+00
+--
+  f17           -->   o17 ===  ===        ffn 0 0    25  2.7605E+00
+--
+  f18           -->   o18 ===  ===       lzan 0 0    26  1.6559E+00
+--
+  f18           -->   o18 ===  ===        ffn 0 0    27  1.6559E+00
+--
+  f18           -->  ne18 ===  ===       lznu 0 0   -28 -4.4445E+00
+--
+  f18           -->  ne18 ===  ===        ffn 0 0   -29 -4.4445E+00
+--
+  f19           -->  ne19 ===  ===       lznu 0 0   -30 -3.2395E+00
+--
+  f19           -->  ne19 ===  ===        ffn 0 0   -31 -3.2395E+00
+--
+ ne18           -->   f18 ===  ===       lzan 0 0    32  4.4445E+00
+--
+ ne18           -->   f18 ===  ===        ffn 0 0    33  4.4445E+00
+--
+ ne19           -->   f19 ===  ===       lzan 0 0    34  3.2395E+00
+--
+ ne19           -->   f19 ===  ===        ffn 0 0    35  3.2395E+00
+--
+ ne21           -->  na21 ===  ===       lznu 0 0   -36 -3.5471E+00
+--
+ ne21           -->  na21 ===  ===        ffn 0 0   -37 -3.5471E+00
+--
+ ne22           -->  na22 ===  ===       lznu 0 0   -38 -2.8432E+00
+--
+ ne22           -->  na22 ===  ===        ffn 0 0   -39 -2.8432E+00
+--
+ na21           -->  ne21 ===  ===       lzan 0 0    40  3.5471E+00
+--
+ na21           -->  ne21 ===  ===        ffn 0 0    41  3.5471E+00
+--
+ na22           -->  ne22 ===  ===       lzan 0 0    42  2.8432E+00
+--
+ na22           -->  ne22 ===  ===        ffn 0 0    43  2.8432E+00
+--
+ na23           -->  mg23 ===  ===       lznu 0 0   -44 -4.0566E+00
+--
+ na23           -->  mg23 ===  ===        ffn 0 0   -45 -4.0566E+00
+--
+ mg23           -->  na23 ===  ===       lzan 0 0    46  4.0566E+00
+--
+ mg23           -->  na23 ===  ===        ffn 0 0    47  4.0566E+00
+--
+ mg25           -->  al25 ===  ===       lznu 0 0   -48 -4.2766E+00
+--
+ mg25           -->  al25 ===  ===        ffn 0 0   -49 -4.2766E+00
+--
+ mg26           -->  al26 ===  ===       lznu 0 0   -50 -4.0044E+00
+--
+ mg26           -->  al26 ===  ===        ffn 0 0   -51 -4.0044E+00
+--
+ al25           -->  mg25 ===  ===       lzan 0 0    52  4.2766E+00
+--
+ al25           -->  mg25 ===  ===        ffn 0 0    53  4.2766E+00
+--
+ al26           -->  mg26 ===  ===       lzan 0 0    54  4.0044E+00
+--
+ al26           -->  mg26 ===  ===        ffn 0 0    55  4.0044E+00
+--
+ si29           -->   p29 ===  ===       lznu 0 0   -56 -4.9425E+00
+--
+ si29           -->   p29 ===  ===        ffn 0 0   -57 -4.9425E+00
+--
+ si30           -->   p30 ===  ===       lznu 0 0   -58 -4.2324E+00
+--
+ si30           -->   p30 ===  ===        ffn 0 0   -59 -4.2324E+00
+--
+ si31           -->   p31 ===  ===       lznu 0 0    60  1.4915E+00
+--
+ si31           -->   p31 ===  ===        ffn 0 0    61  1.4915E+00
+--
+ si32           -->   p32 ===  ===       lznu 0 0    62  2.2719E-01
+--
+ si32           -->   p32 ===  ===        ffn 0 0    63  2.2719E-01
+--
+  p29           -->  si29 ===  ===       lzan 0 0    64  4.9425E+00
+--
+  p29           -->  si29 ===  ===        ffn 0 0    65  4.9425E+00
+--
+  p30           -->  si30 ===  ===       lzan 0 0    66  4.2324E+00
+--
+  p30           -->  si30 ===  ===        ffn 0 0    67  4.2324E+00
+--
+  p31           -->  si31 ===  ===       lzan 0 0   -68 -1.4915E+00
+--
+  p31           -->  si31 ===  ===        ffn 0 0   -69 -1.4915E+00
+--
+  p32           -->  si32 ===  ===       lzan 0 0   -70 -2.2719E-01
+--
+  p32           -->  si32 ===  ===        ffn 0 0   -71 -2.2719E-01
+--
+  p32           -->   s32 ===  ===       lznu 0 0    72  1.7107E+00
+--
+  p32           -->   s32 ===  ===        ffn 0 0    73  1.7107E+00
+--
+  p33           -->   s33 ===  ===       lznu 0 0    74  2.4851E-01
+--
+  p33           -->   s33 ===  ===        ffn 0 0    75  2.4851E-01
+--
+  s32           -->   p32 ===  ===       lzan 0 0   -76 -1.7107E+00
+--
+  s32           -->   p32 ===  ===        ffn 0 0   -77 -1.7107E+00
+--
+  s33           -->   p33 ===  ===       lzan 0 0   -78 -2.4851E-01
+--
+  s33           -->   p33 ===  ===        ffn 0 0   -79 -2.4851E-01
+--
+  s33           -->  cl33 ===  ===       lznu 0 0   -80 -5.5826E+00
+--
+  s33           -->  cl33 ===  ===        ffn 0 0   -81 -5.5826E+00
+--
+  s34           -->  cl34 ===  ===       lznu 0 0   -82 -5.4916E+00
+--
+  s34           -->  cl34 ===  ===        ffn 0 0   -83 -5.4916E+00
+--
+  s35           -->  cl35 ===  ===       lznu 0 0    84  1.6733E-01
+--
+  s35           -->  cl35 ===  ===        ffn 0 0    85  1.6733E-01
+--
+  s36           -->  cl36 ===  ===       lznu 0 0   -86 -1.1421E+00
+--
+  s36           -->  cl36 ===  ===        ffn 0 0   -87 -1.1421E+00
+--
+ cl33           -->   s33 ===  ===       lzan 0 0    88  5.5826E+00
+--
+ cl33           -->   s33 ===  ===        ffn 0 0    89  5.5826E+00
+--
+ cl34           -->   s34 ===  ===       lzan 0 0    90  5.4916E+00
+--
+ cl34           -->   s34 ===  ===        ffn 0 0    91  5.4916E+00
+--
+ cl35           -->   s35 ===  ===       lzan 0 0   -92 -1.6733E-01
+--
+ cl35           -->   s35 ===  ===        ffn 0 0   -93 -1.6733E-01
+--
+ cl36           -->   s36 ===  ===       lzan 0 0    94  1.1421E+00
+--
+ cl36           -->   s36 ===  ===        ffn 0 0    95  1.1421E+00
+--
+ cl36           -->  ar36 ===  ===       lznu 0 0    96  7.0955E-01
+--
+ cl36           -->  ar36 ===  ===        ffn 0 0    97  7.0955E-01
+--
+ cl37           -->  ar37 ===  ===       lznu 0 0   -98 -8.1387E-01
+--
+ cl37           -->  ar37 ===  ===        ffn 0 0   -99 -8.1387E-01
+--
+ ar36           -->  cl36 ===  ===       lzan 0 0  -100 -7.0955E-01
+--
+ ar36           -->  cl36 ===  ===        ffn 0 0  -101 -7.0955E-01
+--
+ ar37           -->  cl37 ===  ===       lzan 0 0   102  8.1387E-01
+--
+ ar37           -->  cl37 ===  ===        ffn 0 0   103  8.1387E-01
+--
+ ar37           -->   k37 ===  ===       lznu 0 0  -104 -6.1475E+00
+--
+ ar37           -->   k37 ===  ===        ffn 0 0  -105 -6.1475E+00
+--
+ ar38           -->   k38 ===  ===       lznu 0 0  -106 -5.9141E+00
+--
+ ar38           -->   k38 ===  ===        ffn 0 0  -107 -5.9141E+00
+--
+ ar39           -->   k39 ===  ===       lznu 0 0   108  5.6500E-01
+--
+ ar39           -->   k39 ===  ===        ffn 0 0   109  5.6500E-01
+--
+ ar40           -->   k40 ===  ===       lznu 0 0  -110 -1.5044E+00
+--
+ ar40           -->   k40 ===  ===        ffn 0 0  -111 -1.5044E+00
+--
+  k37           -->  ar37 ===  ===       lzan 0 0   112  6.1475E+00
+--
+  k37           -->  ar37 ===  ===        ffn 0 0   113  6.1475E+00
+--
+  k38           -->  ar38 ===  ===       lzan 0 0   114  5.9141E+00
+--
+  k38           -->  ar38 ===  ===        ffn 0 0   115  5.9141E+00
+--
+  k39           -->  ar39 ===  ===       lzan 0 0  -116 -5.6500E-01
+--
+  k39           -->  ar39 ===  ===        ffn 0 0  -117 -5.6500E-01
+--
+  k40           -->  ar40 ===  ===       lzan 0 0   118  1.5044E+00
+--
+  k40           -->  ar40 ===  ===        ffn 0 0   119  1.5044E+00
+--
+  k40           -->  ca40 ===  ===       lznu 0 0   120  1.3109E+00
+--
+  k40           -->  ca40 ===  ===        ffn 0 0   121  1.3109E+00
+--
+  k41           -->  ca41 ===  ===       lznu 0 0  -122 -4.2162E-01
+--
+  k41           -->  ca41 ===  ===        ffn 0 0  -123 -4.2162E-01
+--
+ ca40           -->   k40 ===  ===       lzan 0 0  -124 -1.3109E+00
+--
+ ca40           -->   k40 ===  ===        ffn 0 0  -125 -1.3109E+00
+--
+ ca41           -->   k41 ===  ===       lzan 0 0   126  4.2162E-01
+--
+ ca41           -->   k41 ===  ===        ffn 0 0   127  4.2162E-01
+--
+ ca43           -->  sc43 ===  ===       lznu 0 0  -128 -2.2208E+00
+--
+ ca43           -->  sc43 ===  ===        ffn 0 0  -129 -2.2208E+00
+--
+ ca44           -->  sc44 ===  ===       lznu 0 0  -130 -3.6525E+00
+--
+ ca44           -->  sc44 ===  ===        ffn 0 0  -131 -3.6525E+00
+--
+ ca45           -->  sc45 ===  ===       lznu 0 0   132  2.5802E-01
+--
+ ca45           -->  sc45 ===  ===        ffn 0 0   133  2.5802E-01
+--
+ ca46           -->  sc46 ===  ===       lznu 0 0  -134 -1.3803E+00
+--
+ ca46           -->  sc46 ===  ===        ffn 0 0  -135 -1.3803E+00
+--
+ ca47           -->  sc47 ===  ===       lznu 0 0   136  1.9918E+00
+--
+ ca47           -->  sc47 ===  ===        ffn 0 0   137  1.9918E+00
+--
+ ca48           -->  sc48 ===  ===       lznu 0 0   138  2.7931E-01
+--
+ ca48           -->  sc48 ===  ===        ffn 0 0   139  2.7931E-01
+--
+ sc43           -->  ca43 ===  ===       lzan 0 0   140  2.2208E+00
+--
+ sc43           -->  ca43 ===  ===        ffn 0 0   141  2.2208E+00
+--
+ sc44           -->  ca44 ===  ===       lzan 0 0   142  3.6525E+00
+--
+ sc44           -->  ca44 ===  ===        ffn 0 0   143  3.6525E+00
+--
+ sc44           -->  ti44 ===  ===       lznu 0 0  -144 -2.6779E-01
+--
+ sc44           -->  ti44 ===  ===        ffn 0 0  -145 -2.6779E-01
+--
+ sc45           -->  ca45 ===  ===       lzan 0 0  -146 -2.5802E-01
+--
+ sc45           -->  ca45 ===  ===        ffn 0 0  -147 -2.5802E-01
+--
+ sc45           -->  ti45 ===  ===       lznu 0 0  -148 -2.0621E+00
+--
+ sc45           -->  ti45 ===  ===        ffn 0 0  -149 -2.0621E+00
+--
+ sc46           -->  ca46 ===  ===       lzan 0 0   150  1.3803E+00
+--
+ sc46           -->  ca46 ===  ===        ffn 0 0   151  1.3803E+00
+--
+ sc46           -->  ti46 ===  ===       lznu 0 0   152  2.3673E+00
+--
+ sc46           -->  ti46 ===  ===        ffn 0 0   153  2.3673E+00
+--
+ sc47           -->  ca47 ===  ===       lzan 0 0  -154 -1.9918E+00
+--
+ sc47           -->  ca47 ===  ===        ffn 0 0  -155 -1.9918E+00
+--
+ sc47           -->  ti47 ===  ===       lznu 0 0   156  5.9963E-01
+--
+ sc47           -->  ti47 ===  ===        ffn 0 0   157  5.9963E-01
+--
+ sc48           -->  ca48 ===  ===       lzan 0 0  -158 -2.7931E-01
+--
+ sc48           -->  ca48 ===  ===        ffn 0 0  -159 -2.7931E-01
+--
+ sc48           -->  ti48 ===  ===       lznu 0 0   160  3.9890E+00
+--
+ sc48           -->  ti48 ===  ===        ffn 0 0   161  3.9890E+00
+--
+ sc49           -->  ti49 ===  ===       lznu 0 0   162  2.0027E+00
+--
+ sc49           -->  ti49 ===  ===        ffn 0 0   163  2.0027E+00
+--
+ ti44           -->  sc44 ===  ===       lzan 0 0   164  2.6779E-01
+--
+ ti44           -->  sc44 ===  ===        ffn 0 0   165  2.6779E-01
+--
+ ti45           -->  sc45 ===  ===       lzan 0 0   166  2.0621E+00
+--
+ ti45           -->  sc45 ===  ===        ffn 0 0   167  2.0621E+00
+--
+ ti46           -->  sc46 ===  ===       lzan 0 0  -168 -2.3673E+00
+--
+ ti46           -->  sc46 ===  ===        ffn 0 0  -169 -2.3673E+00
+--
+ ti46           -->   v46 ===  ===       lznu 0 0  -170 -7.0526E+00
+--
+ ti46           -->   v46 ===  ===        ffn 0 0  -171 -7.0526E+00
+--
+ ti47           -->  sc47 ===  ===       lzan 0 0  -172 -5.9963E-01
+--
+ ti47           -->  sc47 ===  ===        ffn 0 0  -173 -5.9963E-01
+--
+ ti47           -->   v47 ===  ===       lznu 0 0  -174 -2.9308E+00
+--
+ ti47           -->   v47 ===  ===        ffn 0 0  -175 -2.9308E+00
+--
+ ti48           -->  sc48 ===  ===       lzan 0 0  -176 -3.9890E+00
+--
+ ti48           -->  sc48 ===  ===        ffn 0 0  -177 -3.9890E+00
+--
+ ti48           -->   v48 ===  ===       lznu 0 0  -178 -4.0153E+00
+--
+ ti48           -->   v48 ===  ===        ffn 0 0  -179 -4.0153E+00
+--
+ ti49           -->  sc49 ===  ===       lzan 0 0  -180 -2.0027E+00
+--
+ ti49           -->  sc49 ===  ===        ffn 0 0  -181 -2.0027E+00
+--
+ ti49           -->   v49 ===  ===       lznu 0 0  -182 -6.0186E-01
+--
+ ti49           -->   v49 ===  ===        ffn 0 0  -183 -6.0186E-01
+--
+ ti50           -->   v50 ===  ===       lznu 0 0  -184 -2.2066E+00
+--
+ ti50           -->   v50 ===  ===        ffn 0 0  -185 -2.2066E+00
+--
+ ti51           -->   v51 ===  ===       lznu 0 0   186  2.4720E+00
+--
+ ti51           -->   v51 ===  ===        ffn 0 0   187  2.4720E+00
+--
+  v46           -->  ti46 ===  ===       lzan 0 0   188  7.0526E+00
+--
+  v46           -->  ti46 ===  ===        ffn 0 0   189  7.0526E+00
+--
+  v47           -->  ti47 ===  ===       lzan 0 0   190  2.9308E+00
+--
+  v47           -->  ti47 ===  ===        ffn 0 0   191  2.9308E+00
+--
+  v48           -->  ti48 ===  ===       lzan 0 0   192  4.0153E+00
+--
+  v48           -->  ti48 ===  ===        ffn 0 0   193  4.0153E+00
+--
+  v48           -->  cr48 ===  ===       lznu 0 0  -194 -1.6548E+00
+--
+  v48           -->  cr48 ===  ===        ffn 0 0  -195 -1.6548E+00
+--
+  v49           -->  ti49 ===  ===       lzan 0 0   196  6.0186E-01
+--
+  v49           -->  ti49 ===  ===        ffn 0 0   197  6.0186E-01
+--
+  v49           -->  cr49 ===  ===       lznu 0 0  -198 -2.6281E+00
+--
+  v49           -->  cr49 ===  ===        ffn 0 0  -199 -2.6281E+00
+--
+  v50           -->  ti50 ===  ===       lzan 0 0   200  2.2066E+00
+--
+  v50           -->  ti50 ===  ===        ffn 0 0   201  2.2066E+00
+--
+  v50           -->  cr50 ===  ===       lznu 0 0   202  1.0379E+00
+--
+  v50           -->  cr50 ===  ===        ffn 0 0   203  1.0379E+00
+--
+  v51           -->  ti51 ===  ===       lzan 0 0  -204 -2.4720E+00
+--
+  v51           -->  ti51 ===  ===        ffn 0 0  -205 -2.4720E+00
+--
+  v51           -->  cr51 ===  ===       lznu 0 0  -206 -7.5262E-01
+--
+  v51           -->  cr51 ===  ===        ffn 0 0  -207 -7.5262E-01
+--
+  v52           -->  cr52 ===  ===       lznu 0 0   208  3.9742E+00
+--
+  v52           -->  cr52 ===  ===        ffn 0 0   209  3.9742E+00
+--
+ cr48           -->   v48 ===  ===       lzan 0 0   210  1.6548E+00
+--
+ cr48           -->   v48 ===  ===        ffn 0 0   211  1.6548E+00
+--
+ cr49           -->   v49 ===  ===       lzan 0 0   212  2.6281E+00
+--
+ cr49           -->   v49 ===  ===        ffn 0 0   213  2.6281E+00
+--
+ cr50           -->   v50 ===  ===       lzan 0 0  -214 -1.0379E+00
+--
+ cr50           -->   v50 ===  ===        ffn 0 0  -215 -1.0379E+00
+--
+ cr50           -->  mn50 ===  ===       lznu 0 0  -216 -7.6345E+00
+--
+ cr50           -->  mn50 ===  ===        ffn 0 0  -217 -7.6345E+00
+--
+ cr51           -->   v51 ===  ===       lzan 0 0   218  7.5262E-01
+--
+ cr51           -->   v51 ===  ===        ffn 0 0   219  7.5262E-01
+--
+ cr51           -->  mn51 ===  ===       lznu 0 0  -220 -3.2076E+00
+--
+ cr51           -->  mn51 ===  ===        ffn 0 0  -221 -3.2076E+00
+--
+ cr52           -->   v52 ===  ===       lzan 0 0  -222 -3.9742E+00
+--
+ cr52           -->   v52 ===  ===        ffn 0 0  -223 -3.9742E+00
+--
+ cr52           -->  mn52 ===  ===       lznu 0 0  -224 -4.7112E+00
+--
+ cr52           -->  mn52 ===  ===        ffn 0 0  -225 -4.7112E+00
+--
+ cr53           -->  mn53 ===  ===       lznu 0 0  -226 -5.9685E-01
+--
+ cr53           -->  mn53 ===  ===        ffn 0 0  -227 -5.9685E-01
+--
+ cr54           -->  mn54 ===  ===       lznu 0 0  -228 -1.3772E+00
+--
+ cr54           -->  mn54 ===  ===        ffn 0 0  -229 -1.3772E+00
+--
+ mn50           -->  cr50 ===  ===       lzan 0 0   230  7.6345E+00
+--
+ mn50           -->  cr50 ===  ===        ffn 0 0   231  7.6345E+00
+--
+ mn51           -->  cr51 ===  ===       lzan 0 0   232  3.2076E+00
+--
+ mn51           -->  cr51 ===  ===        ffn 0 0   233  3.2076E+00
+--
+ mn52           -->  cr52 ===  ===       lzan 0 0   234  4.7112E+00
+--
+ mn52           -->  cr52 ===  ===        ffn 0 0   235  4.7112E+00
+--
+ mn52           -->  fe52 ===  ===       lznu 0 0  -236 -2.3738E+00
+--
+ mn52           -->  fe52 ===  ===        ffn 0 0  -237 -2.3738E+00
+--
+ mn53           -->  cr53 ===  ===       lzan 0 0   238  5.9685E-01
+--
+ mn53           -->  cr53 ===  ===        ffn 0 0   239  5.9685E-01
+--
+ mn53           -->  fe53 ===  ===       lznu 0 0  -240 -3.7423E+00
+--
+ mn53           -->  fe53 ===  ===        ffn 0 0  -241 -3.7423E+00
+--
+ mn54           -->  cr54 ===  ===       lzan 0 0   242  1.3772E+00
+--
+ mn54           -->  cr54 ===  ===        ffn 0 0   243  1.3772E+00
+--
+ mn54           -->  fe54 ===  ===       lznu 0 0   244  6.9734E-01
+--
+ mn54           -->  fe54 ===  ===        ffn 0 0   245  6.9734E-01
+--
+ mn55           -->  fe55 ===  ===       lznu 0 0  -246 -2.3109E-01
+--
+ mn55           -->  fe55 ===  ===        ffn 0 0  -247 -2.3109E-01
+--
+ fe52           -->  mn52 ===  ===       lzan 0 0   248  2.3738E+00
+--
+ fe52           -->  mn52 ===  ===        ffn 0 0   249  2.3738E+00
+--
+ fe53           -->  mn53 ===  ===       lzan 0 0   250  3.7423E+00
+--
+ fe53           -->  mn53 ===  ===        ffn 0 0   251  3.7423E+00
+--
+ fe53           -->  co53 ===  ===       lznu 0 0  -252 -8.2881E+00
+--
+ fe53           -->  co53 ===  ===        ffn 0 0  -253 -8.2881E+00
+--
+ fe54           -->  mn54 ===  ===       lzan 0 0  -254 -6.9734E-01
+--
+ fe54           -->  mn54 ===  ===        ffn 0 0  -255 -6.9734E-01
+--
+ fe54           -->  co54 ===  ===       lznu 0 0  -256 -8.2445E+00
+--
+ fe54           -->  co54 ===  ===        ffn 0 0  -257 -8.2445E+00
+--
+ fe55           -->  mn55 ===  ===       lzan 0 0   258  2.3109E-01
+--
+ fe55           -->  mn55 ===  ===        ffn 0 0   259  2.3109E-01
+--
+ fe55           -->  co55 ===  ===       lznu 0 0  -260 -3.4514E+00
+--
+ fe55           -->  co55 ===  ===        ffn 0 0  -261 -3.4514E+00
+--
+ fe56           -->  co56 ===  ===       lznu 0 0  -262 -4.5666E+00
+--
+ fe56           -->  co56 ===  ===        ffn 0 0  -263 -4.5666E+00
+--
+ fe57           -->  co57 ===  ===       lznu 0 0  -264 -8.3624E-01
+--
+ fe57           -->  co57 ===  ===        ffn 0 0  -265 -8.3624E-01
+--
+ fe58           -->  co58 ===  ===       lznu 0 0  -266 -2.3079E+00
+--
+ fe58           -->  co58 ===  ===        ffn 0 0  -267 -2.3079E+00
+--
+ co53           -->  fe53 ===  ===       lzan 0 0   268  8.2881E+00
+--
+ co53           -->  fe53 ===  ===        ffn 0 0   269  8.2881E+00
+--
+ co54           -->  fe54 ===  ===       lzan 0 0   270  8.2445E+00
+--
+ co54           -->  fe54 ===  ===        ffn 0 0   271  8.2445E+00
+--
+ co55           -->  fe55 ===  ===       lzan 0 0   272  3.4514E+00
+--
+ co55           -->  fe55 ===  ===        ffn 0 0   273  3.4514E+00
+--
+ co56           -->  fe56 ===  ===       lzan 0 0   274  4.5666E+00
+--
+ co56           -->  fe56 ===  ===        ffn 0 0   275  4.5666E+00
+--
+ co56           -->  ni56 ===  ===       lznu 0 0  -276 -2.1329E+00
+--
+ co56           -->  ni56 ===  ===        ffn 0 0  -277 -2.1329E+00
+--
+ co57           -->  fe57 ===  ===       lzan 0 0   278  8.3624E-01
+--
+ co57           -->  fe57 ===  ===        ffn 0 0   279  8.3624E-01
+--
+ co57           -->  ni57 ===  ===       lznu 0 0  -280 -3.2617E+00
+--
+ co57           -->  ni57 ===  ===        ffn 0 0  -281 -3.2617E+00
+--
+ co58           -->  fe58 ===  ===       lzan 0 0   282  2.3079E+00
+--
+ co58           -->  fe58 ===  ===        ffn 0 0   283  2.3079E+00
+--
+ co58           -->  ni58 ===  ===       lznu 0 0   284  3.8159E-01
+--
+ co58           -->  ni58 ===  ===        ffn 0 0   285  3.8159E-01
+--
+ co59           -->  ni59 ===  ===       lznu 0 0  -286 -1.0730E+00
+--
+ co59           -->  ni59 ===  ===        ffn 0 0  -287 -1.0730E+00
+--
+ ni56           -->  co56 ===  ===       lzan 0 0   288  2.1329E+00
+--
+ ni56           -->  co56 ===  ===        ffn 0 0   289  2.1329E+00
+--
+ ni57           -->  co57 ===  ===       lzan 0 0   290  3.2617E+00
+--
+ ni57           -->  co57 ===  ===        ffn 0 0   291  3.2617E+00
+--
+ ni57           -->  cu57 ===  ===       lznu 0 0  -292 -8.7750E+00
+--
+ ni57           -->  cu57 ===  ===        ffn 0 0  -293 -8.7750E+00
+--
+ ni58           -->  co58 ===  ===       lzan 0 0  -294 -3.8159E-01
+--
+ ni58           -->  co58 ===  ===        ffn 0 0  -295 -3.8159E-01
+--
+ ni58           -->  cu58 ===  ===       lznu 0 0  -296 -8.5610E+00
+--
+ ni58           -->  cu58 ===  ===        ffn 0 0  -297 -8.5610E+00
+--
+ ni59           -->  co59 ===  ===       lzan 0 0   298  1.0730E+00
+--
+ ni59           -->  co59 ===  ===        ffn 0 0   299  1.0730E+00
+--
+ ni59           -->  cu59 ===  ===       lznu 0 0  -300 -4.7984E+00
+--
+ ni59           -->  cu59 ===  ===        ffn 0 0  -301 -4.7984E+00
+--
+ ni60           -->  cu60 ===  ===       lznu 0 0  -302 -6.1280E+00
+--
+ ni60           -->  cu60 ===  ===        ffn 0 0  -303 -6.1280E+00
+--
+ ni61           -->  cu61 ===  ===       lznu 0 0  -304 -2.2376E+00
+--
+ ni61           -->  cu61 ===  ===        ffn 0 0  -305 -2.2376E+00
+--
+ ni62           -->  cu62 ===  ===       lznu 0 0  -306 -3.9589E+00
+--
+ ni62           -->  cu62 ===  ===        ffn 0 0  -307 -3.9589E+00
+--
+ ni63           -->  cu63 ===  ===       lznu 0 0   308  6.6977E-02
+--
+ ni63           -->  cu63 ===  ===        ffn 0 0   309  6.6977E-02
+--
+ ni64           -->  cu64 ===  ===       lznu 0 0  -310 -1.6744E+00
+--
+ ni64           -->  cu64 ===  ===        ffn 0 0  -311 -1.6744E+00
+--
+ cu57           -->  ni57 ===  ===       lzan 0 0   312  8.7750E+00
+--
+ cu57           -->  ni57 ===  ===        ffn 0 0   313  8.7750E+00
+--
+ cu58           -->  ni58 ===  ===       lzan 0 0   314  8.5610E+00
+--
+ cu58           -->  ni58 ===  ===        ffn 0 0   315  8.5610E+00
+--
+ cu59           -->  ni59 ===  ===       lzan 0 0   316  4.7984E+00
+--
+ cu59           -->  ni59 ===  ===        ffn 0 0   317  4.7984E+00
+--
+ cu59           -->  zn59 ===  ===       lznu 0 0  -318 -9.1428E+00
+--
+ cu60           -->  ni60 ===  ===       lzan 0 0   319  6.1280E+00
+--
+ cu60           -->  ni60 ===  ===        ffn 0 0   320  6.1280E+00
+--
+ cu60           -->  zn60 ===  ===       lznu 0 0  -321 -4.1708E+00
+--
+ cu60           -->  zn60 ===  ===        ffn 0 0  -322 -4.1708E+00
+--
+ cu61           -->  ni61 ===  ===       lzan 0 0   323  2.2376E+00
+--
+ cu61           -->  ni61 ===  ===        ffn 0 0   324  2.2376E+00
+--
+ cu61           -->  zn61 ===  ===       lznu 0 0  -325 -5.6405E+00
+--
+ cu61           -->  zn61 ===  ===        ffn 0 0  -326 -5.6405E+00
+--
+ cu62           -->  ni62 ===  ===       lzan 0 0   327  3.9589E+00
+--
+ cu62           -->  ni62 ===  ===        ffn 0 0   328  3.9589E+00
+--
+ cu62           -->  zn62 ===  ===       lznu 0 0  -329 -1.6195E+00
+--
+ cu62           -->  zn62 ===  ===        ffn 0 0  -330 -1.6195E+00
+--
+ cu63           -->  ni63 ===  ===       lzan 0 0  -331 -6.6977E-02
+--
+ cu63           -->  ni63 ===  ===        ffn 0 0  -332 -6.6977E-02
+--
+ cu63           -->  zn63 ===  ===       lznu 0 0  -333 -3.3662E+00
+--
+ cu63           -->  zn63 ===  ===        ffn 0 0  -334 -3.3662E+00
+--
+ cu64           -->  ni64 ===  ===       lzan 0 0   335  1.6744E+00
+--
+ cu64           -->  ni64 ===  ===        ffn 0 0   336  1.6744E+00
+--
+ cu64           -->  zn64 ===  ===       lznu 0 0   337  5.7962E-01
+--
+ cu64           -->  zn64 ===  ===        ffn 0 0   338  5.7962E-01
+--
+ cu65           -->  zn65 ===  ===       lznu 0 0  -339 -1.3517E+00
+--
+ cu65           -->  zn65 ===  ===        ffn 0 0  -340 -1.3517E+00
+--
+ zn59           -->  cu59 ===  ===       lzan 0 0   341  9.1428E+00
+--
+ zn59           -->  cu59 ===  ===       wc12 0 0   342  9.1428E+00
+--
+ zn60           -->  cu60 ===  ===       lzan 0 0   343  4.1708E+00
+--
+ zn60           -->  cu60 ===  ===        ffn 0 0   344  4.1708E+00
+--
+ zn61           -->  cu61 ===  ===       lzan 0 0   345  5.6405E+00
+--
+ zn61           -->  cu61 ===  ===        ffn 0 0   346  5.6405E+00
+--
+ zn62           -->  cu62 ===  ===       lzan 0 0   347  1.6195E+00
+--
+ zn62           -->  cu62 ===  ===        ffn 0 0   348  1.6195E+00
+--
+ zn62           -->  ga62 ===  ===       lznu 0 0  -349 -9.1811E+00
+--
+ zn62           -->  ga62 ===  ===        ffn 0 0  -350 -9.1811E+00
+--
+ zn63           -->  cu63 ===  ===       lzan 0 0   351  3.3662E+00
+--
+ zn63           -->  cu63 ===  ===        ffn 0 0   352  3.3662E+00
+--
+ zn63           -->  ga63 ===  ===       lznu 0 0  -353 -5.6659E+00
+--
+ zn63           -->  ga63 ===  ===        ffn 0 0  -354 -5.6659E+00
+--
+ zn64           -->  cu64 ===  ===       lzan 0 0  -355 -5.7962E-01
+--
+ zn64           -->  cu64 ===  ===        ffn 0 0  -356 -5.7962E-01
+--
+ zn64           -->  ga64 ===  ===       lznu 0 0  -357 -7.1702E+00
+--
+ zn64           -->  ga64 ===  ===        ffn 0 0  -358 -7.1702E+00
+--
+ zn65           -->  cu65 ===  ===       lzan 0 0   359  1.3517E+00
+--
+ zn65           -->  cu65 ===  ===        ffn 0 0   360  1.3517E+00
+--
+ ga62           -->  zn62 ===  ===       lzan 0 0   361  9.1811E+00
+--
+ ga62           -->  zn62 ===  ===        ffn 0 0   362  9.1811E+00
+--
+ ga63           -->  zn63 ===  ===       lzan 0 0   363  5.6659E+00
+--
+ ga63           -->  zn63 ===  ===        ffn 0 0   364  5.6659E+00
+--
+ ga63           -->  ge63 ===  ===       lznu 0 0  -365 -9.6259E+00
+--
+ ga64           -->  zn64 ===  ===       lzan 0 0   366  7.1702E+00
+--
+ ga64           -->  zn64 ===  ===        ffn 0 0   367  7.1702E+00
+--
+ ga64           -->  ge64 ===  ===       lznu 0 0  -368 -4.5180E+00
+--
+ ga64           -->  ge64 ===  ===        ffn 0 0  -369 -4.5180E+00
+--
+ ge63           -->  ga63 ===  ===       lzan 0 0   370  9.6259E+00
+--
+ ge63           -->  ga63 ===  ===       wc12 0 0   371  9.6259E+00
+--
+ ge64           -->  ga64 ===  ===       lzan 0 0   372  4.5180E+00
+--
+ ge64           -->  ga64 ===  ===        ffn 0 0   373  4.5180E+00
+--
+    d           -->     n    p ===       an06 1 1  -374 -2.2246E+00
+    d           -->     n    p ===       an06 1 1  -374 -2.2246E+00
+    d           -->     n    p ===       an06 1 1  -374 -2.2246E+00
+    n    p      -->     d ===  ===  ===  an06 1 0   374  2.2246E+00
+    n    p      -->     d ===  ===  ===  an06 1 0   374  2.2246E+00
+    n    p      -->     d ===  ===  ===  an06 1 0   374  2.2246E+00
+--
+  he3           -->     p    d ===       de04 1 1  -375 -5.4935E+00
+  he3           -->     p    d ===       de04 0 1  -375 -5.4935E+00
+    p    d      -->   he3 ===  ===  ===  de04 1 0   375  5.4935E+00
+    p    d      -->   he3 ===  ===  ===  de04 0 0   375  5.4935E+00
+--
+  he4           -->     n  he3 ===       ka02 1 1  -376 -2.0578E+01
+  he4           -->     n  he3 ===       ka02 1 1  -376 -2.0578E+01
+    n  he3      -->   he4 ===  ===  ===  ka02 1 0   376  2.0578E+01
+    n  he3      -->   he4 ===  ===  ===  ka02 1 0   376  2.0578E+01
+--
+  he4           -->     d    d ===       nacr 1 1  -377 -2.3847E+01
+    d    d      -->   he4 ===  ===  ===  nacr 1 0   377  2.3847E+01
+--
+  li6           -->   he4    d ===       mb11 1 1  -378 -1.4738E+00
+  li6           -->   he4    d ===       mb11 2 1  -378 -1.4738E+00
+  he4    d      -->   li6 ===  ===  ===  mb11 1 0   378  1.4738E+00
+  he4    d      -->   li6 ===  ===  ===  mb11 2 0   378  1.4738E+00
+--
+  li7           -->     n  li6 ===       jz10 1 1  -379 -7.2511E+00
+    n  li6      -->   li7 ===  ===  ===  jz10 1 0   379  7.2511E+00
+--
+  be7           -->     p  li6 ===       nacr 1 1  -380 -5.6069E+00
+    p  li6      -->   be7 ===  ===  ===  nacr 1 0   380  5.6069E+00
+--
+  be7           -->   he4  he3 ===       cd08 1 1  -381 -1.5871E+00
+  be7           -->   he4  he3 ===       cd08 1 1  -381 -1.5871E+00
+  he4  he3      -->   be7 ===  ===  ===  cd08 1 0   381  1.5871E+00
+  he4  he3      -->   be7 ===  ===  ===  cd08 1 0   381  1.5871E+00
+--
+   b8           -->     p  be7 ===       nacr 1 1  -382 -1.3638E-01
+   b8           -->     p  be7 ===       nacr 2 1  -382 -1.3638E-01
+    p  be7      -->    b8 ===  ===  ===  nacr 1 0   382  1.3638E-01
+    p  be7      -->    b8 ===  ===  ===  nacr 2 0   382  1.3638E-01
+--
+   b8           -->   he4  he4 ===       wc12 0 0   383  1.8072E+01
+--
+  b10           -->     p  be9 ===       nacr 1 1  -384 -6.5867E+00
+  b10           -->     p  be9 ===       nacr 2 1  -384 -6.5867E+00
+  b10           -->     p  be9 ===       nacr 2 1  -384 -6.5867E+00
+    p  be9      -->   b10 ===  ===  ===  nacr 1 0   384  6.5867E+00
+    p  be9      -->   b10 ===  ===  ===  nacr 2 0   384  6.5867E+00
+    p  be9      -->   b10 ===  ===  ===  nacr 2 0   384  6.5867E+00
+--
+  b10           -->   he4  li6 ===       cf88 1 1  -385 -4.4611E+00
+  b10           -->   he4  li6 ===       cf88 2 1  -385 -4.4611E+00
+  he4  li6      -->   b10 ===  ===  ===  cf88 1 0   385  4.4611E+00
+  he4  li6      -->   b10 ===  ===  ===  cf88 2 0   385  4.4611E+00
+--
+  b11           -->     n  b10 ===        wag 1 1  -386 -1.1454E+01
+    n  b10      -->   b11 ===  ===  ===   wag 1 0   386  1.1454E+01
+--
+  b11           -->   he4  li7 ===       nacr 1 1  -387 -8.6641E+00
+  b11           -->   he4  li7 ===       nacr 2 1  -387 -8.6641E+00
+  b11           -->   he4  li7 ===       nacr 2 1  -387 -8.6641E+00
+  he4  li7      -->   b11 ===  ===  ===  nacr 1 0   387  8.6641E+00
+  he4  li7      -->   b11 ===  ===  ===  nacr 2 0   387  8.6641E+00
+  he4  li7      -->   b11 ===  ===  ===  nacr 2 0   387  8.6641E+00
+--
+  c12           -->     p  b11 ===       nw00 1 1  -388 -1.5957E+01
+  c12           -->     p  b11 ===       nw00 1 1  -388 -1.5957E+01
+  c12           -->     p  b11 ===       nw00 2 1  -388 -1.5957E+01
+    p  b11      -->   c12 ===  ===  ===  nw00 1 0   388  1.5957E+01
+    p  b11      -->   c12 ===  ===  ===  nw00 1 0   388  1.5957E+01
+    p  b11      -->   c12 ===  ===  ===  nw00 2 0   388  1.5957E+01
+--
+  c13           -->     n  c12 ===       ks03 0 1  -389 -4.9463E+00
+    n  c12      -->   c13 ===  ===  ===  ks03 0 0   389  4.9463E+00
+--
+  c14           -->     n  c13 ===       ks03 0 1  -390 -8.1764E+00
+    n  c13      -->   c14 ===  ===  ===  ks03 0 0   390  8.1764E+00
+--
+  n13           -->     p  c12 ===       ls09 1 1  -391 -1.9435E+00
+  n13           -->     p  c12 ===       ls09 2 1  -391 -1.9435E+00
+    p  c12      -->   n13 ===  ===  ===  ls09 1 0   391  1.9435E+00
+    p  c12      -->   n13 ===  ===  ===  ls09 2 0   391  1.9435E+00
+--
+  n14           -->     n  n13 ===       wies 2 1  -392 -1.0553E+01
+  n14           -->     n  n13 ===       wies 1 1  -392 -1.0553E+01
+    n  n13      -->   n14 ===  ===  ===  wies 2 0   392  1.0553E+01
+    n  n13      -->   n14 ===  ===  ===  wies 1 0   392  1.0553E+01
+--
+  n14           -->     p  c13 ===       nacr 1 1  -393 -7.5506E+00
+  n14           -->     p  c13 ===       nacr 2 1  -393 -7.5506E+00
+  n14           -->     p  c13 ===       nacr 2 1  -393 -7.5506E+00
+    p  c13      -->   n14 ===  ===  ===  nacr 1 0   393  7.5506E+00
+    p  c13      -->   n14 ===  ===  ===  nacr 2 0   393  7.5506E+00
+    p  c13      -->   n14 ===  ===  ===  nacr 2 0   393  7.5506E+00
+--
+  n15           -->     n  n14 ===       ks03 0 1  -394 -1.0833E+01
+    n  n14      -->   n15 ===  ===  ===  ks03 0 0   394  1.0833E+01
+--
+  n15           -->     p  c14 ===       il10 1 1  -395 -1.0207E+01
+  n15           -->     p  c14 ===       il10 2 1  -395 -1.0207E+01
+    p  c14      -->   n15 ===  ===  ===  il10 1 0   395  1.0207E+01
+    p  c14      -->   n15 ===  ===  ===  il10 2 0   395  1.0207E+01
+--
+  o14           -->     p  n13 ===       lg06 1 1  -396 -4.6270E+00
+  o14           -->     p  n13 ===       lg06 2 1  -396 -4.6270E+00
+    p  n13      -->   o14 ===  ===  ===  lg06 1 0   396  4.6270E+00
+    p  n13      -->   o14 ===  ===  ===  lg06 2 0   396  4.6270E+00
+--
+  o15           -->     n  o14 ===       rpsm 2 1  -397 -1.3223E+01
+    n  o14      -->   o15 ===  ===  ===  rpsm 2 0   397  1.3223E+01
+--
+  o15           -->     p  n14 ===       im05 1 1  -398 -7.2968E+00
+  o15           -->     p  n14 ===       im05 1 1  -398 -7.2968E+00
+  o15           -->     p  n14 ===       im05 2 1  -398 -7.2968E+00
+  o15           -->     p  n14 ===       im05 2 1  -398 -7.2968E+00
+    p  n14      -->   o15 ===  ===  ===  im05 1 0   398  7.2968E+00
+    p  n14      -->   o15 ===  ===  ===  im05 1 0   398  7.2968E+00
+    p  n14      -->   o15 ===  ===  ===  im05 2 0   398  7.2968E+00
+    p  n14      -->   o15 ===  ===  ===  im05 2 0   398  7.2968E+00
+--
+  o16           -->     n  o15 ===       rpsm 2 1  -399 -1.5664E+01
+    n  o15      -->   o16 ===  ===  ===  rpsm 2 0   399  1.5664E+01
+--
+  o16           -->     p  n15 ===       li10 1 1  -400 -1.2127E+01
+  o16           -->     p  n15 ===       li10 2 1  -400 -1.2127E+01
+  o16           -->     p  n15 ===       li10 2 1  -400 -1.2127E+01
+    p  n15      -->   o16 ===  ===  ===  li10 1 0   400  1.2127E+01
+    p  n15      -->   o16 ===  ===  ===  li10 2 0   400  1.2127E+01
+    p  n15      -->   o16 ===  ===  ===  li10 2 0   400  1.2127E+01
+--
+  o16           -->   he4  c12 ===       nac2 0 1  -401 -7.1619E+00
+  o16           -->   he4  c12 ===       nac2 0 1  -401 -7.1619E+00
+  he4  c12      -->   o16 ===  ===  ===  nac2 0 0   401  7.1619E+00
+  he4  c12      -->   o16 ===  ===  ===  nac2 0 0   401  7.1619E+00
+--
+  o17           -->     n  o16 ===       ks03 0 1  -402 -4.1431E+00
+    n  o16      -->   o17 ===  ===  ===  ks03 0 0   402  4.1431E+00
+--
+  o18           -->     n  o17 ===       bb92 2 1  -403 -8.0454E+00
+  o18           -->     n  o17 ===       bb92 1 1  -403 -8.0454E+00
+    n  o17      -->   o18 ===  ===  ===  bb92 2 0   403  8.0454E+00
+    n  o17      -->   o18 ===  ===  ===  bb92 1 0   403  8.0454E+00
+--
+  o18           -->   he4  c14 ===       il10 1 1  -404 -6.2276E+00
+  o18           -->   he4  c14 ===       il10 2 1  -404 -6.2276E+00
+  o18           -->   he4  c14 ===       il10 2 1  -404 -6.2276E+00
+  he4  c14      -->   o18 ===  ===  ===  il10 1 0   404  6.2276E+00
+  he4  c14      -->   o18 ===  ===  ===  il10 2 0   404  6.2276E+00
+  he4  c14      -->   o18 ===  ===  ===  il10 2 0   404  6.2276E+00
+--
+  f17           -->     p  o16 ===       ia08 1 1  -405 -6.0027E-01
+    p  o16      -->   f17 ===  ===  ===  ia08 1 0   405  6.0027E-01
+--
+  f18           -->     n  f17 ===       rpsm 2 1  -406 -9.1499E+00
+    n  f17      -->   f18 ===  ===  ===  rpsm 2 0   406  9.1499E+00
+--
+  f18           -->     p  o17 ===       il10 1 1  -407 -5.6071E+00
+  f18           -->     p  o17 ===       il10 2 1  -407 -5.6071E+00
+  f18           -->     p  o17 ===       il10 2 1  -407 -5.6071E+00
+    p  o17      -->   f18 ===  ===  ===  il10 1 0   407  5.6071E+00
+    p  o17      -->   f18 ===  ===  ===  il10 2 0   407  5.6071E+00
+    p  o17      -->   f18 ===  ===  ===  il10 2 0   407  5.6071E+00
+--
+  f18           -->   he4  n14 ===       il10 1 1  -408 -4.4152E+00
+  f18           -->   he4  n14 ===       il10 2 1  -408 -4.4152E+00
+  f18           -->   he4  n14 ===       il10 2 1  -408 -4.4152E+00
+  he4  n14      -->   f18 ===  ===  ===  il10 1 0   408  4.4152E+00
+  he4  n14      -->   f18 ===  ===  ===  il10 2 0   408  4.4152E+00
+  he4  n14      -->   f18 ===  ===  ===  il10 2 0   408  4.4152E+00
+--
+  f19           -->     n  f18 ===       rpsm 2 1  -409 -1.0432E+01
+    n  f18      -->   f19 ===  ===  ===  rpsm 2 0   409  1.0432E+01
+--
+  f19           -->     p  o18 ===       il10 1 1  -410 -7.9936E+00
+  f19           -->     p  o18 ===       il10 2 1  -410 -7.9936E+00
+  f19           -->     p  o18 ===       il10 2 1  -410 -7.9936E+00
+  f19           -->     p  o18 ===       il10 2 1  -410 -7.9936E+00
+    p  o18      -->   f19 ===  ===  ===  il10 1 0   410  7.9936E+00
+    p  o18      -->   f19 ===  ===  ===  il10 2 0   410  7.9936E+00
+    p  o18      -->   f19 ===  ===  ===  il10 2 0   410  7.9936E+00
+    p  o18      -->   f19 ===  ===  ===  il10 2 0   410  7.9936E+00
+--
+  f19           -->   he4  n15 ===       il10 1 1  -411 -4.0138E+00
+  f19           -->   he4  n15 ===       il10 2 1  -411 -4.0138E+00
+  f19           -->   he4  n15 ===       il10 2 1  -411 -4.0138E+00
+  f19           -->   he4  n15 ===       il10 2 1  -411 -4.0138E+00
+  he4  n15      -->   f19 ===  ===  ===  il10 1 0   411  4.0138E+00
+  he4  n15      -->   f19 ===  ===  ===  il10 2 0   411  4.0138E+00
+  he4  n15      -->   f19 ===  ===  ===  il10 2 0   411  4.0138E+00
+  he4  n15      -->   f19 ===  ===  ===  il10 2 0   411  4.0138E+00
+--
+ ne18           -->     p  f17 ===       cb09 0 1  -412 -3.9230E+00
+ ne18           -->     p  f17 ===       cb09 0 1  -412 -3.9230E+00
+    p  f17      -->  ne18 ===  ===  ===  cb09 0 0   412  3.9230E+00
+    p  f17      -->  ne18 ===  ===  ===  cb09 0 0   412  3.9230E+00
+--
+ ne18           -->   he4  o14 ===       wh87 1 1  -413 -5.1147E+00
+ ne18           -->   he4  o14 ===       wh87 2 1  -413 -5.1147E+00
+ ne18           -->   he4  o14 ===       wh87 2 1  -413 -5.1147E+00
+ ne18           -->   he4  o14 ===       wh87 2 1  -413 -5.1147E+00
+  he4  o14      -->  ne18 ===  ===  ===  wh87 1 0   413  5.1147E+00
+  he4  o14      -->  ne18 ===  ===  ===  wh87 2 0   413  5.1147E+00
+  he4  o14      -->  ne18 ===  ===  ===  wh87 2 0   413  5.1147E+00
+  he4  o14      -->  ne18 ===  ===  ===  wh87 2 0   413  5.1147E+00
+--
+ ne19           -->     n ne18 ===       ths8 2 1  -414 -1.1637E+01
+    n ne18      -->  ne19 ===  ===  ===  ths8 2 0   414  1.1637E+01
+--
+ ne19           -->     p  f18 ===       il10 1 1  -415 -6.4100E+00
+ ne19           -->     p  f18 ===       il10 2 1  -415 -6.4100E+00
+ ne19           -->     p  f18 ===       il10 2 1  -415 -6.4100E+00
+    p  f18      -->  ne19 ===  ===  ===  il10 1 0   415  6.4100E+00
+    p  f18      -->  ne19 ===  ===  ===  il10 2 0   415  6.4100E+00
+    p  f18      -->  ne19 ===  ===  ===  il10 2 0   415  6.4100E+00
+--
+ ne19           -->   he4  o15 ===       dc11 1 1  -416 -3.5285E+00
+ ne19           -->   he4  o15 ===       dc11 2 1  -416 -3.5285E+00
+ ne19           -->   he4  o15 ===       dc11 2 1  -416 -3.5285E+00
+  he4  o15      -->  ne19 ===  ===  ===  dc11 1 0   416  3.5285E+00
+  he4  o15      -->  ne19 ===  ===  ===  dc11 2 0   416  3.5285E+00
+  he4  o15      -->  ne19 ===  ===  ===  dc11 2 0   416  3.5285E+00
+--
+ ne20           -->     n ne19 ===       ths8 2 1  -417 -1.6865E+01
+    n ne19      -->  ne20 ===  ===  ===  ths8 2 0   417  1.6865E+01
+--
+ ne20           -->     p  f19 ===       nacr 1 1  -418 -1.2843E+01
+ ne20           -->     p  f19 ===       nacr 2 1  -418 -1.2843E+01
+ ne20           -->     p  f19 ===       nacr 2 1  -418 -1.2843E+01
+    p  f19      -->  ne20 ===  ===  ===  nacr 1 0   418  1.2843E+01
+    p  f19      -->  ne20 ===  ===  ===  nacr 2 0   418  1.2843E+01
+    p  f19      -->  ne20 ===  ===  ===  nacr 2 0   418  1.2843E+01
+--
+ ne20           -->   he4  o16 ===       co10 1 1  -419 -4.7298E+00
+ ne20           -->   he4  o16 ===       co10 2 1  -419 -4.7298E+00
+ ne20           -->   he4  o16 ===       co10 2 1  -419 -4.7298E+00
+  he4  o16      -->  ne20 ===  ===  ===  co10 1 0   419  4.7298E+00
+  he4  o16      -->  ne20 ===  ===  ===  co10 2 0   419  4.7298E+00
+  he4  o16      -->  ne20 ===  ===  ===  co10 2 0   419  4.7298E+00
+--
+ ne21           -->     n ne20 ===       ka02 1 1  -420 -6.7612E+00
+ ne21           -->     n ne20 ===       ka02 2 1  -420 -6.7612E+00
+    n ne20      -->  ne21 ===  ===  ===  ka02 1 0   420  6.7612E+00
+    n ne20      -->  ne21 ===  ===  ===  ka02 2 0   420  6.7612E+00
+--
+ ne21           -->   he4  o17 ===       cf88 1 1  -421 -7.3479E+00
+ ne21           -->   he4  o17 ===       cf88 1 1  -421 -7.3479E+00
+  he4  o17      -->  ne21 ===  ===  ===  cf88 1 0   421  7.3479E+00
+  he4  o17      -->  ne21 ===  ===  ===  cf88 1 0   421  7.3479E+00
+--
+ ne22           -->     n ne21 ===       ks03 0 1  -422 -1.0364E+01
+    n ne21      -->  ne22 ===  ===  ===  ks03 0 0   422  1.0364E+01
+--
+ ne22           -->   he4  o18 ===       il10 2 1  -423 -9.6668E+00
+ ne22           -->   he4  o18 ===       il10 2 1  -423 -9.6668E+00
+ ne22           -->   he4  o18 ===       il10 2 1  -423 -9.6668E+00
+ ne22           -->   he4  o18 ===       il10 2 1  -423 -9.6668E+00
+  he4  o18      -->  ne22 ===  ===  ===  il10 2 0   423  9.6668E+00
+  he4  o18      -->  ne22 ===  ===  ===  il10 2 0   423  9.6668E+00
+  he4  o18      -->  ne22 ===  ===  ===  il10 2 0   423  9.6668E+00
+  he4  o18      -->  ne22 ===  ===  ===  il10 2 0   423  9.6668E+00
+--
+ na21           -->     p ne20 ===       il10 1 1  -424 -2.4317E+00
+ na21           -->     p ne20 ===       il10 2 1  -424 -2.4317E+00
+    p ne20      -->  na21 ===  ===  ===  il10 1 0   424  2.4317E+00
+    p ne20      -->  na21 ===  ===  ===  il10 2 0   424  2.4317E+00
+--
+ na21           -->   he4  f17 ===       rpsm 2 1  -425 -6.5613E+00
+  he4  f17      -->  na21 ===  ===  ===  rpsm 2 0   425  6.5613E+00
+--
+ na22           -->     n na21 ===       ths8 2 1  -426 -1.1068E+01
+    n na21      -->  na22 ===  ===  ===  ths8 2 0   426  1.1068E+01
+--
+ na22           -->     p ne21 ===       il10 1 1  -427 -6.7387E+00
+ na22           -->     p ne21 ===       il10 2 1  -427 -6.7387E+00
+ na22           -->     p ne21 ===       il10 2 1  -427 -6.7387E+00
+ na22           -->     p ne21 ===       il10 2 1  -427 -6.7387E+00
+    p ne21      -->  na22 ===  ===  ===  il10 1 0   427  6.7387E+00
+    p ne21      -->  na22 ===  ===  ===  il10 2 0   427  6.7387E+00
+    p ne21      -->  na22 ===  ===  ===  il10 2 0   427  6.7387E+00
+    p ne21      -->  na22 ===  ===  ===  il10 2 0   427  6.7387E+00
+--
+ na22           -->   he4  f18 ===       rpsm 2 1  -428 -8.4795E+00
+  he4  f18      -->  na22 ===  ===  ===  rpsm 2 0   428  8.4795E+00
+--
+ na23           -->     n na22 ===       ths8 2 1  -429 -1.2420E+01
+    n na22      -->  na23 ===  ===  ===  ths8 2 0   429  1.2420E+01
+--
+ na23           -->     p ne22 ===       il10 1 1  -430 -8.7941E+00
+ na23           -->     p ne22 ===       il10 2 1  -430 -8.7941E+00
+ na23           -->     p ne22 ===       il10 2 1  -430 -8.7941E+00
+ na23           -->     p ne22 ===       il10 2 1  -430 -8.7941E+00
+    p ne22      -->  na23 ===  ===  ===  il10 1 0   430  8.7941E+00
+    p ne22      -->  na23 ===  ===  ===  il10 2 0   430  8.7941E+00
+    p ne22      -->  na23 ===  ===  ===  il10 2 0   430  8.7941E+00
+    p ne22      -->  na23 ===  ===  ===  il10 2 0   430  8.7941E+00
+--
+ na23           -->   he4  f19 ===       rpsm 2 1  -431 -1.0467E+01
+  he4  f19      -->  na23 ===  ===  ===  rpsm 2 0   431  1.0467E+01
+--
+ mg23           -->     p na22 ===       il10 2 1  -432 -7.5807E+00
+ mg23           -->     p na22 ===       il10 2 1  -432 -7.5807E+00
+ mg23           -->     p na22 ===       il10 2 1  -432 -7.5807E+00
+    p na22      -->  mg23 ===  ===  ===  il10 2 0   432  7.5807E+00
+    p na22      -->  mg23 ===  ===  ===  il10 2 0   432  7.5807E+00
+    p na22      -->  mg23 ===  ===  ===  il10 2 0   432  7.5807E+00
+--
+ mg23           -->   he4 ne19 ===       ths8 2 1  -433 -9.6502E+00
+  he4 ne19      -->  mg23 ===  ===  ===  ths8 2 0   433  9.6502E+00
+--
+ mg24           -->     n mg23 ===       ths8 2 1  -434 -1.6532E+01
+    n mg23      -->  mg24 ===  ===  ===  ths8 2 0   434  1.6532E+01
+--
+ mg24           -->     p na23 ===       il10 1 1  -435 -1.1693E+01
+ mg24           -->     p na23 ===       il10 2 1  -435 -1.1693E+01
+ mg24           -->     p na23 ===       il10 2 1  -435 -1.1693E+01
+    p na23      -->  mg24 ===  ===  ===  il10 1 0   435  1.1693E+01
+    p na23      -->  mg24 ===  ===  ===  il10 2 0   435  1.1693E+01
+    p na23      -->  mg24 ===  ===  ===  il10 2 0   435  1.1693E+01
+--
+ mg24           -->   he4 ne20 ===       il10 1 1  -436 -9.3166E+00
+ mg24           -->   he4 ne20 ===       il10 2 1  -436 -9.3166E+00
+ mg24           -->   he4 ne20 ===       il10 2 1  -436 -9.3166E+00
+ mg24           -->   he4 ne20 ===       il10 2 1  -436 -9.3166E+00
+  he4 ne20      -->  mg24 ===  ===  ===  il10 1 0   436  9.3166E+00
+  he4 ne20      -->  mg24 ===  ===  ===  il10 2 0   436  9.3166E+00
+  he4 ne20      -->  mg24 ===  ===  ===  il10 2 0   436  9.3166E+00
+  he4 ne20      -->  mg24 ===  ===  ===  il10 2 0   436  9.3166E+00
+--
+ mg25           -->     n mg24 ===       ks03 0 1  -437 -7.3305E+00
+    n mg24      -->  mg25 ===  ===  ===  ks03 0 0   437  7.3305E+00
+--
+ mg25           -->   he4 ne21 ===       cf88 1 1  -438 -9.8859E+00
+ mg25           -->   he4 ne21 ===       cf88 2 1  -438 -9.8859E+00
+  he4 ne21      -->  mg25 ===  ===  ===  cf88 1 0   438  9.8859E+00
+  he4 ne21      -->  mg25 ===  ===  ===  cf88 2 0   438  9.8859E+00
+--
+ mg26           -->     n mg25 ===       ks03 0 1  -439 -1.1093E+01
+    n mg25      -->  mg26 ===  ===  ===  ks03 0 0   439  1.1093E+01
+--
+ mg26           -->   he4 ne22 ===       li12 2 1  -440 -1.0615E+01
+ mg26           -->   he4 ne22 ===       li12 2 1  -440 -1.0615E+01
+ mg26           -->   he4 ne22 ===       li12 2 1  -440 -1.0615E+01
+ mg26           -->   he4 ne22 ===       li12 2 1  -440 -1.0615E+01
+ mg26           -->   he4 ne22 ===       li12 2 1  -440 -1.0615E+01
+  he4 ne22      -->  mg26 ===  ===  ===  li12 2 0   440  1.0615E+01
+  he4 ne22      -->  mg26 ===  ===  ===  li12 2 0   440  1.0615E+01
+  he4 ne22      -->  mg26 ===  ===  ===  li12 2 0   440  1.0615E+01
+  he4 ne22      -->  mg26 ===  ===  ===  li12 2 0   440  1.0615E+01
+  he4 ne22      -->  mg26 ===  ===  ===  li12 2 0   440  1.0615E+01
+--
+ al25           -->     p mg24 ===       il10 1 1  -441 -2.2716E+00
+ al25           -->     p mg24 ===       il10 2 1  -441 -2.2716E+00
+    p mg24      -->  al25 ===  ===  ===  il10 1 0   441  2.2716E+00
+    p mg24      -->  al25 ===  ===  ===  il10 2 0   441  2.2716E+00
+--
+ al25           -->   he4 na21 ===       ths8 2 1  -442 -9.1565E+00
+  he4 na21      -->  al25 ===  ===  ===  ths8 2 0   442  9.1565E+00
+--
+ al26           -->     n al25 ===       ths8 2 1  -443 -1.1365E+01
+    n al25      -->  al26 ===  ===  ===  ths8 2 0   443  1.1365E+01
+--
+ al26           -->     p mg25 ===       il10 2 1  -444 -6.3063E+00
+ al26           -->     p mg25 ===       il10 2 1  -444 -6.3063E+00
+ al26           -->     p mg25 ===       il10 2 1  -444 -6.3063E+00
+    p mg25      -->  al26 ===  ===  ===  il10 2 0   444  6.3063E+00
+    p mg25      -->  al26 ===  ===  ===  il10 2 0   444  6.3063E+00
+    p mg25      -->  al26 ===  ===  ===  il10 2 0   444  6.3063E+00
+--
+ al26           -->   he4 na22 ===       ths8 2 1  -445 -9.4535E+00
+  he4 na22      -->  al26 ===  ===  ===  ths8 2 0   445  9.4535E+00
+--
+ al27           -->     n al26 ===       ks03 0 1  -446 -1.3058E+01
+    n al26      -->  al27 ===  ===  ===  ks03 0 0   446  1.3058E+01
+--
+ al27           -->     p mg26 ===       il10 2 1  -447 -8.2711E+00
+ al27           -->     p mg26 ===       il10 2 1  -447 -8.2711E+00
+ al27           -->     p mg26 ===       il10 2 1  -447 -8.2711E+00
+    p mg26      -->  al27 ===  ===  ===  il10 2 0   447  8.2711E+00
+    p mg26      -->  al27 ===  ===  ===  il10 2 0   447  8.2711E+00
+    p mg26      -->  al27 ===  ===  ===  il10 2 0   447  8.2711E+00
+--
+ al27           -->   he4 na23 ===       ths8 2 1  -448 -1.0092E+01
+  he4 na23      -->  al27 ===  ===  ===  ths8 2 0   448  1.0092E+01
+--
+ si28           -->     p al27 ===       il10 1 1  -449 -1.1585E+01
+ si28           -->     p al27 ===       il10 2 1  -449 -1.1585E+01
+ si28           -->     p al27 ===       il10 2 1  -449 -1.1585E+01
+    p al27      -->  si28 ===  ===  ===  il10 1 0   449  1.1585E+01
+    p al27      -->  si28 ===  ===  ===  il10 2 0   449  1.1585E+01
+    p al27      -->  si28 ===  ===  ===  il10 2 0   449  1.1585E+01
+--
+ si28           -->   he4 mg24 ===       st08 2 1  -450 -9.9841E+00
+ si28           -->   he4 mg24 ===       st08 2 1  -450 -9.9841E+00
+  he4 mg24      -->  si28 ===  ===  ===  st08 2 0   450  9.9841E+00
+  he4 mg24      -->  si28 ===  ===  ===  st08 2 0   450  9.9841E+00
+--
+ si29           -->     n si28 ===       ka02 0 1  -451 -8.4736E+00
+ si29           -->     n si28 ===       ka02 2 1  -451 -8.4736E+00
+    n si28      -->  si29 ===  ===  ===  ka02 0 0   451  8.4736E+00
+    n si28      -->  si29 ===  ===  ===  ka02 2 0   451  8.4736E+00
+--
+ si29           -->   he4 mg25 ===       cf88 1 1  -452 -1.1127E+01
+  he4 mg25      -->  si29 ===  ===  ===  cf88 1 0   452  1.1127E+01
+--
+ si30           -->     n si29 ===       ka02 1 1  -453 -1.0609E+01
+ si30           -->     n si29 ===       ka02 2 1  -453 -1.0609E+01
+    n si29      -->  si30 ===  ===  ===  ka02 1 0   453  1.0609E+01
+    n si29      -->  si30 ===  ===  ===  ka02 2 0   453  1.0609E+01
+--
+ si30           -->   he4 mg26 ===       cf88 1 1  -454 -1.0643E+01
+ si30           -->   he4 mg26 ===       cf88 2 1  -454 -1.0643E+01
+  he4 mg26      -->  si30 ===  ===  ===  cf88 1 0   454  1.0643E+01
+  he4 mg26      -->  si30 ===  ===  ===  cf88 2 0   454  1.0643E+01
+--
+ si31           -->     n si30 ===       ks03 0 1  -455 -6.5874E+00
+    n si30      -->  si31 ===  ===  ===  ks03 0 0   455  6.5874E+00
+--
+ si32           -->     n si31 ===       rath 0 1  -456 -9.2000E+00
+    n si31      -->  si32 ===  ===  ===  rath 0 0   456  9.2000E+00
+--
+  p29           -->     p si28 ===       il10 1 1  -457 -2.7488E+00
+  p29           -->     p si28 ===       il10 2 1  -457 -2.7488E+00
+    p si28      -->   p29 ===  ===  ===  il10 1 0   457  2.7488E+00
+    p si28      -->   p29 ===  ===  ===  il10 2 0   457  2.7488E+00
+--
+  p29           -->   he4 al25 ===       ths8 2 1  -458 -1.0461E+01
+  he4 al25      -->   p29 ===  ===  ===  ths8 2 0   458  1.0461E+01
+--
+  p30           -->     n  p29 ===       ths8 2 1  -459 -1.1319E+01
+    n  p29      -->   p30 ===  ===  ===  ths8 2 0   459  1.1319E+01
+--
+  p30           -->     p si29 ===       il10 1 1  -460 -5.5945E+00
+  p30           -->     p si29 ===       il10 2 1  -460 -5.5945E+00
+  p30           -->     p si29 ===       il10 2 1  -460 -5.5945E+00
+    p si29      -->   p30 ===  ===  ===  il10 1 0   460  5.5945E+00
+    p si29      -->   p30 ===  ===  ===  il10 2 0   460  5.5945E+00
+    p si29      -->   p30 ===  ===  ===  il10 2 0   460  5.5945E+00
+--
+  p30           -->   he4 al26 ===       ths8 2 1  -461 -1.0415E+01
+  he4 al26      -->   p30 ===  ===  ===  ths8 2 0   461  1.0415E+01
+--
+  p31           -->     n  p30 ===       ths8 2 1  -462 -1.2311E+01
+    n  p30      -->   p31 ===  ===  ===  ths8 2 0   462  1.2311E+01
+--
+  p31           -->     p si30 ===       il10 0 1  -463 -7.2966E+00
+  p31           -->     p si30 ===       il10 2 1  -463 -7.2966E+00
+  p31           -->     p si30 ===       il10 0 1  -463 -7.2966E+00
+    p si30      -->   p31 ===  ===  ===  il10 0 0   463  7.2966E+00
+    p si30      -->   p31 ===  ===  ===  il10 2 0   463  7.2966E+00
+    p si30      -->   p31 ===  ===  ===  il10 0 0   463  7.2966E+00
+--
+  p31           -->   he4 al27 ===       ths8 2 1  -464 -9.6688E+00
+  he4 al27      -->   p31 ===  ===  ===  ths8 2 0   464  9.6688E+00
+--
+  p32           -->     n  p31 ===       ka02 1 1  -465 -7.9356E+00
+  p32           -->     n  p31 ===       ka02 2 1  -465 -7.9356E+00
+    n  p31      -->   p32 ===  ===  ===  ka02 1 0   465  7.9356E+00
+    n  p31      -->   p32 ===  ===  ===  ka02 2 0   465  7.9356E+00
+--
+  p32           -->     p si31 ===       rath 0 1  -466 -8.6448E+00
+    p si31      -->   p32 ===  ===  ===  rath 0 0   466  8.6448E+00
+--
+  p33           -->     n  p32 ===       rath 0 1  -467 -1.0104E+01
+    n  p32      -->   p33 ===  ===  ===  rath 0 0   467  1.0104E+01
+--
+  p33           -->     p si32 ===       rath 0 1  -468 -9.5486E+00
+    p si32      -->   p33 ===  ===  ===  rath 0 0   468  9.5486E+00
+--
+  s32           -->     p  p31 ===       il10 1 1  -469 -8.8640E+00
+  s32           -->     p  p31 ===       il10 2 1  -469 -8.8640E+00
+  s32           -->     p  p31 ===       il10 2 1  -469 -8.8640E+00
+    p  p31      -->   s32 ===  ===  ===  il10 1 0   469  8.8640E+00
+    p  p31      -->   s32 ===  ===  ===  il10 2 0   469  8.8640E+00
+    p  p31      -->   s32 ===  ===  ===  il10 2 0   469  8.8640E+00
+--
+  s32           -->   he4 si28 ===       ths8 2 1  -470 -6.9477E+00
+  he4 si28      -->   s32 ===  ===  ===  ths8 2 0   470  6.9477E+00
+--
+  s33           -->     n  s32 ===       ks03 0 1  -471 -8.6416E+00
+    n  s32      -->   s33 ===  ===  ===  ks03 0 0   471  8.6416E+00
+--
+  s33           -->     p  p32 ===       rath 0 1  -472 -9.5700E+00
+    p  p32      -->   s33 ===  ===  ===  rath 0 0   472  9.5700E+00
+--
+  s33           -->   he4 si29 ===       ths8 2 1  -473 -7.1157E+00
+  he4 si29      -->   s33 ===  ===  ===  ths8 2 0   473  7.1157E+00
+--
+  s34           -->     n  s33 ===       ks03 0 1  -474 -1.1417E+01
+    n  s33      -->   s34 ===  ===  ===  ks03 0 0   474  1.1417E+01
+--
+  s34           -->     p  p33 ===       rath 0 1  -475 -1.0883E+01
+    p  p33      -->   s34 ===  ===  ===  rath 0 0   475  1.0883E+01
+--
+  s34           -->   he4 si30 ===       ths8 2 1  -476 -7.9236E+00
+  he4 si30      -->   s34 ===  ===  ===  ths8 2 0   476  7.9236E+00
+--
+  s35           -->     n  s34 ===       ks03 0 1  -477 -6.9858E+00
+    n  s34      -->   s35 ===  ===  ===  ks03 0 0   477  6.9858E+00
+--
+  s35           -->   he4 si31 ===       rath 0 1  -478 -8.3221E+00
+  he4 si31      -->   s35 ===  ===  ===  rath 0 0   478  8.3221E+00
+--
+  s36           -->     n  s35 ===       ths8 2 1  -479 -9.8893E+00
+    n  s35      -->   s36 ===  ===  ===  ths8 2 0   479  9.8893E+00
+--
+  s36           -->   he4 si32 ===       rath 0 1  -480 -9.0114E+00
+  he4 si32      -->   s36 ===  ===  ===  rath 0 0   480  9.0114E+00
+--
+ cl33           -->     p  s32 ===       il10 2 1  -481 -2.2767E+00
+ cl33           -->     p  s32 ===       il10 2 1  -481 -2.2767E+00
+ cl33           -->     p  s32 ===       il10 1 1  -481 -2.2767E+00
+    p  s32      -->  cl33 ===  ===  ===  il10 1 0   481  2.2767E+00
+    p  s32      -->  cl33 ===  ===  ===  il10 2 0   481  2.2767E+00
+    p  s32      -->  cl33 ===  ===  ===  il10 2 0   481  2.2767E+00
+--
+ cl33           -->   he4  p29 ===       ths8 2 1  -482 -6.4756E+00
+  he4  p29      -->  cl33 ===  ===  ===  ths8 2 0   482  6.4756E+00
+--
+ cl34           -->     n cl33 ===       ths8 2 1  -483 -1.1508E+01
+    n cl33      -->  cl34 ===  ===  ===  ths8 2 0   483  1.1508E+01
+--
+ cl34           -->     p  s33 ===       ths8 2 1  -484 -5.1431E+00
+    p  s33      -->  cl34 ===  ===  ===  ths8 2 0   484  5.1431E+00
+--
+ cl34           -->   he4  p30 ===       ths8 2 1  -485 -6.6643E+00
+  he4  p30      -->  cl34 ===  ===  ===  ths8 2 0   485  6.6643E+00
+--
+ cl35           -->     n cl34 ===       ths8 2 1  -486 -1.2645E+01
+    n cl34      -->  cl35 ===  ===  ===  ths8 2 0   486  1.2645E+01
+--
+ cl35           -->     p  s34 ===       ths8 2 1  -487 -6.3708E+00
+    p  s34      -->  cl35 ===  ===  ===  ths8 2 0   487  6.3708E+00
+--
+ cl35           -->   he4  p31 ===       ths8 2 1  -488 -6.9979E+00
+  he4  p31      -->  cl35 ===  ===  ===  ths8 2 0   488  6.9979E+00
+--
+ cl36           -->     n cl35 ===       ks03 0 1  -489 -8.5798E+00
+    n cl35      -->  cl36 ===  ===  ===  ks03 0 0   489  8.5798E+00
+--
+ cl36           -->     p  s35 ===       ths8 2 1  -490 -7.9648E+00
+    p  s35      -->  cl36 ===  ===  ===  ths8 2 0   490  7.9648E+00
+--
+ cl36           -->   he4  p32 ===       rath 0 1  -491 -7.6420E+00
+  he4  p32      -->  cl36 ===  ===  ===  rath 0 0   491  7.6420E+00
+--
+ cl37           -->     n cl36 ===       ks03 0 1  -492 -1.0311E+01
+    n cl36      -->  cl37 ===  ===  ===  ks03 0 0   492  1.0311E+01
+--
+ cl37           -->     p  s36 ===       ths8 2 1  -493 -8.3864E+00
+    p  s36      -->  cl37 ===  ===  ===  ths8 2 0   493  8.3864E+00
+--
+ cl37           -->   he4  p33 ===       rath 0 1  -494 -7.8491E+00
+  he4  p33      -->  cl37 ===  ===  ===  rath 0 0   494  7.8491E+00
+--
+ ar36           -->     p cl35 ===       il10 1 1  -495 -8.5070E+00
+ ar36           -->     p cl35 ===       il10 2 1  -495 -8.5070E+00
+ ar36           -->     p cl35 ===       il10 2 1  -495 -8.5070E+00
+ ar36           -->     p cl35 ===       il10 2 1  -495 -8.5070E+00
+    p cl35      -->  ar36 ===  ===  ===  il10 1 0   495  8.5070E+00
+    p cl35      -->  ar36 ===  ===  ===  il10 2 0   495  8.5070E+00
+    p cl35      -->  ar36 ===  ===  ===  il10 2 0   495  8.5070E+00
+    p cl35      -->  ar36 ===  ===  ===  il10 2 0   495  8.5070E+00
+--
+ ar36           -->   he4  s32 ===       ths8 2 1  -496 -6.6409E+00
+  he4  s32      -->  ar36 ===  ===  ===  ths8 2 0   496  6.6409E+00
+--
+ ar37           -->     n ar36 ===       ks03 0 1  -497 -8.7875E+00
+    n ar36      -->  ar37 ===  ===  ===  ks03 0 0   497  8.7875E+00
+--
+ ar37           -->     p cl36 ===       ths8 2 1  -498 -8.7147E+00
+    p cl36      -->  ar37 ===  ===  ===  ths8 2 0   498  8.7147E+00
+--
+ ar37           -->   he4  s33 ===       ths8 2 1  -499 -6.7867E+00
+  he4  s33      -->  ar37 ===  ===  ===  ths8 2 0   499  6.7867E+00
+--
+ ar38           -->     n ar37 ===       ths8 2 1  -500 -1.1838E+01
+    n ar37      -->  ar38 ===  ===  ===  ths8 2 0   500  1.1838E+01
+--
+ ar38           -->     p cl37 ===       ths8 2 1  -501 -1.0242E+01
+    p cl37      -->  ar38 ===  ===  ===  ths8 2 0   501  1.0242E+01
+--
+ ar38           -->   he4  s34 ===       SM93 1 1  -502 -7.2080E+00
+ ar38           -->   he4  s34 ===       SM93 2 1  -502 -7.2080E+00
+  he4  s34      -->  ar38 ===  ===  ===  SM93 1 0   502  7.2080E+00
+  he4  s34      -->  ar38 ===  ===  ===  SM93 2 0   502  7.2080E+00
+--
+ ar39           -->     n ar38 ===       ks03 0 1  -503 -6.5988E+00
+    n ar38      -->  ar39 ===  ===  ===  ks03 0 0   503  6.5988E+00
+--
+ ar39           -->   he4  s35 ===       ths8 2 1  -504 -6.8209E+00
+  he4  s35      -->  ar39 ===  ===  ===  ths8 2 0   504  6.8209E+00
+--
+ ar40           -->     n ar39 ===       ks03 0 1  -505 -9.8690E+00
+    n ar39      -->  ar40 ===  ===  ===  ks03 0 0   505  9.8690E+00
+--
+ ar40           -->   he4  s36 ===       ths8 2 1  -506 -6.8007E+00
+  he4  s36      -->  ar40 ===  ===  ===  ths8 2 0   506  6.8007E+00
+--
+  k37           -->     p ar36 ===       il10 2 1  -507 -1.8576E+00
+  k37           -->     p ar36 ===       il10 2 1  -507 -1.8576E+00
+  k37           -->     p ar36 ===       il10 1 1  -507 -1.8576E+00
+    p ar36      -->   k37 ===  ===  ===  il10 1 0   507  1.8576E+00
+    p ar36      -->   k37 ===  ===  ===  il10 2 0   507  1.8576E+00
+    p ar36      -->   k37 ===  ===  ===  il10 2 0   507  1.8576E+00
+--
+  k37           -->   he4 cl33 ===       ths8 2 1  -508 -6.2218E+00
+  he4 cl33      -->   k37 ===  ===  ===  ths8 2 0   508  6.2218E+00
+--
+  k38           -->     n  k37 ===       ths8 2 1  -509 -1.2072E+01
+    n  k37      -->   k38 ===  ===  ===  ths8 2 0   509  1.2072E+01
+--
+  k38           -->     p ar37 ===       ths8 2 1  -510 -5.1420E+00
+    p ar37      -->   k38 ===  ===  ===  ths8 2 0   510  5.1420E+00
+--
+  k38           -->   he4 cl34 ===       ths8 2 1  -511 -6.7856E+00
+  he4 cl34      -->   k38 ===  ===  ===  ths8 2 0   511  6.7856E+00
+--
+  k39           -->     n  k38 ===       ths8 2 1  -512 -1.3078E+01
+    n  k38      -->   k39 ===  ===  ===  ths8 2 0   512  1.3078E+01
+--
+  k39           -->     p ar38 ===       ths8 2 1  -513 -6.3814E+00
+    p ar38      -->   k39 ===  ===  ===  ths8 2 0   513  6.3814E+00
+--
+  k39           -->   he4 cl35 ===       ths8 2 1  -514 -7.2186E+00
+  he4 cl35      -->   k39 ===  ===  ===  ths8 2 0   514  7.2186E+00
+--
+  k40           -->     n  k39 ===       ks03 0 1  -515 -7.7996E+00
+    n  k39      -->   k40 ===  ===  ===  ks03 0 0   515  7.7996E+00
+--
+  k40           -->     p ar39 ===       ths8 2 1  -516 -7.5823E+00
+    p ar39      -->   k40 ===  ===  ===  ths8 2 0   516  7.5823E+00
+--
+  k40           -->   he4 cl36 ===       ths8 2 1  -517 -6.4384E+00
+  he4 cl36      -->   k40 ===  ===  ===  ths8 2 0   517  6.4384E+00
+--
+  k41           -->     n  k40 ===       ks03 0 1  -518 -1.0095E+01
+    n  k40      -->   k41 ===  ===  ===  ks03 0 0   518  1.0095E+01
+--
+  k41           -->     p ar40 ===       ths8 2 1  -519 -7.8086E+00
+    p ar40      -->   k41 ===  ===  ===  ths8 2 0   519  7.8086E+00
+--
+  k41           -->   he4 cl37 ===       ths8 2 1  -520 -6.2229E+00
+  he4 cl37      -->   k41 ===  ===  ===  ths8 2 0   520  6.2229E+00
+--
+ ca40           -->     p  k39 ===       ths8 2 1  -521 -8.3282E+00
+    p  k39      -->  ca40 ===  ===  ===  ths8 2 0   521  8.3282E+00
+--
+ ca40           -->   he4 ar36 ===       ths8 2 1  -522 -7.0398E+00
+  he4 ar36      -->  ca40 ===  ===  ===  ths8 2 0   522  7.0398E+00
+--
+ ca41           -->     n ca40 ===       ks03 0 1  -523 -8.3628E+00
+    n ca40      -->  ca41 ===  ===  ===  ks03 0 0   523  8.3628E+00
+--
+ ca41           -->     p  k40 ===       ths8 2 1  -524 -8.8914E+00
+    p  k40      -->  ca41 ===  ===  ===  ths8 2 0   524  8.8914E+00
+--
+ ca41           -->   he4 ar37 ===       ths8 2 1  -525 -6.6152E+00
+  he4 ar37      -->  ca41 ===  ===  ===  ths8 2 0   525  6.6152E+00
+--
+ ca42           -->     n ca41 ===       ks03 0 1  -526 -1.1481E+01
+    n ca41      -->  ca42 ===  ===  ===  ks03 0 0   526  1.1481E+01
+--
+ ca42           -->     p  k41 ===       SM86 1 1  -527 -1.0277E+01
+ ca42           -->     p  k41 ===       SM86 2 1  -527 -1.0277E+01
+    p  k41      -->  ca42 ===  ===  ===  SM86 1 0   527  1.0277E+01
+    p  k41      -->  ca42 ===  ===  ===  SM86 2 0   527  1.0277E+01
+--
+ ca42           -->   he4 ar38 ===       ths8 2 1  -528 -6.2575E+00
+  he4 ar38      -->  ca42 ===  ===  ===  ths8 2 0   528  6.2575E+00
+--
+ ca43           -->     n ca42 ===       ks03 0 1  -529 -7.9329E+00
+    n ca42      -->  ca43 ===  ===  ===  ks03 0 0   529  7.9329E+00
+--
+ ca43           -->   he4 ar39 ===       ths8 2 1  -530 -7.5916E+00
+  he4 ar39      -->  ca43 ===  ===  ===  ths8 2 0   530  7.5916E+00
+--
+ ca44           -->     n ca43 ===       ks03 0 1  -531 -1.1131E+01
+    n ca43      -->  ca44 ===  ===  ===  ks03 0 0   531  1.1131E+01
+--
+ ca44           -->   he4 ar40 ===       ths8 2 1  -532 -8.8539E+00
+  he4 ar40      -->  ca44 ===  ===  ===  ths8 2 0   532  8.8539E+00
+--
+ ca45           -->     n ca44 ===       ks03 0 1  -533 -7.4148E+00
+    n ca44      -->  ca45 ===  ===  ===  ks03 0 0   533  7.4148E+00
+--
+ ca46           -->     n ca45 ===       ks03 0 1  -534 -1.0399E+01
+    n ca45      -->  ca46 ===  ===  ===  ks03 0 0   534  1.0399E+01
+--
+ ca47           -->     n ca46 ===       ks03 0 1  -535 -7.2764E+00
+    n ca46      -->  ca47 ===  ===  ===  ks03 0 0   535  7.2764E+00
+--
+ ca48           -->     n ca47 ===       ths8 2 1  -536 -9.9498E+00
+    n ca47      -->  ca48 ===  ===  ===  ths8 2 0   536  9.9498E+00
+--
+ sc43           -->     p ca42 ===       ths8 2 1  -537 -4.9298E+00
+    p ca42      -->  sc43 ===  ===  ===  ths8 2 0   537  4.9298E+00
+--
+ sc43           -->   he4  k39 ===       ths8 2 1  -538 -4.8059E+00
+  he4  k39      -->  sc43 ===  ===  ===  ths8 2 0   538  4.8059E+00
+--
+ sc44           -->     n sc43 ===       ths8 2 1  -539 -9.6995E+00
+    n sc43      -->  sc44 ===  ===  ===  ths8 2 0   539  9.6995E+00
+--
+ sc44           -->     p ca43 ===       ths8 2 1  -540 -6.6964E+00
+    p ca43      -->  sc44 ===  ===  ===  ths8 2 0   540  6.6964E+00
+--
+ sc44           -->   he4  k40 ===       ths8 2 1  -541 -6.7058E+00
+  he4  k40      -->  sc44 ===  ===  ===  ths8 2 0   541  6.7058E+00
+--
+ sc45           -->     n sc44 ===       ths8 2 1  -542 -1.1325E+01
+    n sc44      -->  sc45 ===  ===  ===  ths8 2 0   542  1.1325E+01
+--
+ sc45           -->     p ca44 ===       ths8 2 1  -543 -6.8905E+00
+    p ca44      -->  sc45 ===  ===  ===  ths8 2 0   543  6.8905E+00
+--
+ sc45           -->   he4  k41 ===       ths8 2 1  -544 -7.9357E+00
+  he4  k41      -->  sc45 ===  ===  ===  ths8 2 0   544  7.9357E+00
+--
+ sc46           -->     n sc45 ===       ks03 0 1  -545 -8.7606E+00
+    n sc45      -->  sc46 ===  ===  ===  ks03 0 0   545  8.7606E+00
+--
+ sc46           -->     p ca45 ===       ths8 2 1  -546 -8.2363E+00
+    p ca45      -->  sc46 ===  ===  ===  ths8 2 0   546  8.2363E+00
+--
+ sc47           -->     n sc46 ===       rath 0 1  -547 -1.0648E+01
+    n sc46      -->  sc47 ===  ===  ===  rath 0 0   547  1.0648E+01
+--
+ sc47           -->     p ca46 ===       ths8 2 1  -548 -8.4858E+00
+    p ca46      -->  sc47 ===  ===  ===  ths8 2 0   548  8.4858E+00
+--
+ sc48           -->     n sc47 ===       rath 0 1  -549 -8.2373E+00
+    n sc47      -->  sc48 ===  ===  ===  rath 0 0   549  8.2373E+00
+--
+ sc48           -->     p ca47 ===       ths8 2 1  -550 -9.4467E+00
+    p ca47      -->  sc48 ===  ===  ===  ths8 2 0   550  9.4467E+00
+--
+ sc49           -->     n sc48 ===       rath 0 1  -551 -1.0129E+01
+    n sc48      -->  sc49 ===  ===  ===  rath 0 0   551  1.0129E+01
+--
+ sc49           -->     p ca48 ===       ths8 2 1  -552 -9.6257E+00
+    p ca48      -->  sc49 ===  ===  ===  ths8 2 0   552  9.6257E+00
+--
+ ti44           -->     p sc43 ===       ths8 2 1  -553 -8.6494E+00
+    p sc43      -->  ti44 ===  ===  ===  ths8 2 0   553  8.6494E+00
+--
+ ti44           -->   he4 ca40 ===       chw0 0 1  -554 -5.1271E+00
+  he4 ca40      -->  ti44 ===  ===  ===  chw0 0 0   554  5.1271E+00
+--
+ ti45           -->     n ti44 ===       ths8 2 1  -555 -9.5311E+00
+    n ti44      -->  ti45 ===  ===  ===  ths8 2 0   555  9.5311E+00
+--
+ ti45           -->     p sc44 ===       ths8 2 1  -556 -8.4809E+00
+    p sc44      -->  ti45 ===  ===  ===  ths8 2 0   556  8.4809E+00
+--
+ ti45           -->   he4 ca41 ===       ths8 2 1  -557 -6.2953E+00
+  he4 ca41      -->  ti45 ===  ===  ===  ths8 2 0   557  6.2953E+00
+--
+ ti46           -->     n ti45 ===       ths8 2 1  -558 -1.3190E+01
+    n ti45      -->  ti46 ===  ===  ===  ths8 2 0   558  1.3190E+01
+--
+ ti46           -->     p sc45 ===       ths8 2 1  -559 -1.0346E+01
+    p sc45      -->  ti46 ===  ===  ===  ths8 2 0   559  1.0346E+01
+--
+ ti46           -->   he4 ca42 ===       ths8 2 1  -560 -8.0046E+00
+  he4 ca42      -->  ti46 ===  ===  ===  ths8 2 0   560  8.0046E+00
+--
+ ti47           -->     n ti46 ===       ks03 0 1  -561 -8.8807E+00
+    n ti46      -->  ti47 ===  ===  ===  ks03 0 0   561  8.8807E+00
+--
+ ti47           -->     p sc46 ===       rath 0 1  -562 -1.0466E+01
+    p sc46      -->  ti47 ===  ===  ===  rath 0 0   562  1.0466E+01
+--
+ ti47           -->   he4 ca43 ===       ths8 2 1  -563 -8.9524E+00
+  he4 ca43      -->  ti47 ===  ===  ===  ths8 2 0   563  8.9524E+00
+--
+ ti48           -->     n ti47 ===       ks03 0 1  -564 -1.1627E+01
+    n ti47      -->  ti48 ===  ===  ===  ks03 0 0   564  1.1627E+01
+--
+ ti48           -->     p sc47 ===       rath 0 1  -565 -1.1444E+01
+    p sc47      -->  ti48 ===  ===  ===  rath 0 0   565  1.1444E+01
+--
+ ti48           -->   he4 ca44 ===       ths8 2 1  -566 -9.4478E+00
+  he4 ca44      -->  ti48 ===  ===  ===  ths8 2 0   566  9.4478E+00
+--
+ ti49           -->     n ti48 ===       ks03 0 1  -567 -8.1424E+00
+    n ti48      -->  ti49 ===  ===  ===  ks03 0 0   567  8.1424E+00
+--
+ ti49           -->     p sc48 ===       rath 0 1  -568 -1.1349E+01
+    p sc48      -->  ti49 ===  ===  ===  rath 0 0   568  1.1349E+01
+--
+ ti49           -->   he4 ca45 ===       ths8 2 1  -569 -1.0175E+01
+  he4 ca45      -->  ti49 ===  ===  ===  ths8 2 0   569  1.0175E+01
+--
+ ti50           -->     n ti49 ===       ks03 0 1  -570 -1.0939E+01
+    n ti49      -->  ti50 ===  ===  ===  ks03 0 0   570  1.0939E+01
+--
+ ti50           -->     p sc49 ===       rath 0 1  -571 -1.2160E+01
+    p sc49      -->  ti50 ===  ===  ===  rath 0 0   571  1.2160E+01
+--
+ ti50           -->   he4 ca46 ===       ths8 2 1  -572 -1.0716E+01
+  he4 ca46      -->  ti50 ===  ===  ===  ths8 2 0   572  1.0716E+01
+--
+ ti51           -->     n ti50 ===       ks03 0 1  -573 -6.3725E+00
+    n ti50      -->  ti51 ===  ===  ===  ks03 0 0   573  6.3725E+00
+--
+ ti51           -->   he4 ca47 ===       ths8 2 1  -574 -9.8118E+00
+  he4 ca47      -->  ti51 ===  ===  ===  ths8 2 0   574  9.8118E+00
+--
+  v46           -->     p ti45 ===       ths8 2 1  -575 -5.3551E+00
+    p ti45      -->   v46 ===  ===  ===  ths8 2 0   575  5.3551E+00
+--
+  v47           -->     n  v46 ===       ths8 2 1  -576 -1.3003E+01
+    n  v46      -->   v47 ===  ===  ===  ths8 2 0   576  1.3003E+01
+--
+  v47           -->     p ti46 ===       ths8 2 1  -577 -5.1676E+00
+    p ti46      -->   v47 ===  ===  ===  ths8 2 0   577  5.1676E+00
+--
+  v47           -->   he4 sc43 ===       ths8 2 1  -578 -8.2424E+00
+  he4 sc43      -->   v47 ===  ===  ===  ths8 2 0   578  8.2424E+00
+--
+  v48           -->     n  v47 ===       ths8 2 1  -579 -1.0542E+01
+    n  v47      -->   v48 ===  ===  ===  ths8 2 0   579  1.0542E+01
+--
+  v48           -->     p ti47 ===       ths8 2 1  -580 -6.8290E+00
+    p ti47      -->   v48 ===  ===  ===  ths8 2 0   580  6.8290E+00
+--
+  v48           -->   he4 sc44 ===       ths8 2 1  -581 -9.0850E+00
+  he4 sc44      -->   v48 ===  ===  ===  ths8 2 0   581  9.0850E+00
+--
+  v49           -->     n  v48 ===       ths8 2 1  -582 -1.1556E+01
+    n  v48      -->   v49 ===  ===  ===  ths8 2 0   582  1.1556E+01
+--
+  v49           -->     p ti48 ===       ths8 2 1  -583 -6.7582E+00
+    p ti48      -->   v49 ===  ===  ===  ths8 2 0   583  6.7582E+00
+--
+  v49           -->   he4 sc45 ===       ths8 2 1  -584 -9.3155E+00
+  he4 sc45      -->   v49 ===  ===  ===  ths8 2 0   584  9.3155E+00
+--
+  v50           -->     n  v49 ===       ths8 2 1  -585 -9.3344E+00
+    n  v49      -->   v50 ===  ===  ===  ths8 2 0   585  9.3344E+00
+--
+  v50           -->     p ti49 ===       ths8 2 1  -586 -7.9502E+00
+    p ti49      -->   v50 ===  ===  ===  ths8 2 0   586  7.9502E+00
+--
+  v50           -->   he4 sc46 ===       rath 0 1  -587 -9.8893E+00
+  he4 sc46      -->   v50 ===  ===  ===  rath 0 0   587  9.8893E+00
+--
+  v51           -->     n  v50 ===       ks03 0 1  -588 -1.1051E+01
+    n  v50      -->   v51 ===  ===  ===  ks03 0 0   588  1.1051E+01
+--
+  v51           -->     p ti50 ===       ths8 2 1  -589 -8.0622E+00
+    p ti50      -->   v51 ===  ===  ===  ths8 2 0   589  8.0622E+00
+--
+  v51           -->   he4 sc47 ===       rath 0 1  -590 -1.0292E+01
+  he4 sc47      -->   v51 ===  ===  ===  rath 0 0   590  1.0292E+01
+--
+  v52           -->     n  v51 ===       ks03 0 1  -591 -7.3112E+00
+    n  v51      -->   v52 ===  ===  ===  ks03 0 0   591  7.3112E+00
+--
+  v52           -->     p ti51 ===       rath 0 1  -592 -9.0009E+00
+    p ti51      -->   v52 ===  ===  ===  rath 0 0   592  9.0009E+00
+--
+  v52           -->   he4 sc48 ===       rath 0 1  -593 -9.3659E+00
+  he4 sc48      -->   v52 ===  ===  ===  rath 0 0   593  9.3659E+00
+--
+ cr48           -->     p  v47 ===       nfis 1 1  -594 -8.1050E+00
+ cr48           -->     p  v47 ===       nfis 1 1  -594 -8.1050E+00
+ cr48           -->     p  v47 ===       nfis 1 1  -594 -8.1050E+00
+ cr48           -->     p  v47 ===       nfis 1 1  -594 -8.1050E+00
+    p  v47      -->  cr48 ===  ===  ===  nfis 1 0   594  8.1050E+00
+    p  v47      -->  cr48 ===  ===  ===  nfis 1 0   594  8.1050E+00
+    p  v47      -->  cr48 ===  ===  ===  nfis 1 0   594  8.1050E+00
+    p  v47      -->  cr48 ===  ===  ===  nfis 1 0   594  8.1050E+00
+--
+ cr48           -->   he4 ti44 ===       ths8 2 1  -595 -7.6980E+00
+  he4 ti44      -->  cr48 ===  ===  ===  ths8 2 0   595  7.6980E+00
+--
+ cr49           -->     n cr48 ===       ths8 2 1  -596 -1.0583E+01
+    n cr48      -->  cr49 ===  ===  ===  ths8 2 0   596  1.0583E+01
+--
+ cr49           -->     p  v48 ===       ths8 2 1  -597 -8.1455E+00
+    p  v48      -->  cr49 ===  ===  ===  ths8 2 0   597  8.1455E+00
+--
+ cr49           -->   he4 ti45 ===       ths8 2 1  -598 -8.7495E+00
+  he4 ti45      -->  cr49 ===  ===  ===  ths8 2 0   598  8.7495E+00
+--
+ cr50           -->     n cr49 ===       ths8 2 1  -599 -1.3000E+01
+    n cr49      -->  cr50 ===  ===  ===  ths8 2 0   599  1.3000E+01
+--
+ cr50           -->     p  v49 ===       ths8 2 1  -600 -9.5899E+00
+    p  v49      -->  cr50 ===  ===  ===  ths8 2 0   600  9.5899E+00
+--
+ cr50           -->   he4 ti46 ===       ths8 2 1  -601 -8.5598E+00
+  he4 ti46      -->  cr50 ===  ===  ===  ths8 2 0   601  8.5598E+00
+--
+ cr51           -->     n cr50 ===       ks03 0 1  -602 -9.2607E+00
+    n cr50      -->  cr51 ===  ===  ===  ks03 0 0   602  9.2607E+00
+--
+ cr51           -->     p  v50 ===       ths8 2 1  -603 -9.5162E+00
+    p  v50      -->  cr51 ===  ===  ===  ths8 2 0   603  9.5162E+00
+--
+ cr51           -->   he4 ti47 ===       ths8 2 1  -604 -8.9398E+00
+  he4 ti47      -->  cr51 ===  ===  ===  ths8 2 0   604  8.9398E+00
+--
+ cr52           -->     n cr51 ===       ks03 0 1  -605 -1.2038E+01
+    n cr51      -->  cr52 ===  ===  ===  ks03 0 0   605  1.2038E+01
+--
+ cr52           -->     p  v51 ===       ths8 2 1  -606 -1.0503E+01
+    p  v51      -->  cr52 ===  ===  ===  ths8 2 0   606  1.0503E+01
+--
+ cr52           -->   he4 ti48 ===       ths8 2 1  -607 -9.3512E+00
+  he4 ti48      -->  cr52 ===  ===  ===  ths8 2 0   607  9.3512E+00
+--
+ cr53           -->     n cr52 ===       ks03 0 1  -608 -7.9391E+00
+    n cr52      -->  cr53 ===  ===  ===  ks03 0 0   608  7.9391E+00
+--
+ cr53           -->     p  v52 ===       rath 0 1  -609 -1.1131E+01
+    p  v52      -->  cr53 ===  ===  ===  rath 0 0   609  1.1131E+01
+--
+ cr53           -->   he4 ti49 ===       ths8 2 1  -610 -9.1479E+00
+  he4 ti49      -->  cr53 ===  ===  ===  ths8 2 0   610  9.1479E+00
+--
+ cr54           -->     n cr53 ===       ks03 0 1  -611 -9.7191E+00
+    n cr53      -->  cr54 ===  ===  ===  ks03 0 0   611  9.7191E+00
+--
+ cr54           -->   he4 ti50 ===       ths8 2 1  -612 -7.9279E+00
+  he4 ti50      -->  cr54 ===  ===  ===  ths8 2 0   612  7.9279E+00
+--
+ mn50           -->     p cr49 ===       ths8 2 1  -613 -4.5835E+00
+    p cr49      -->  mn50 ===  ===  ===  ths8 2 0   613  4.5835E+00
+--
+ mn50           -->   he4  v46 ===       ths8 2 1  -614 -7.9780E+00
+  he4  v46      -->  mn50 ===  ===  ===  ths8 2 0   614  7.9780E+00
+--
+ mn51           -->     n mn50 ===       ths8 2 1  -615 -1.3688E+01
+    n mn50      -->  mn51 ===  ===  ===  ths8 2 0   615  1.3688E+01
+--
+ mn51           -->     p cr50 ===       ths8 2 1  -616 -5.2707E+00
+    p cr50      -->  mn51 ===  ===  ===  ths8 2 0   616  5.2707E+00
+--
+ mn51           -->   he4  v47 ===       ths8 2 1  -617 -8.6630E+00
+  he4  v47      -->  mn51 ===  ===  ===  ths8 2 0   617  8.6630E+00
+--
+ mn52           -->     n mn51 ===       ths8 2 1  -618 -1.0534E+01
+    n mn51      -->  mn52 ===  ===  ===  ths8 2 0   618  1.0534E+01
+--
+ mn52           -->     p cr51 ===       ths8 2 1  -619 -6.5445E+00
+    p cr51      -->  mn52 ===  ===  ===  ths8 2 0   619  6.5445E+00
+--
+ mn52           -->   he4  v48 ===       ths8 2 1  -620 -8.6553E+00
+  he4  v48      -->  mn52 ===  ===  ===  ths8 2 0   620  8.6553E+00
+--
+ mn53           -->     n mn52 ===       ths8 2 1  -621 -1.2054E+01
+    n mn52      -->  mn53 ===  ===  ===  ths8 2 0   621  1.2054E+01
+--
+ mn53           -->     p cr52 ===       ths8 2 1  -622 -6.5599E+00
+    p cr52      -->  mn53 ===  ===  ===  ths8 2 0   622  6.5599E+00
+--
+ mn53           -->   he4  v49 ===       ths8 2 1  -623 -9.1530E+00
+  he4  v49      -->  mn53 ===  ===  ===  ths8 2 0   623  9.1530E+00
+--
+ mn54           -->     n mn53 ===       ths8 2 1  -624 -8.9388E+00
+    n mn53      -->  mn54 ===  ===  ===  ths8 2 0   624  8.9388E+00
+--
+ mn54           -->     p cr53 ===       ths8 2 1  -625 -7.5596E+00
+    p cr53      -->  mn54 ===  ===  ===  ths8 2 0   625  7.5596E+00
+--
+ mn54           -->   he4  v50 ===       ths8 2 1  -626 -8.7573E+00
+  he4  v50      -->  mn54 ===  ===  ===  ths8 2 0   626  8.7573E+00
+--
+ mn55           -->     n mn54 ===       ths8 2 1  -627 -1.0227E+01
+    n mn54      -->  mn55 ===  ===  ===  ths8 2 0   627  1.0227E+01
+--
+ mn55           -->     p cr54 ===       ths8 2 1  -628 -8.0670E+00
+    p cr54      -->  mn55 ===  ===  ===  ths8 2 0   628  8.0670E+00
+--
+ mn55           -->   he4  v51 ===       ths8 2 1  -629 -7.9327E+00
+  he4  v51      -->  mn55 ===  ===  ===  ths8 2 0   629  7.9327E+00
+--
+ fe52           -->     p mn51 ===       ths8 2 1  -630 -7.3783E+00
+    p mn51      -->  fe52 ===  ===  ===  ths8 2 0   630  7.3783E+00
+--
+ fe52           -->   he4 cr48 ===       ths8 2 1  -631 -7.9363E+00
+  he4 cr48      -->  fe52 ===  ===  ===  ths8 2 0   631  7.9363E+00
+--
+ fe53           -->     n fe52 ===       ths8 2 1  -632 -1.0685E+01
+    n fe52      -->  fe53 ===  ===  ===  ths8 2 0   632  1.0685E+01
+--
+ fe53           -->     p mn52 ===       ths8 2 1  -633 -7.5289E+00
+    p mn52      -->  fe53 ===  ===  ===  ths8 2 0   633  7.5289E+00
+--
+ fe53           -->   he4 cr49 ===       ths8 2 1  -634 -8.0387E+00
+  he4 cr49      -->  fe53 ===  ===  ===  ths8 2 0   634  8.0387E+00
+--
+ fe54           -->     n fe53 ===       ths8 2 1  -635 -1.3378E+01
+    n fe53      -->  fe54 ===  ===  ===  ths8 2 0   635  1.3378E+01
+--
+ fe54           -->     p mn53 ===       ths8 2 1  -636 -8.8538E+00
+    p mn53      -->  fe54 ===  ===  ===  ths8 2 0   636  8.8538E+00
+--
+ fe54           -->   he4 cr50 ===       ths8 2 1  -637 -8.4168E+00
+  he4 cr50      -->  fe54 ===  ===  ===  ths8 2 0   637  8.4168E+00
+--
+ fe55           -->     n fe54 ===       ks03 0 1  -638 -9.2981E+00
+    n fe54      -->  fe55 ===  ===  ===  ks03 0 0   638  9.2981E+00
+--
+ fe55           -->     p mn54 ===       ths8 2 1  -639 -9.2131E+00
+    p mn54      -->  fe55 ===  ===  ===  ths8 2 0   639  9.2131E+00
+--
+ fe55           -->   he4 cr51 ===       ths8 2 1  -640 -8.4542E+00
+  he4 cr51      -->  fe55 ===  ===  ===  ths8 2 0   640  8.4542E+00
+--
+ fe56           -->     n fe55 ===       ks03 0 1  -641 -1.1197E+01
+    n fe55      -->  fe56 ===  ===  ===  ks03 0 0   641  1.1197E+01
+--
+ fe56           -->     p mn55 ===       ths8 2 1  -642 -1.0184E+01
+    p mn55      -->  fe56 ===  ===  ===  ths8 2 0   642  1.0184E+01
+--
+ fe56           -->   he4 cr52 ===       ths8 2 1  -643 -7.6132E+00
+  he4 cr52      -->  fe56 ===  ===  ===  ths8 2 0   643  7.6132E+00
+--
+ fe57           -->     n fe56 ===       ks03 0 1  -644 -7.6461E+00
+    n fe56      -->  fe57 ===  ===  ===  ks03 0 0   644  7.6461E+00
+--
+ fe57           -->   he4 cr53 ===       ths8 2 1  -645 -7.3202E+00
+  he4 cr53      -->  fe57 ===  ===  ===  ths8 2 0   645  7.3202E+00
+--
+ fe58           -->     n fe57 ===       ks03 0 1  -646 -1.0045E+01
+    n fe57      -->  fe58 ===  ===  ===  ks03 0 0   646  1.0045E+01
+--
+ fe58           -->   he4 cr54 ===       ths8 2 1  -647 -7.6457E+00
+  he4 cr54      -->  fe58 ===  ===  ===  ths8 2 0   647  7.6457E+00
+--
+ co53           -->     p fe52 ===       ths8 2 1  -648 -1.6146E+00
+    p fe52      -->  co53 ===  ===  ===  ths8 2 0   648  1.6146E+00
+--
+ co54           -->     n co53 ===       ths8 2 1  -649 -1.3422E+01
+    n co53      -->  co54 ===  ===  ===  ths8 2 0   649  1.3422E+01
+--
+ co54           -->     p fe53 ===       ths8 2 1  -650 -4.3516E+00
+    p fe53      -->  co54 ===  ===  ===  ths8 2 0   650  4.3516E+00
+--
+ co54           -->   he4 mn50 ===       ths8 2 1  -651 -7.8067E+00
+  he4 mn50      -->  co54 ===  ===  ===  ths8 2 0   651  7.8067E+00
+--
+ co55           -->     n co54 ===       ths8 2 1  -652 -1.4091E+01
+    n co54      -->  co55 ===  ===  ===  ths8 2 0   652  1.4091E+01
+--
+ co55           -->     p fe54 ===       ths8 2 1  -653 -5.0644E+00
+    p fe54      -->  co55 ===  ===  ===  ths8 2 0   653  5.0644E+00
+--
+ co55           -->   he4 mn51 ===       ths8 2 1  -654 -8.2104E+00
+  he4 mn51      -->  co55 ===  ===  ===  ths8 2 0   654  8.2104E+00
+--
+ co56           -->     n co55 ===       ths8 2 1  -655 -1.0082E+01
+    n co55      -->  co56 ===  ===  ===  ths8 2 0   655  1.0082E+01
+--
+ co56           -->     p fe55 ===       ths8 2 1  -656 -5.8481E+00
+    p fe55      -->  co56 ===  ===  ===  ths8 2 0   656  5.8481E+00
+--
+ co56           -->   he4 mn52 ===       ths8 2 1  -657 -7.7579E+00
+  he4 mn52      -->  co56 ===  ===  ===  ths8 2 0   657  7.7579E+00
+--
+ co57           -->     n co56 ===       ths8 2 1  -658 -1.1376E+01
+    n co56      -->  co57 ===  ===  ===  ths8 2 0   658  1.1376E+01
+--
+ co57           -->     p fe56 ===       ths8 2 1  -659 -6.0275E+00
+    p fe56      -->  co57 ===  ===  ===  ths8 2 0   659  6.0275E+00
+--
+ co57           -->   he4 mn53 ===       ths8 2 1  -660 -7.0808E+00
+  he4 mn53      -->  co57 ===  ===  ===  ths8 2 0   660  7.0808E+00
+--
+ co58           -->     n co57 ===       ths8 2 1  -661 -8.5729E+00
+    n co57      -->  co58 ===  ===  ===  ths8 2 0   661  8.5729E+00
+--
+ co58           -->     p fe57 ===       ths8 2 1  -662 -6.9543E+00
+    p fe57      -->  co58 ===  ===  ===  ths8 2 0   662  6.9543E+00
+--
+ co58           -->   he4 mn54 ===       ths8 2 1  -663 -6.7149E+00
+  he4 mn54      -->  co58 ===  ===  ===  ths8 2 0   663  6.7149E+00
+--
+ co59           -->     n co58 ===       ths8 2 1  -664 -1.0454E+01
+    n co58      -->  co59 ===  ===  ===  ths8 2 0   664  1.0454E+01
+--
+ co59           -->     p fe58 ===       ths8 2 1  -665 -7.3636E+00
+    p fe58      -->  co59 ===  ===  ===  ths8 2 0   665  7.3636E+00
+--
+ co59           -->   he4 mn55 ===       ths8 2 1  -666 -6.9423E+00
+  he4 mn55      -->  co59 ===  ===  ===  ths8 2 0   666  6.9423E+00
+--
+ ni56           -->     p co55 ===       ths8 2 1  -667 -7.1666E+00
+    p co55      -->  ni56 ===  ===  ===  ths8 2 0   667  7.1666E+00
+--
+ ni56           -->   he4 fe52 ===       ths8 2 1  -668 -7.9988E+00
+  he4 fe52      -->  ni56 ===  ===  ===  ths8 2 0   668  7.9988E+00
+--
+ ni57           -->     n ni56 ===       ths8 2 1  -669 -1.0248E+01
+    n ni56      -->  ni57 ===  ===  ===  ths8 2 0   669  1.0248E+01
+--
+ ni57           -->     p co56 ===       ths8 2 1  -670 -7.3324E+00
+    p co56      -->  ni57 ===  ===  ===  ths8 2 0   670  7.3324E+00
+--
+ ni57           -->   he4 fe53 ===       ths8 2 1  -671 -7.5614E+00
+  he4 fe53      -->  ni57 ===  ===  ===  ths8 2 0   671  7.5614E+00
+--
+ ni58           -->     n ni57 ===       ths8 2 1  -672 -1.2216E+01
+    n ni57      -->  ni58 ===  ===  ===  ths8 2 0   672  1.2216E+01
+--
+ ni58           -->     p co57 ===       ths8 2 1  -673 -8.1722E+00
+    p co57      -->  ni58 ===  ===  ===  ths8 2 0   673  8.1722E+00
+--
+ ni58           -->   he4 fe54 ===       ths8 2 1  -674 -6.3992E+00
+  he4 fe54      -->  ni58 ===  ===  ===  ths8 2 0   674  6.3992E+00
+--
+ ni59           -->     n ni58 ===       ks03 0 1  -675 -8.9993E+00
+    n ni58      -->  ni59 ===  ===  ===  ks03 0 0   675  8.9993E+00
+--
+ ni59           -->     p co58 ===       ths8 2 1  -676 -8.5985E+00
+    p co58      -->  ni59 ===  ===  ===  ths8 2 0   676  8.5985E+00
+--
+ ni59           -->   he4 fe55 ===       ths8 2 1  -677 -6.1004E+00
+  he4 fe55      -->  ni59 ===  ===  ===  ths8 2 0   677  6.1004E+00
+--
+ ni60           -->     n ni59 ===       ks03 0 1  -678 -1.1388E+01
+    n ni59      -->  ni60 ===  ===  ===  ks03 0 0   678  1.1388E+01
+--
+ ni60           -->     p co59 ===       ths8 2 1  -679 -9.5324E+00
+    p co59      -->  ni60 ===  ===  ===  ths8 2 0   679  9.5324E+00
+--
+ ni60           -->   he4 fe56 ===       ths8 2 1  -680 -6.2910E+00
+  he4 fe56      -->  ni60 ===  ===  ===  ths8 2 0   680  6.2910E+00
+--
+ ni61           -->     n ni60 ===       ks03 0 1  -681 -7.8201E+00
+    n ni60      -->  ni61 ===  ===  ===  ks03 0 0   681  7.8201E+00
+--
+ ni61           -->   he4 fe57 ===       ths8 2 1  -682 -6.4651E+00
+  he4 fe57      -->  ni61 ===  ===  ===  ths8 2 0   682  6.4651E+00
+--
+ ni62           -->     n ni61 ===       ks03 0 1  -683 -1.0596E+01
+    n ni61      -->  ni62 ===  ===  ===  ks03 0 0   683  1.0596E+01
+--
+ ni62           -->   he4 fe58 ===       ths8 2 1  -684 -7.0163E+00
+  he4 fe58      -->  ni62 ===  ===  ===  ths8 2 0   684  7.0163E+00
+--
+ ni63           -->     n ni62 ===       ks03 0 1  -685 -6.8378E+00
+    n ni62      -->  ni63 ===  ===  ===  ks03 0 0   685  6.8378E+00
+--
+ ni64           -->     n ni63 ===       ks03 0 1  -686 -9.6575E+00
+    n ni63      -->  ni64 ===  ===  ===  ks03 0 0   686  9.6575E+00
+--
+ cu57           -->     p ni56 ===       wien 1 1  -687 -6.9031E-01
+ cu57           -->     p ni56 ===       wien 2 1  -687 -6.9031E-01
+ cu57           -->     p ni56 ===       wien 2 1  -687 -6.9031E-01
+ cu57           -->     p ni56 ===       wien 2 1  -687 -6.9031E-01
+ cu57           -->     p ni56 ===       wien 2 1  -687 -6.9031E-01
+    p ni56      -->  cu57 ===  ===  ===  wien 1 0   687  6.9031E-01
+    p ni56      -->  cu57 ===  ===  ===  wien 2 0   687  6.9031E-01
+    p ni56      -->  cu57 ===  ===  ===  wien 2 0   687  6.9031E-01
+    p ni56      -->  cu57 ===  ===  ===  wien 2 0   687  6.9031E-01
+    p ni56      -->  cu57 ===  ===  ===  wien 2 0   687  6.9031E-01
+--
+ cu57           -->   he4 co53 ===       ths8 2 1  -688 -7.0745E+00
+  he4 co53      -->  cu57 ===  ===  ===  ths8 2 0   688  7.0745E+00
+--
+ cu58           -->     n cu57 ===       ths8 2 1  -689 -1.2430E+01
+    n cu57      -->  cu58 ===  ===  ===  ths8 2 0   689  1.2430E+01
+--
+ cu58           -->     p ni57 ===       ths8 2 1  -690 -2.8729E+00
+    p ni57      -->  cu58 ===  ===  ===  ths8 2 0   690  2.8729E+00
+--
+ cu58           -->   he4 co54 ===       ths8 2 1  -691 -6.0827E+00
+  he4 co54      -->  cu58 ===  ===  ===  ths8 2 0   691  6.0827E+00
+--
+ cu59           -->     n cu58 ===       ths8 2 1  -692 -1.2762E+01
+    n cu58      -->  cu59 ===  ===  ===  ths8 2 0   692  1.2762E+01
+--
+ cu59           -->     p ni58 ===       si13 1 1  -693 -3.4185E+00
+    p ni58      -->  cu59 ===  ===  ===  si13 1 0   693  3.4185E+00
+--
+ cu59           -->   he4 co55 ===       ths8 2 1  -694 -4.7534E+00
+  he4 co55      -->  cu59 ===  ===  ===  ths8 2 0   694  4.7534E+00
+--
+ cu60           -->     n cu59 ===       ths8 2 1  -695 -1.0058E+01
+    n cu59      -->  cu60 ===  ===  ===  ths8 2 0   695  1.0058E+01
+--
+ cu60           -->     p ni59 ===       ths8 2 1  -696 -4.4774E+00
+    p ni59      -->  cu60 ===  ===  ===  ths8 2 0   696  4.4774E+00
+--
+ cu60           -->   he4 co56 ===       ths8 2 1  -697 -4.7297E+00
+  he4 co56      -->  cu60 ===  ===  ===  ths8 2 0   697  4.7297E+00
+--
+ cu61           -->     n cu60 ===       ths8 2 1  -698 -1.1711E+01
+    n cu60      -->  cu61 ===  ===  ===  ths8 2 0   698  1.1711E+01
+--
+ cu61           -->     p ni60 ===       si13 1 1  -699 -4.8002E+00
+    p ni60      -->  cu61 ===  ===  ===  si13 1 0   699  4.8002E+00
+--
+ cu61           -->   he4 co57 ===       ths8 2 1  -700 -5.0637E+00
+  he4 co57      -->  cu61 ===  ===  ===  ths8 2 0   700  5.0637E+00
+--
+ cu62           -->     n cu61 ===       ths8 2 1  -701 -8.8745E+00
+    n cu61      -->  cu62 ===  ===  ===  ths8 2 0   701  8.8745E+00
+--
+ cu62           -->     p ni61 ===       si13 1 1  -702 -5.8546E+00
+    p ni61      -->  cu62 ===  ===  ===  si13 1 0   702  5.8546E+00
+--
+ cu62           -->   he4 co58 ===       ths8 2 1  -703 -5.3653E+00
+  he4 co58      -->  cu62 ===  ===  ===  ths8 2 0   703  5.3653E+00
+--
+ cu63           -->     n cu62 ===       ths8 2 1  -704 -1.0864E+01
+    n cu62      -->  cu63 ===  ===  ===  ths8 2 0   704  1.0864E+01
+--
+ cu63           -->     p ni62 ===       si13 1 1  -705 -6.1224E+00
+    p ni62      -->  cu63 ===  ===  ===  si13 1 0   705  6.1224E+00
+--
+ cu63           -->   he4 co59 ===       ths8 2 1  -706 -5.7751E+00
+  he4 co59      -->  cu63 ===  ===  ===  ths8 2 0   706  5.7751E+00
+--
+ cu64           -->     n cu63 ===       ks03 0 1  -707 -7.9161E+00
+    n cu63      -->  cu64 ===  ===  ===  ks03 0 0   707  7.9161E+00
+--
+ cu64           -->     p ni63 ===       ths8 2 1  -708 -7.2007E+00
+    p ni63      -->  cu64 ===  ===  ===  ths8 2 0   708  7.2007E+00
+--
+ cu65           -->     n cu64 ===       ths8 2 1  -709 -9.9106E+00
+    n cu64      -->  cu65 ===  ===  ===  ths8 2 0   709  9.9106E+00
+--
+ cu65           -->     p ni64 ===       si13 1 1  -710 -7.4539E+00
+    p ni64      -->  cu65 ===  ===  ===  si13 1 0   710  7.4539E+00
+--
+ zn59           -->     p cu58 ===       nfis 1 1  -711 -2.8368E+00
+ zn59           -->     p cu58 ===       nfis 1 1  -711 -2.8368E+00
+ zn59           -->     p cu58 ===       nfis 1 1  -711 -2.8368E+00
+    p cu58      -->  zn59 ===  ===  ===  nfis 1 0   711  2.8368E+00
+    p cu58      -->  zn59 ===  ===  ===  nfis 1 0   711  2.8368E+00
+    p cu58      -->  zn59 ===  ===  ===  nfis 1 0   711  2.8368E+00
+--
+ zn59           -->     p ni58 ===       wc12 0 0   712  5.7242E+00
+--
+ zn60           -->     n zn59 ===       ths8 2 1  -713 -1.5030E+01
+    n zn59      -->  zn60 ===  ===  ===  ths8 2 0   713  1.5030E+01
+--
+ zn60           -->     p cu59 ===       ths8 2 1  -714 -5.1050E+00
+    p cu59      -->  zn60 ===  ===  ===  ths8 2 0   714  5.1050E+00
+--
+ zn60           -->   he4 ni56 ===       ths8 2 1  -715 -2.6917E+00
+  he4 ni56      -->  zn60 ===  ===  ===  ths8 2 0   715  2.6917E+00
+--
+ zn61           -->     n zn60 ===       ths8 2 1  -716 -1.0241E+01
+    n zn60      -->  zn61 ===  ===  ===  ths8 2 0   716  1.0241E+01
+--
+ zn61           -->     p cu60 ===       ths8 2 1  -717 -5.2877E+00
+    p cu60      -->  zn61 ===  ===  ===  ths8 2 0   717  5.2877E+00
+--
+ zn61           -->   he4 ni57 ===       ths8 2 1  -718 -2.6850E+00
+  he4 ni57      -->  zn61 ===  ===  ===  ths8 2 0   718  2.6850E+00
+--
+ zn62           -->     n zn61 ===       ths8 2 1  -719 -1.2896E+01
+    n zn61      -->  zn62 ===  ===  ===  ths8 2 0   719  1.2896E+01
+--
+ zn62           -->     p cu61 ===       ths8 2 1  -720 -6.4727E+00
+    p cu61      -->  zn62 ===  ===  ===  ths8 2 0   720  6.4727E+00
+--
+ zn62           -->   he4 ni58 ===       ths8 2 1  -721 -3.3643E+00
+  he4 ni58      -->  zn62 ===  ===  ===  ths8 2 0   721  3.3643E+00
+--
+ zn63           -->     n zn62 ===       ths8 2 1  -722 -9.1169E+00
+    n zn62      -->  zn63 ===  ===  ===  ths8 2 0   722  9.1169E+00
+--
+ zn63           -->     p cu62 ===       ths8 2 1  -723 -6.7151E+00
+    p cu62      -->  zn63 ===  ===  ===  ths8 2 0   723  6.7151E+00
+--
+ zn63           -->   he4 ni59 ===       ths8 2 1  -724 -3.4818E+00
+  he4 ni59      -->  zn63 ===  ===  ===  ths8 2 0   724  3.4818E+00
+--
+ zn64           -->     n zn63 ===       ths8 2 1  -725 -1.1862E+01
+    n zn63      -->  zn64 ===  ===  ===  ths8 2 0   725  1.1862E+01
+--
+ zn64           -->     p cu63 ===       ths8 2 1  -726 -7.7134E+00
+    p cu63      -->  zn64 ===  ===  ===  ths8 2 0   726  7.7134E+00
+--
+ zn64           -->   he4 ni60 ===       ths8 2 1  -727 -3.9561E+00
+  he4 ni60      -->  zn64 ===  ===  ===  ths8 2 0   727  3.9561E+00
+--
+ zn65           -->     n zn64 ===       ks03 0 1  -728 -7.9793E+00
+    n zn64      -->  zn65 ===  ===  ===  ks03 0 0   728  7.9793E+00
+--
+ zn65           -->     p cu64 ===       ths8 2 1  -729 -7.7766E+00
+    p cu64      -->  zn65 ===  ===  ===  ths8 2 0   729  7.7766E+00
+--
+ zn65           -->   he4 ni61 ===       ths8 2 1  -730 -4.1153E+00
+  he4 ni61      -->  zn65 ===  ===  ===  ths8 2 0   730  4.1153E+00
+--
+ zn66           -->     n zn65 ===       ks03 0 1  -731 -1.1059E+01
+    n zn65      -->  zn66 ===  ===  ===  ks03 0 0   731  1.1059E+01
+--
+ zn66           -->     p cu65 ===       ths8 2 1  -732 -8.9246E+00
+    p cu65      -->  zn66 ===  ===  ===  ths8 2 0   732  8.9246E+00
+--
+ zn66           -->   he4 ni62 ===       ths8 2 1  -733 -4.5781E+00
+  he4 ni62      -->  zn66 ===  ===  ===  ths8 2 0   733  4.5781E+00
+--
+ ga62           -->     p zn61 ===       nfis 1 1  -734 -2.9321E+00
+ ga62           -->     p zn61 ===       nfis 1 1  -734 -2.9321E+00
+ ga62           -->     p zn61 ===       nfis 1 1  -734 -2.9321E+00
+    p zn61      -->  ga62 ===  ===  ===  nfis 1 0   734  2.9321E+00
+    p zn61      -->  ga62 ===  ===  ===  nfis 1 0   734  2.9321E+00
+    p zn61      -->  ga62 ===  ===  ===  nfis 1 0   734  2.9321E+00
+--
+ ga62           -->   he4 cu58 ===       ths8 2 1  -735 -2.7442E+00
+  he4 cu58      -->  ga62 ===  ===  ===  ths8 2 0   735  2.7442E+00
+--
+ ga63           -->     n ga62 ===       ths8 2 1  -736 -1.2632E+01
+    n ga62      -->  ga63 ===  ===  ===  ths8 2 0   736  1.2632E+01
+--
+ ga63           -->     p zn62 ===       nfis 1 1  -737 -2.6686E+00
+ ga63           -->     p zn62 ===       nfis 1 1  -737 -2.6686E+00
+ ga63           -->     p zn62 ===       nfis 1 1  -737 -2.6686E+00
+ ga63           -->     p zn62 ===       nfis 1 1  -737 -2.6686E+00
+    p zn62      -->  ga63 ===  ===  ===  nfis 1 0   737  2.6686E+00
+    p zn62      -->  ga63 ===  ===  ===  nfis 1 0   737  2.6686E+00
+    p zn62      -->  ga63 ===  ===  ===  nfis 1 0   737  2.6686E+00
+    p zn62      -->  ga63 ===  ===  ===  nfis 1 0   737  2.6686E+00
+--
+ ga63           -->   he4 cu59 ===       ths8 2 1  -738 -2.6143E+00
+  he4 cu59      -->  ga63 ===  ===  ===  ths8 2 0   738  2.6143E+00
+--
+ ga64           -->     n ga63 ===       ths8 2 1  -739 -1.0358E+01
+    n ga63      -->  ga64 ===  ===  ===  ths8 2 0   739  1.0358E+01
+--
+ ga64           -->     p zn63 ===       ths8 2 1  -740 -3.9095E+00
+    p zn63      -->  ga64 ===  ===  ===  ths8 2 0   740  3.9095E+00
+--
+ ga64           -->   he4 cu60 ===       ths8 2 1  -741 -2.9139E+00
+  he4 cu60      -->  ga64 ===  ===  ===  ths8 2 0   741  2.9139E+00
+--
+ ge63           -->     p ga62 ===       nfis 1 1  -742 -2.2238E+00
+ ge63           -->     p ga62 ===       nfis 1 1  -742 -2.2238E+00
+ ge63           -->     p ga62 ===       nfis 1 1  -742 -2.2238E+00
+ ge63           -->     p ga62 ===       nfis 1 1  -742 -2.2238E+00
+ ge63           -->     p ga62 ===       nfis 1 1  -742 -2.2238E+00
+    p ga62      -->  ge63 ===  ===  ===  nfis 1 0   742  2.2238E+00
+    p ga62      -->  ge63 ===  ===  ===  nfis 1 0   742  2.2238E+00
+    p ga62      -->  ge63 ===  ===  ===  nfis 1 0   742  2.2238E+00
+    p ga62      -->  ge63 ===  ===  ===  nfis 1 0   742  2.2238E+00
+    p ga62      -->  ge63 ===  ===  ===  nfis 1 0   742  2.2238E+00
+--
+ ge63           -->   he4 zn59 ===       ths8 2 1  -743 -2.1312E+00
+  he4 zn59      -->  ge63 ===  ===  ===  ths8 2 0   743  2.1312E+00
+--
+ ge64           -->     n ge63 ===       ths8 2 1  -744 -1.5466E+01
+    n ge63      -->  ge64 ===  ===  ===  ths8 2 0   744  1.5466E+01
+--
+ ge64           -->     p ga63 ===       ths8 2 1  -745 -5.0574E+00
+    p ga63      -->  ge64 ===  ===  ===  ths8 2 0   745  5.0574E+00
+--
+ ge64           -->   he4 zn60 ===       ths8 2 1  -746 -2.5667E+00
+  he4 zn60      -->  ge64 ===  ===  ===  ths8 2 0   746  2.5667E+00
+--
+  li6           -->     n    p  he4      cf88 2 1  -747 -3.6983E+00
+    n    p  he4 -->   li6 ===            cf88 2 0   747  3.6983E+00
+--
+  be9           -->     n  he4  he4      ac12 1 1  -748 -1.5727E+00
+  be9           -->     n  he4  he4      ac12 2 1  -748 -1.5727E+00
+    n  he4  he4 -->   be9 ===            ac12 1 0   748  1.5727E+00
+    n  he4  he4 -->   be9 ===            ac12 2 0   748  1.5727E+00
+--
+  c12           -->   he4  he4  he4      fy05 2 1  -749 -7.2747E+00
+  c12           -->   he4  he4  he4      fy05 2 1  -749 -7.2747E+00
+  c12           -->   he4  he4  he4      fy05 1 1  -749 -7.2747E+00
+  he4  he4  he4 -->   c12 ===            fy05 1 0   749  7.2747E+00
+  he4  he4  he4 -->   c12 ===            fy05 2 0   749  7.2747E+00
+  he4  he4  he4 -->   c12 ===            fy05 2 0   749  7.2747E+00
+--
+    p    p      -->     d ===  ===  ===  bet+ 0 0   750  1.4422E+00
+--
+    p    p      -->     d ===  ===  ===    ec 0 0   751  1.4422E+00
+--
+    p  he3      -->   he4 ===  ===  ===  bet+ 0 0   752  1.9795E+01
+--
+    d    d      -->     n  he3 ===  ===  de04 1 0   753  3.2689E+00
+    n  he3      -->     d    d ===  ===  de04 1 1  -753 -3.2689E+00
+--
+    d  he3      -->     p  he4 ===  ===  de04 0 0   754  1.8353E+01
+    d  he3      -->     p  he4 ===  ===  de04 0 0   754  1.8353E+01
+    p  he4      -->     d  he3 ===  ===  de04 0 1  -754 -1.8353E+01
+    p  he4      -->     d  he3 ===  ===  de04 0 1  -754 -1.8353E+01
+--
+  he4  he3      -->     p  li6 ===  ===  pt05 1 1  -755 -4.0197E+00
+    p  li6      -->   he4  he3 ===  ===  pt05 1 0   755  4.0197E+00
+--
+  he4  he4      -->     n  be7 ===  ===   wag 1 1  -756 -1.8990E+01
+    n  be7      -->   he4  he4 ===  ===   wag 1 0   756  1.8990E+01
+--
+  he4  he4      -->     p  li7 ===  ===  de04 0 1  -757 -1.7346E+01
+  he4  he4      -->     p  li7 ===  ===  de04 2 1  -757 -1.7346E+01
+  he4  he4      -->     p  li7 ===  ===  de04 0 1  -757 -1.7346E+01
+  he4  he4      -->     p  li7 ===  ===  de04 2 1  -757 -1.7346E+01
+    p  li7      -->   he4  he4 ===  ===  de04 0 0   757  1.7346E+01
+    p  li7      -->   he4  he4 ===  ===  de04 2 0   757  1.7346E+01
+    p  li7      -->   he4  he4 ===  ===  de04 0 0   757  1.7346E+01
+    p  li7      -->   he4  he4 ===  ===  de04 2 0   757  1.7346E+01
+--
+    d  li6      -->     n  be7 ===  ===  mafo 1 0   758  3.3823E+00
+    n  be7      -->     d  li6 ===  ===  mafo 1 1  -758 -3.3823E+00
+--
+    d  li6      -->     p  li7 ===  ===  mafo 1 0   759  5.0265E+00
+    p  li7      -->     d  li6 ===  ===  mafo 1 1  -759 -5.0265E+00
+--
+  he4  li6      -->     p  be9 ===  ===  cf88 1 1  -760 -2.1256E+00
+  he4  li6      -->     p  be9 ===  ===  cf88 2 1  -760 -2.1256E+00
+  he4  li6      -->     p  be9 ===  ===  cf88 2 1  -760 -2.1256E+00
+    p  be9      -->   he4  li6 ===  ===  cf88 1 0   760  2.1256E+00
+    p  be9      -->   he4  li6 ===  ===  cf88 2 0   760  2.1256E+00
+    p  be9      -->   he4  li6 ===  ===  cf88 2 0   760  2.1256E+00
+--
+    p  li7      -->     n  be7 ===  ===  de04 0 1  -761 -1.6442E+00
+    p  li7      -->     n  be7 ===  ===  de04 0 1  -761 -1.6442E+00
+    n  be7      -->     p  li7 ===  ===  de04 0 0   761  1.6442E+00
+    n  be7      -->     p  li7 ===  ===  de04 0 0   761  1.6442E+00
+--
+  he4  li7      -->     n  b10 ===  ===  cf88 1 1  -762 -2.7900E+00
+    n  b10      -->   he4  li7 ===  ===  cf88 1 0   762  2.7900E+00
+--
+  he4  be7      -->     p  b10 ===  ===  nacr 1 1  -763 -1.1458E+00
+  he4  be7      -->     p  b10 ===  ===  nacr 2 1  -763 -1.1458E+00
+    p  b10      -->   he4  be7 ===  ===  nacr 1 0   763  1.1458E+00
+    p  b10      -->   he4  be7 ===  ===  nacr 2 0   763  1.1458E+00
+--
+  he4  be9      -->     n  c12 ===  ===  cf88 1 0   764  5.7020E+00
+  he4  be9      -->     n  c12 ===  ===  cf88 2 0   764  5.7020E+00
+  he4  be9      -->     n  c12 ===  ===  cf88 2 0   764  5.7020E+00
+  he4  be9      -->     n  c12 ===  ===  cf88 2 0   764  5.7020E+00
+  he4  be9      -->     n  c12 ===  ===  cf88 2 0   764  5.7020E+00
+    n  c12      -->   he4  be9 ===  ===  cf88 1 1  -764 -5.7020E+00
+    n  c12      -->   he4  be9 ===  ===  cf88 2 1  -764 -5.7020E+00
+    n  c12      -->   he4  be9 ===  ===  cf88 2 1  -764 -5.7020E+00
+    n  c12      -->   he4  be9 ===  ===  cf88 2 1  -764 -5.7020E+00
+    n  c12      -->   he4  be9 ===  ===  cf88 2 1  -764 -5.7020E+00
+--
+  he4  b10      -->     n  n13 ===  ===  cf88 1 0   765  1.0588E+00
+    n  n13      -->   he4  b10 ===  ===  cf88 1 1  -765 -1.0588E+00
+--
+  he4  b10      -->     p  c13 ===  ===   wag 1 0   766  4.0617E+00
+    p  c13      -->   he4  b10 ===  ===   wag 1 1  -766 -4.0617E+00
+--
+  he4  b11      -->     n  n14 ===  ===  cf88 1 0   767  1.5811E-01
+  he4  b11      -->     n  n14 ===  ===  cf88 2 0   767  1.5811E-01
+  he4  b11      -->     n  n14 ===  ===  cf88 2 0   767  1.5811E-01
+  he4  b11      -->     n  n14 ===  ===  cf88 2 0   767  1.5811E-01
+    n  n14      -->   he4  b11 ===  ===  cf88 1 1  -767 -1.5811E-01
+    n  n14      -->   he4  b11 ===  ===  cf88 2 1  -767 -1.5811E-01
+    n  n14      -->   he4  b11 ===  ===  cf88 2 1  -767 -1.5811E-01
+    n  n14      -->   he4  b11 ===  ===  cf88 2 1  -767 -1.5811E-01
+--
+  he4  b11      -->     p  c14 ===  ===  bb92 2 0   768  7.8398E-01
+  he4  b11      -->     p  c14 ===  ===  bb92 2 0   768  7.8398E-01
+  he4  b11      -->     p  c14 ===  ===  bb92 2 0   768  7.8398E-01
+  he4  b11      -->     p  c14 ===  ===  bb92 2 0   768  7.8398E-01
+  he4  b11      -->     p  c14 ===  ===  bb92 1 0   768  7.8398E-01
+    p  c14      -->   he4  b11 ===  ===  bb92 2 1  -768 -7.8398E-01
+    p  c14      -->   he4  b11 ===  ===  bb92 2 1  -768 -7.8398E-01
+    p  c14      -->   he4  b11 ===  ===  bb92 2 1  -768 -7.8398E-01
+    p  c14      -->   he4  b11 ===  ===  bb92 2 1  -768 -7.8398E-01
+    p  c14      -->   he4  b11 ===  ===  bb92 1 1  -768 -7.8398E-01
+--
+  he4  c12      -->     n  o15 ===  ===  cf88 1 1  -769 -8.5020E+00
+    n  o15      -->   he4  c12 ===  ===  cf88 1 0   769  8.5020E+00
+--
+  he4  c12      -->     p  n15 ===  ===  nacr 1 1  -770 -4.9655E+00
+  he4  c12      -->     p  n15 ===  ===  nacr 2 1  -770 -4.9655E+00
+  he4  c12      -->     p  n15 ===  ===  nacr 2 1  -770 -4.9655E+00
+  he4  c12      -->     p  n15 ===  ===  nacr 2 1  -770 -4.9655E+00
+    p  n15      -->   he4  c12 ===  ===  nacr 1 0   770  4.9655E+00
+    p  n15      -->   he4  c12 ===  ===  nacr 2 0   770  4.9655E+00
+    p  n15      -->   he4  c12 ===  ===  nacr 2 0   770  4.9655E+00
+    p  n15      -->   he4  c12 ===  ===  nacr 2 0   770  4.9655E+00
+--
+  c12  c12      -->     n mg23 ===  ===  cf88 2 1  -771 -2.5981E+00
+    n mg23      -->   c12  c12 ===  ===  cf88 2 0   771  2.5981E+00
+--
+  c12  c12      -->     p na23 ===  ===  cf88 2 0   772  2.2409E+00
+    p na23      -->   c12  c12 ===  ===  cf88 2 1  -772 -2.2409E+00
+--
+  c12  c12      -->   he4 ne20 ===  ===  cf88 2 0   773  4.6170E+00
+  he4 ne20      -->   c12  c12 ===  ===  cf88 2 1  -773 -4.6170E+00
+--
+    p  c13      -->     n  n13 ===  ===  nacr 1 0  -774 -3.0028E+00
+    n  n13      -->     p  c13 ===  ===  nacr 1 1   774  3.0028E+00
+--
+    d  c13      -->     n  n14 ===  ===  bb92 1 0   775  5.3260E+00
+    n  n14      -->     d  c13 ===  ===  bb92 1 1  -775 -5.3260E+00
+--
+  he4  c13      -->     n  o16 ===  ===  gl12 0 0   776  2.2156E+00
+  he4  c13      -->     n  o16 ===  ===  gl12 0 0   776  2.2156E+00
+    n  o16      -->   he4  c13 ===  ===  gl12 0 1  -776 -2.2156E+00
+    n  o16      -->   he4  c13 ===  ===  gl12 0 1  -776 -2.2156E+00
+--
+    p  c14      -->     n  n14 ===  ===  cf88 1 1  -777 -6.2587E-01
+    p  c14      -->     n  n14 ===  ===  cf88 0 1  -777 -6.2587E-01
+    n  n14      -->     p  c14 ===  ===  cf88 1 0   777  6.2587E-01
+    n  n14      -->     p  c14 ===  ===  cf88 0 0   777  6.2587E-01
+--
+    d  c14      -->     n  n15 ===  ===  bk92 0 0   778  7.9829E+00
+    d  c14      -->     n  n15 ===  ===  bk92 0 0   778  7.9829E+00
+    n  n15      -->     d  c14 ===  ===  bk92 0 1  -778 -7.9829E+00
+    n  n15      -->     d  c14 ===  ===  bk92 0 1  -778 -7.9829E+00
+--
+  he4  c14      -->     n  o17 ===  ===  kg91 1 1  -779 -1.8177E+00
+  he4  c14      -->     n  o17 ===  ===  kg91 2 1  -779 -1.8177E+00
+  he4  c14      -->     n  o17 ===  ===  kg91 2 1  -779 -1.8177E+00
+    n  o17      -->   he4  c14 ===  ===  kg91 1 0   779  1.8177E+00
+    n  o17      -->   he4  c14 ===  ===  kg91 2 0   779  1.8177E+00
+    n  o17      -->   he4  c14 ===  ===  kg91 2 0   779  1.8177E+00
+--
+  he4  n13      -->     p  o16 ===  ===  cf88 1 0   780  5.2184E+00
+    p  o16      -->   he4  n13 ===  ===  cf88 1 1  -780 -5.2184E+00
+--
+    p  n14      -->     n  o14 ===  ===  nacr 0 0  -781 -5.9264E+00
+    n  o14      -->     p  n14 ===  ===  nacr 0 1   781  5.9264E+00
+--
+  he4  n14      -->     n  f17 ===  ===  nacr 0 0  -782 -4.7347E+00
+    n  f17      -->   he4  n14 ===  ===  nacr 0 1   782  4.7347E+00
+--
+  he4  n14      -->     p  o17 ===  ===  il10 1 1  -783 -1.1919E+00
+  he4  n14      -->     p  o17 ===  ===  il10 2 1  -783 -1.1919E+00
+  he4  n14      -->     p  o17 ===  ===  il10 2 1  -783 -1.1919E+00
+  he4  n14      -->     p  o17 ===  ===  il10 2 1  -783 -1.1919E+00
+    p  o17      -->   he4  n14 ===  ===  il10 1 0   783  1.1919E+00
+    p  o17      -->   he4  n14 ===  ===  il10 2 0   783  1.1919E+00
+    p  o17      -->   he4  n14 ===  ===  il10 2 0   783  1.1919E+00
+    p  o17      -->   he4  n14 ===  ===  il10 2 0   783  1.1919E+00
+--
+    p  n15      -->     n  o15 ===  ===  nacr 1 0  -784 -3.5365E+00
+    n  o15      -->     p  n15 ===  ===  nacr 1 1   784  3.5365E+00
+--
+  he4  n15      -->     n  f18 ===  ===  cf88 1 1  -785 -6.4181E+00
+    n  f18      -->   he4  n15 ===  ===  cf88 1 0   785  6.4181E+00
+--
+  he4  n15      -->     p  o18 ===  ===  il10 1 1  -786 -3.9798E+00
+  he4  n15      -->     p  o18 ===  ===  il10 2 1  -786 -3.9798E+00
+  he4  n15      -->     p  o18 ===  ===  il10 2 1  -786 -3.9798E+00
+  he4  n15      -->     p  o18 ===  ===  il10 2 1  -786 -3.9798E+00
+    p  o18      -->   he4  n15 ===  ===  il10 1 0   786  3.9798E+00
+    p  o18      -->   he4  n15 ===  ===  il10 2 0   786  3.9798E+00
+    p  o18      -->   he4  n15 ===  ===  il10 2 0   786  3.9798E+00
+    p  o18      -->   he4  n15 ===  ===  il10 2 0   786  3.9798E+00
+--
+  he4  o14      -->     p  f17 ===  ===  Ha96 1 0   787  1.1917E+00
+  he4  o14      -->     p  f17 ===  ===  Ha96 2 0   787  1.1917E+00
+  he4  o14      -->     p  f17 ===  ===  Ha96 2 0   787  1.1917E+00
+  he4  o14      -->     p  f17 ===  ===  Ha96 2 0   787  1.1917E+00
+  he4  o14      -->     p  f17 ===  ===  Ha96 2 0   787  1.1917E+00
+  he4  o14      -->     p  f17 ===  ===  Ha96 2 0   787  1.1917E+00
+    p  f17      -->   he4  o14 ===  ===  Ha96 1 1  -787 -1.1917E+00
+    p  f17      -->   he4  o14 ===  ===  Ha96 2 1  -787 -1.1917E+00
+    p  f17      -->   he4  o14 ===  ===  Ha96 2 1  -787 -1.1917E+00
+    p  f17      -->   he4  o14 ===  ===  Ha96 2 1  -787 -1.1917E+00
+    p  f17      -->   he4  o14 ===  ===  Ha96 2 1  -787 -1.1917E+00
+    p  f17      -->   he4  o14 ===  ===  Ha96 2 1  -787 -1.1917E+00
+--
+  he4  o15      -->     n ne18 ===  ===  ths8 2 1  -788 -8.1084E+00
+    n ne18      -->   he4  o15 ===  ===  ths8 2 0   788  8.1084E+00
+--
+  he4  o15      -->     p  f18 ===  ===  il10 1 1  -789 -2.8816E+00
+  he4  o15      -->     p  f18 ===  ===  il10 2 1  -789 -2.8816E+00
+  he4  o15      -->     p  f18 ===  ===  il10 2 1  -789 -2.8816E+00
+    p  f18      -->   he4  o15 ===  ===  il10 1 0   789  2.8816E+00
+    p  f18      -->   he4  o15 ===  ===  il10 2 0   789  2.8816E+00
+    p  f18      -->   he4  o15 ===  ===  il10 2 0   789  2.8816E+00
+--
+  he4  o16      -->     n ne19 ===  ===  ths8 2 1  -790 -1.2135E+01
+    n ne19      -->   he4  o16 ===  ===  ths8 2 0   790  1.2135E+01
+--
+  he4  o16      -->     p  f19 ===  ===  nacr 0 1  -791 -8.1136E+00
+  he4  o16      -->     p  f19 ===  ===  nacr 0 1  -791 -8.1136E+00
+  he4  o16      -->     p  f19 ===  ===  nacr 0 1  -791 -8.1136E+00
+  he4  o16      -->     p  f19 ===  ===  nacr 0 1  -791 -8.1136E+00
+  he4  o16      -->     p  f19 ===  ===  nacr 2 1  -791 -8.1136E+00
+    p  f19      -->   he4  o16 ===  ===  nacr 0 0   791  8.1136E+00
+    p  f19      -->   he4  o16 ===  ===  nacr 0 0   791  8.1136E+00
+    p  f19      -->   he4  o16 ===  ===  nacr 0 0   791  8.1136E+00
+    p  f19      -->   he4  o16 ===  ===  nacr 0 0   791  8.1136E+00
+    p  f19      -->   he4  o16 ===  ===  nacr 2 0   791  8.1136E+00
+--
+  c12  o16      -->     p al27 ===  ===  cf88 2 0   792  5.1707E+00
+    p al27      -->   c12  o16 ===  ===  cf88 2 1  -792 -5.1707E+00
+--
+  c12  o16      -->   he4 mg24 ===  ===  cf88 2 0   793  6.7717E+00
+  he4 mg24      -->   c12  o16 ===  ===  cf88 2 1  -793 -6.7717E+00
+--
+  o16  o16      -->     p  p31 ===  ===  cf88 2 0   794  7.6776E+00
+    p  p31      -->   o16  o16 ===  ===  cf88 2 1  -794 -7.6776E+00
+--
+  o16  o16      -->   he4 si28 ===  ===  cf88 2 0   795  9.5939E+00
+  he4 si28      -->   o16  o16 ===  ===  cf88 2 1  -795 -9.5939E+00
+--
+    p  o17      -->     n  f17 ===  ===   wag 1 1  -796 -3.5428E+00
+    n  f17      -->     p  o17 ===  ===   wag 1 0   796  3.5428E+00
+--
+  he4  o17      -->     n ne20 ===  ===  nacr 1 0   797  5.8677E-01
+  he4  o17      -->     n ne20 ===  ===  nacr 2 0   797  5.8677E-01
+  he4  o17      -->     n ne20 ===  ===  nacr 2 0   797  5.8677E-01
+    n ne20      -->   he4  o17 ===  ===  nacr 1 1  -797 -5.8677E-01
+    n ne20      -->   he4  o17 ===  ===  nacr 2 1  -797 -5.8677E-01
+    n ne20      -->   he4  o17 ===  ===  nacr 2 1  -797 -5.8677E-01
+--
+    p  o18      -->     n  f18 ===  ===   wag 1 1  -798 -2.4383E+00
+    n  f18      -->     p  o18 ===  ===   wag 1 0   798  2.4383E+00
+--
+  he4  o18      -->     n ne21 ===  ===  nacr 1 0  -799 -6.9744E-01
+  he4  o18      -->     n ne21 ===  ===  nacr 0 0  -799 -6.9744E-01
+  he4  o18      -->     n ne21 ===  ===  nacr 0 0  -799 -6.9744E-01
+    n ne21      -->   he4  o18 ===  ===  nacr 1 1   799  6.9744E-01
+    n ne21      -->   he4  o18 ===  ===  nacr 0 1   799  6.9744E-01
+    n ne21      -->   he4  o18 ===  ===  nacr 0 1   799  6.9744E-01
+--
+  he4  f17      -->     p ne20 ===  ===  nacr 0 1   800  4.1296E+00
+    p ne20      -->   he4  f17 ===  ===  nacr 0 0  -800 -4.1296E+00
+--
+    p  f18      -->     n ne18 ===  ===  ths8 2 1  -801 -5.2269E+00
+    n ne18      -->     p  f18 ===  ===  ths8 2 0   801  5.2269E+00
+--
+  he4  f18      -->     n na21 ===  ===  ths8 2 1  -802 -2.5887E+00
+    n na21      -->   he4  f18 ===  ===  ths8 2 0   802  2.5887E+00
+--
+  he4  f18      -->     p ne21 ===  ===  rpsm 2 0   803  1.7408E+00
+    p ne21      -->   he4  f18 ===  ===  rpsm 2 1  -803 -1.7408E+00
+--
+    p  f19      -->     n ne19 ===  ===  nacr 0 0  -804 -4.0218E+00
+    p  f19      -->     n ne19 ===  ===  nacr 0 0  -804 -4.0218E+00
+    n ne19      -->     p  f19 ===  ===  nacr 0 1   804  4.0218E+00
+    n ne19      -->     p  f19 ===  ===  nacr 0 1   804  4.0218E+00
+--
+  he4  f19      -->     n na22 ===  ===  cf88 1 1  -805 -1.9523E+00
+  he4  f19      -->     n na22 ===  ===  cf88 0 1  -805 -1.9523E+00
+    n na22      -->   he4  f19 ===  ===  cf88 1 0   805  1.9523E+00
+    n na22      -->   he4  f19 ===  ===  cf88 0 0   805  1.9523E+00
+--
+  he4  f19      -->     p ne22 ===  ===  ua08 2 0   806  1.6732E+00
+  he4  f19      -->     p ne22 ===  ===  ua08 2 0   806  1.6732E+00
+  he4  f19      -->     p ne22 ===  ===  ua08 2 0   806  1.6732E+00
+    p ne22      -->   he4  f19 ===  ===  ua08 2 1  -806 -1.6732E+00
+    p ne22      -->   he4  f19 ===  ===  ua08 2 1  -806 -1.6732E+00
+    p ne22      -->   he4  f19 ===  ===  ua08 2 1  -806 -1.6732E+00
+--
+  he4 ne18      -->     p na21 ===  ===  mv09 2 0   807  2.6382E+00
+  he4 ne18      -->     p na21 ===  ===  mv09 2 0   807  2.6382E+00
+  he4 ne18      -->     p na21 ===  ===  mv09 2 0   807  2.6382E+00
+  he4 ne18      -->     p na21 ===  ===  mv09 2 0   807  2.6382E+00
+  he4 ne18      -->     p na21 ===  ===  mv09 2 0   807  2.6382E+00
+  he4 ne18      -->     p na21 ===  ===  mv09 2 0   807  2.6382E+00
+  he4 ne18      -->     p na21 ===  ===  mv09 2 0   807  2.6382E+00
+    p na21      -->   he4 ne18 ===  ===  mv09 2 1  -807 -2.6382E+00
+    p na21      -->   he4 ne18 ===  ===  mv09 2 1  -807 -2.6382E+00
+    p na21      -->   he4 ne18 ===  ===  mv09 2 1  -807 -2.6382E+00
+    p na21      -->   he4 ne18 ===  ===  mv09 2 1  -807 -2.6382E+00
+    p na21      -->   he4 ne18 ===  ===  mv09 2 1  -807 -2.6382E+00
+    p na21      -->   he4 ne18 ===  ===  mv09 2 1  -807 -2.6382E+00
+    p na21      -->   he4 ne18 ===  ===  mv09 2 1  -807 -2.6382E+00
+--
+  he4 ne19      -->     p na22 ===  ===  ths8 2 0   808  2.0695E+00
+    p na22      -->   he4 ne19 ===  ===  ths8 2 1  -808 -2.0695E+00
+--
+  he4 ne20      -->     n mg23 ===  ===  ths8 2 1  -809 -7.2151E+00
+    n mg23      -->   he4 ne20 ===  ===  ths8 2 0   809  7.2151E+00
+--
+  he4 ne20      -->     p na23 ===  ===  il10 1 1  -810 -2.3761E+00
+  he4 ne20      -->     p na23 ===  ===  il10 2 1  -810 -2.3761E+00
+  he4 ne20      -->     p na23 ===  ===  il10 2 1  -810 -2.3761E+00
+    p na23      -->   he4 ne20 ===  ===  il10 1 0   810  2.3761E+00
+    p na23      -->   he4 ne20 ===  ===  il10 2 0   810  2.3761E+00
+    p na23      -->   he4 ne20 ===  ===  il10 2 0   810  2.3761E+00
+--
+  c12 ne20      -->     p  p31 ===  ===  rolf 2 0   811  1.0110E+01
+    p  p31      -->   c12 ne20 ===  ===  rolf 2 1  -811 -1.0110E+01
+--
+  c12 ne20      -->   he4 si28 ===  ===  rolf 2 0   812  1.2026E+01
+  he4 si28      -->   c12 ne20 ===  ===  rolf 2 1  -812 -1.2026E+01
+--
+    p ne21      -->     n na21 ===  ===  ths8 2 1  -813 -4.3295E+00
+    n na21      -->     p ne21 ===  ===  ths8 2 0   813  4.3295E+00
+--
+  he4 ne21      -->     n mg24 ===  ===  nacr 1 0   814  2.5554E+00
+  he4 ne21      -->     n mg24 ===  ===  nacr 2 0   814  2.5554E+00
+    n mg24      -->   he4 ne21 ===  ===  nacr 1 1  -814 -2.5554E+00
+    n mg24      -->   he4 ne21 ===  ===  nacr 2 1  -814 -2.5554E+00
+--
+    p ne22      -->     n na22 ===  ===  cf88 1 1  -815 -3.6255E+00
+    n na22      -->     p ne22 ===  ===  cf88 1 0   815  3.6255E+00
+--
+  he4 ne22      -->     n mg25 ===  ===  li12 1 0  -816 -4.7834E-01
+  he4 ne22      -->     n mg25 ===  ===  li12 1 0  -816 -4.7834E-01
+  he4 ne22      -->     n mg25 ===  ===  li12 2 0  -816 -4.7834E-01
+    n mg25      -->   he4 ne22 ===  ===  li12 1 1   816  4.7834E-01
+    n mg25      -->   he4 ne22 ===  ===  li12 1 1   816  4.7834E-01
+    n mg25      -->   he4 ne22 ===  ===  li12 2 1   816  4.7834E-01
+--
+  he4 na21      -->     p mg24 ===  ===  nacr 0 1   817  6.8849E+00
+    p mg24      -->   he4 na21 ===  ===  nacr 0 0  -817 -6.8849E+00
+--
+  he4 na22      -->     n al25 ===  ===  ths8 2 1  -818 -1.9117E+00
+    n al25      -->   he4 na22 ===  ===  ths8 2 0   818  1.9117E+00
+--
+  he4 na22      -->     p mg25 ===  ===  ths8 2 0   819  3.1472E+00
+    p mg25      -->   he4 na22 ===  ===  ths8 2 1  -819 -3.1472E+00
+--
+    p na23      -->     n mg23 ===  ===  nacr 0 0  -820 -4.8389E+00
+    n mg23      -->     p na23 ===  ===  nacr 0 1   820  4.8389E+00
+--
+  he4 na23      -->     n al26 ===  ===  ol11 1 1  -821 -2.9661E+00
+  he4 na23      -->     n al26 ===  ===  ol11 2 1  -821 -2.9661E+00
+  he4 na23      -->     n al26 ===  ===  ol11 2 1  -821 -2.9661E+00
+    n al26      -->   he4 na23 ===  ===  ol11 1 0   821  2.9661E+00
+    n al26      -->   he4 na23 ===  ===  ol11 2 0   821  2.9661E+00
+    n al26      -->   he4 na23 ===  ===  ol11 2 0   821  2.9661E+00
+--
+  he4 na23      -->     p mg26 ===  ===  ths8 2 0   822  1.8206E+00
+    p mg26      -->   he4 na23 ===  ===  ths8 2 1  -822 -1.8206E+00
+--
+  he4 mg23      -->     p al26 ===  ===  ths8 2 0   823  1.8728E+00
+    p al26      -->   he4 mg23 ===  ===  ths8 2 1  -823 -1.8728E+00
+--
+  he4 mg24      -->     p al27 ===  ===  il10 2 1  -824 -1.6009E+00
+  he4 mg24      -->     p al27 ===  ===  il10 2 1  -824 -1.6009E+00
+  he4 mg24      -->     p al27 ===  ===  il10 1 1  -824 -1.6009E+00
+    p al27      -->   he4 mg24 ===  ===  il10 1 0   824  1.6009E+00
+    p al27      -->   he4 mg24 ===  ===  il10 2 0   824  1.6009E+00
+    p al27      -->   he4 mg24 ===  ===  il10 2 0   824  1.6009E+00
+--
+    p mg25      -->     n al25 ===  ===  ths8 2 1  -825 -5.0589E+00
+    n al25      -->     p mg25 ===  ===  ths8 2 0   825  5.0589E+00
+--
+  he4 mg25      -->     n si28 ===  ===  nacr 1 0   826  2.6536E+00
+  he4 mg25      -->     n si28 ===  ===  nacr 0 0   826  2.6536E+00
+    n si28      -->   he4 mg25 ===  ===  nacr 1 1  -826 -2.6536E+00
+    n si28      -->   he4 mg25 ===  ===  nacr 0 1  -826 -2.6536E+00
+--
+    p mg26      -->     n al26 ===  ===  ol11 1 1  -827 -4.7868E+00
+    p mg26      -->     n al26 ===  ===  ol11 2 1  -827 -4.7868E+00
+    p mg26      -->     n al26 ===  ===  ol11 2 1  -827 -4.7868E+00
+    n al26      -->     p mg26 ===  ===  ol11 1 0   827  4.7868E+00
+    n al26      -->     p mg26 ===  ===  ol11 2 0   827  4.7868E+00
+    n al26      -->     p mg26 ===  ===  ol11 2 0   827  4.7868E+00
+--
+  he4 mg26      -->     n si29 ===  ===  nacr 1 0   828  3.4132E-02
+  he4 mg26      -->     n si29 ===  ===  nacr 2 0   828  3.4132E-02
+    n si29      -->   he4 mg26 ===  ===  nacr 1 1  -828 -3.4132E-02
+    n si29      -->   he4 mg26 ===  ===  nacr 2 1  -828 -3.4132E-02
+--
+  he4 al25      -->     p si28 ===  ===  ths8 2 0   829  7.7126E+00
+    p si28      -->   he4 al25 ===  ===  ths8 2 1  -829 -7.7126E+00
+--
+  he4 al26      -->     n  p29 ===  ===  ths8 2 1  -830 -9.0389E-01
+    n  p29      -->   he4 al26 ===  ===  ths8 2 0   830  9.0389E-01
+--
+  he4 al26      -->     p si29 ===  ===  ths8 2 0   831  4.8209E+00
+    p si29      -->   he4 al26 ===  ===  ths8 2 1  -831 -4.8209E+00
+--
+  he4 al27      -->     n  p30 ===  ===  nacr 0 0  -832 -2.6425E+00
+  he4 al27      -->     n  p30 ===  ===  nacr 0 0  -832 -2.6425E+00
+    n  p30      -->   he4 al27 ===  ===  nacr 0 1   832  2.6425E+00
+    n  p30      -->   he4 al27 ===  ===  nacr 0 1   832  2.6425E+00
+--
+  he4 al27      -->     p si30 ===  ===  ths8 2 0   833  2.3722E+00
+    p si30      -->   he4 al27 ===  ===  ths8 2 1  -833 -2.3722E+00
+--
+  he4 si28      -->     p  p31 ===  ===  il10 2 1  -834 -1.9163E+00
+  he4 si28      -->     p  p31 ===  ===  il10 2 1  -834 -1.9163E+00
+  he4 si28      -->     p  p31 ===  ===  il10 1 1  -834 -1.9163E+00
+    p  p31      -->   he4 si28 ===  ===  il10 1 0   834  1.9163E+00
+    p  p31      -->   he4 si28 ===  ===  il10 2 0   834  1.9163E+00
+    p  p31      -->   he4 si28 ===  ===  il10 2 0   834  1.9163E+00
+--
+    p si29      -->     n  p29 ===  ===  ths8 2 1  -835 -5.7248E+00
+    n  p29      -->     p si29 ===  ===  ths8 2 0   835  5.7248E+00
+--
+  he4 si29      -->     n  s32 ===  ===  ths8 2 1  -836 -1.5259E+00
+    n  s32      -->   he4 si29 ===  ===  ths8 2 0   836  1.5259E+00
+--
+  he4 si29      -->     p  p32 ===  ===  rath 0 1  -837 -2.4543E+00
+    p  p32      -->   he4 si29 ===  ===  rath 0 0   837  2.4543E+00
+--
+    p si30      -->     n  p30 ===  ===  ths8 2 1  -838 -5.0147E+00
+    n  p30      -->     p si30 ===  ===  ths8 2 0   838  5.0147E+00
+--
+  he4 si30      -->     n  s33 ===  ===  ths8 2 1  -839 -3.4935E+00
+    n  s33      -->   he4 si30 ===  ===  ths8 2 0   839  3.4935E+00
+--
+  he4 si30      -->     p  p33 ===  ===  rath 0 1  -840 -2.9597E+00
+    p  p33      -->   he4 si30 ===  ===  rath 0 0   840  2.9597E+00
+--
+    p si31      -->     n  p31 ===  ===  rath 0 0   841  7.0916E-01
+    n  p31      -->     p si31 ===  ===  rath 0 1  -841 -7.0916E-01
+--
+  he4 si31      -->     n  s34 ===  ===  rath 0 0   842  1.3362E+00
+    n  s34      -->   he4 si31 ===  ===  rath 0 1  -842 -1.3362E+00
+--
+    p si32      -->     n  p32 ===  ===  rath 0 1  -843 -5.5516E-01
+    n  p32      -->     p si32 ===  ===  rath 0 0   843  5.5516E-01
+--
+  he4 si32      -->     n  s35 ===  ===  ths8 2 1  -844 -8.7791E-01
+    n  s35      -->   he4 si32 ===  ===  ths8 2 0   844  8.7791E-01
+--
+  he4  p29      -->     p  s32 ===  ===  ths8 2 0   845  4.1989E+00
+    p  s32      -->   he4  p29 ===  ===  ths8 2 1  -845 -4.1989E+00
+--
+  he4  p30      -->     n cl33 ===  ===  ths8 2 1  -846 -4.8437E+00
+    n cl33      -->   he4  p30 ===  ===  ths8 2 0   846  4.8437E+00
+--
+  he4  p30      -->     p  s33 ===  ===  ths8 2 0   847  1.5212E+00
+    p  s33      -->   he4  p30 ===  ===  ths8 2 1  -847 -1.5212E+00
+--
+  he4  p31      -->     n cl34 ===  ===  ths8 2 1  -848 -5.6469E+00
+    n cl34      -->   he4  p31 ===  ===  ths8 2 0   848  5.6469E+00
+--
+  he4  p31      -->     p  s34 ===  ===  ths8 2 0   849  6.2707E-01
+    p  s34      -->   he4  p31 ===  ===  ths8 2 1  -849 -6.2707E-01
+--
+    p  p32      -->     n  s32 ===  ===  rath 0 0   850  9.2831E-01
+    n  s32      -->     p  p32 ===  ===  rath 0 1  -850 -9.2831E-01
+--
+  he4  p32      -->     n cl35 ===  ===  ths8 2 1  -851 -9.3776E-01
+    n cl35      -->   he4  p32 ===  ===  ths8 2 0   851  9.3776E-01
+--
+  he4  p32      -->     p  s35 ===  ===  ths8 2 1  -852 -3.2275E-01
+    p  s35      -->   he4  p32 ===  ===  ths8 2 0   852  3.2275E-01
+--
+    p  p33      -->     n  s33 ===  ===  ths8 2 1  -853 -5.3384E-01
+    n  s33      -->     p  p33 ===  ===  ths8 2 0   853  5.3384E-01
+--
+  he4  p33      -->     n cl36 ===  ===  ths8 2 1  -854 -2.4618E+00
+    n cl36      -->   he4  p33 ===  ===  ths8 2 0   854  2.4618E+00
+--
+  he4  p33      -->     p  s36 ===  ===  ths8 2 1  -855 -5.3727E-01
+    p  s36      -->   he4  p33 ===  ===  ths8 2 0   855  5.3727E-01
+--
+  he4  s32      -->     p cl35 ===  ===  il10 1 1  -856 -1.8661E+00
+  he4  s32      -->     p cl35 ===  ===  il10 2 1  -856 -1.8661E+00
+  he4  s32      -->     p cl35 ===  ===  il10 2 1  -856 -1.8661E+00
+  he4  s32      -->     p cl35 ===  ===  il10 2 1  -856 -1.8661E+00
+    p cl35      -->   he4  s32 ===  ===  il10 1 0   856  1.8661E+00
+    p cl35      -->   he4  s32 ===  ===  il10 2 0   856  1.8661E+00
+    p cl35      -->   he4  s32 ===  ===  il10 2 0   856  1.8661E+00
+    p cl35      -->   he4  s32 ===  ===  il10 2 0   856  1.8661E+00
+--
+    p  s33      -->     n cl33 ===  ===  ths8 2 1  -857 -6.3649E+00
+    n cl33      -->     p  s33 ===  ===  ths8 2 0   857  6.3649E+00
+--
+  he4  s33      -->     n ar36 ===  ===  ths8 2 1  -858 -2.0007E+00
+    n ar36      -->   he4  s33 ===  ===  ths8 2 0   858  2.0007E+00
+--
+  he4  s33      -->     p cl36 ===  ===  ths8 2 1  -859 -1.9279E+00
+    p cl36      -->   he4  s33 ===  ===  ths8 2 0   859  1.9279E+00
+--
+    p  s34      -->     n cl34 ===  ===  ths8 2 1  -860 -6.2740E+00
+    n cl34      -->     p  s34 ===  ===  ths8 2 0   860  6.2740E+00
+--
+  he4  s34      -->     n ar37 ===  ===  SM93 0 0  -861 -4.6304E+00
+  he4  s34      -->     n ar37 ===  ===  SM93 0 0  -861 -4.6304E+00
+    n ar37      -->   he4  s34 ===  ===  SM93 0 1   861  4.6304E+00
+    n ar37      -->   he4  s34 ===  ===  SM93 0 1   861  4.6304E+00
+--
+  he4  s34      -->     p cl37 ===  ===  SM93 0 0  -862 -3.0342E+00
+    p cl37      -->   he4  s34 ===  ===  SM93 0 1   862  3.0342E+00
+--
+    p  s35      -->     n cl35 ===  ===  ths8 2 1  -863 -6.1501E-01
+    n cl35      -->     p  s35 ===  ===  ths8 2 0   863  6.1501E-01
+--
+  he4  s35      -->     n ar38 ===  ===  ths8 2 0   864  2.2215E-01
+    n ar38      -->   he4  s35 ===  ===  ths8 2 1  -864 -2.2215E-01
+--
+    p  s36      -->     n cl36 ===  ===  ths8 2 1  -865 -1.9245E+00
+    n cl36      -->     p  s36 ===  ===  ths8 2 0   865  1.9245E+00
+--
+  he4  s36      -->     n ar39 ===  ===  ths8 2 1  -866 -3.0683E+00
+    n ar39      -->   he4  s36 ===  ===  ths8 2 0   866  3.0683E+00
+--
+  he4 cl33      -->     p ar36 ===  ===  ths8 2 0   867  4.3642E+00
+    p ar36      -->   he4 cl33 ===  ===  ths8 2 1  -867 -4.3642E+00
+--
+  he4 cl34      -->     n  k37 ===  ===  ths8 2 1  -868 -5.2862E+00
+    n  k37      -->   he4 cl34 ===  ===  ths8 2 0   868  5.2862E+00
+--
+  he4 cl34      -->     p ar37 ===  ===  ths8 2 0   869  1.6436E+00
+    p ar37      -->   he4 cl34 ===  ===  ths8 2 1  -869 -1.6436E+00
+--
+  he4 cl35      -->     n  k38 ===  ===  ths8 2 1  -870 -5.8592E+00
+    n  k38      -->   he4 cl35 ===  ===  ths8 2 0   870  5.8592E+00
+--
+  he4 cl35      -->     p ar38 ===  ===  ths8 2 0   871  8.3716E-01
+    p ar38      -->   he4 cl35 ===  ===  ths8 2 1  -871 -8.3716E-01
+--
+    p cl36      -->     n ar36 ===  ===  ths8 2 1  -872 -7.2801E-02
+    n ar36      -->     p cl36 ===  ===  ths8 2 0   872  7.2801E-02
+--
+  he4 cl36      -->     n  k39 ===  ===  ths8 2 1  -873 -1.3612E+00
+    n  k39      -->   he4 cl36 ===  ===  ths8 2 0   873  1.3612E+00
+--
+  he4 cl36      -->     p ar39 ===  ===  ths8 2 1  -874 -1.1439E+00
+    p ar39      -->   he4 cl36 ===  ===  ths8 2 0   874  1.1439E+00
+--
+    p cl37      -->     n ar37 ===  ===  ths8 2 1  -875 -1.5962E+00
+    n ar37      -->     p cl37 ===  ===  ths8 2 0   875  1.5962E+00
+--
+  he4 cl37      -->     n  k40 ===  ===  ths8 2 1  -876 -3.8725E+00
+    n  k40      -->   he4 cl37 ===  ===  ths8 2 0   876  3.8725E+00
+--
+  he4 cl37      -->     p ar40 ===  ===  ths8 2 1  -877 -1.5857E+00
+    p ar40      -->   he4 cl37 ===  ===  ths8 2 0   877  1.5857E+00
+--
+  he4 ar36      -->     p  k39 ===  ===  ths8 2 1  -878 -1.2884E+00
+    p  k39      -->   he4 ar36 ===  ===  ths8 2 0   878  1.2884E+00
+--
+    p ar37      -->     n  k37 ===  ===  ths8 2 1  -879 -6.9298E+00
+    n  k37      -->     p ar37 ===  ===  ths8 2 0   879  6.9298E+00
+--
+  he4 ar37      -->     n ca40 ===  ===  ths8 2 1  -880 -1.7477E+00
+    n ca40      -->   he4 ar37 ===  ===  ths8 2 0   880  1.7477E+00
+--
+  he4 ar37      -->     p  k40 ===  ===  ths8 2 1  -881 -2.2762E+00
+    p  k40      -->   he4 ar37 ===  ===  ths8 2 0   881  2.2762E+00
+--
+    p ar38      -->     n  k38 ===  ===  ths8 2 1  -882 -6.6964E+00
+    n  k38      -->     p ar38 ===  ===  ths8 2 0   882  6.6964E+00
+--
+  he4 ar38      -->     n ca41 ===  ===  SM86 0 1  -883 -5.2232E+00
+    n ca41      -->   he4 ar38 ===  ===  SM86 0 0   883  5.2232E+00
+--
+  he4 ar38      -->     p  k41 ===  ===  SM86 0 1  -884 -4.0192E+00
+    p  k41      -->   he4 ar38 ===  ===  SM86 0 0   884  4.0192E+00
+--
+    p ar39      -->     n  k39 ===  ===  ths8 2 1  -885 -2.1735E-01
+    n  k39      -->     p ar39 ===  ===  ths8 2 0   885  2.1735E-01
+--
+  he4 ar39      -->     n ca42 ===  ===  ths8 2 1  -886 -3.4131E-01
+    n ca42      -->   he4 ar39 ===  ===  ths8 2 0   886  3.4131E-01
+--
+    p ar40      -->     n  k40 ===  ===  ths8 2 1  -887 -2.2867E+00
+    n  k40      -->     p ar40 ===  ===  ths8 2 0   887  2.2867E+00
+--
+  he4 ar40      -->     n ca43 ===  ===  ths8 2 1  -888 -2.2774E+00
+    n ca43      -->   he4 ar40 ===  ===  ths8 2 0   888  2.2774E+00
+--
+  he4  k37      -->     p ca40 ===  ===  ths8 2 0   889  5.1821E+00
+    p ca40      -->   he4  k37 ===  ===  ths8 2 1  -889 -5.1821E+00
+--
+  he4  k38      -->     p ca41 ===  ===  ths8 2 0   890  1.4732E+00
+    p ca41      -->   he4  k38 ===  ===  ths8 2 1  -890 -1.4732E+00
+--
+  he4  k39      -->     p ca42 ===  ===  ths8 2 1  -891 -1.2397E-01
+    p ca42      -->   he4  k39 ===  ===  ths8 2 0   891  1.2397E-01
+--
+    p  k40      -->     n ca40 ===  ===  ths8 2 0   892  5.2855E-01
+    n ca40      -->     p  k40 ===  ===  ths8 2 1  -892 -5.2855E-01
+--
+  he4  k40      -->     n sc43 ===  ===  ths8 2 1  -893 -2.9938E+00
+    n sc43      -->   he4  k40 ===  ===  ths8 2 0   893  2.9938E+00
+--
+  he4  k40      -->     p ca43 ===  ===  ths8 2 0   894  9.3600E-03
+    p ca43      -->   he4  k40 ===  ===  ths8 2 1  -894 -9.3600E-03
+--
+    p  k41      -->     n ca41 ===  ===  SM86 0 0  -895 -1.2040E+00
+    p  k41      -->     n ca41 ===  ===  SM86 0 0  -895 -1.2040E+00
+    n ca41      -->     p  k41 ===  ===  SM86 0 1   895  1.2040E+00
+    n ca41      -->     p  k41 ===  ===  SM86 0 1   895  1.2040E+00
+--
+  he4  k41      -->     n sc44 ===  ===  SM91 0 0  -896 -3.3896E+00
+  he4  k41      -->     n sc44 ===  ===  SM91 0 0  -896 -3.3896E+00
+    n sc44      -->   he4  k41 ===  ===  SM91 0 1   896  3.3896E+00
+    n sc44      -->   he4  k41 ===  ===  SM91 0 1   896  3.3896E+00
+--
+  he4  k41      -->     p ca44 ===  ===  SM91 1 0   897  1.0453E+00
+  he4  k41      -->     p ca44 ===  ===  SM91 1 0   897  1.0453E+00
+    p ca44      -->   he4  k41 ===  ===  SM91 1 1  -897 -1.0453E+00
+    p ca44      -->   he4  k41 ===  ===  SM91 1 1  -897 -1.0453E+00
+--
+  he4 ca40      -->     p sc43 ===  ===  ths8 2 1  -898 -3.5223E+00
+    p sc43      -->   he4 ca40 ===  ===  ths8 2 0   898  3.5223E+00
+--
+  he4 ca41      -->     n ti44 ===  ===  ths8 2 1  -899 -3.2357E+00
+    n ti44      -->   he4 ca41 ===  ===  ths8 2 0   899  3.2357E+00
+--
+  he4 ca41      -->     p sc44 ===  ===  ths8 2 1  -900 -2.1856E+00
+    p sc44      -->   he4 ca41 ===  ===  ths8 2 0   900  2.1856E+00
+--
+  he4 ca42      -->     n ti45 ===  ===  ths8 2 1  -901 -5.1854E+00
+    n ti45      -->   he4 ca42 ===  ===  ths8 2 0   901  5.1854E+00
+--
+  he4 ca42      -->     p sc45 ===  ===  ths8 2 1  -902 -2.3410E+00
+    p sc45      -->   he4 ca42 ===  ===  ths8 2 0   902  2.3410E+00
+--
+    p ca43      -->     n sc43 ===  ===  ths8 2 1  -903 -3.0031E+00
+    n sc43      -->     p ca43 ===  ===  ths8 2 0   903  3.0031E+00
+--
+  he4 ca43      -->     n ti46 ===  ===  ths8 2 0   904  7.1696E-02
+    n ti46      -->   he4 ca43 ===  ===  ths8 2 1  -904 -7.1696E-02
+--
+  he4 ca43      -->     p sc46 ===  ===  rath 0 1  -905 -1.5133E+00
+    p sc46      -->   he4 ca43 ===  ===  rath 0 0   905  1.5133E+00
+--
+    p ca44      -->     n sc44 ===  ===  ths8 2 1  -906 -4.4348E+00
+    n sc44      -->     p ca44 ===  ===  ths8 2 0   906  4.4348E+00
+--
+  he4 ca44      -->     n ti47 ===  ===  ths8 2 1  -907 -2.1788E+00
+    n ti47      -->   he4 ca44 ===  ===  ths8 2 0   907  2.1788E+00
+--
+  he4 ca44      -->     p sc47 ===  ===  rath 0 1  -908 -1.9961E+00
+    p sc47      -->   he4 ca44 ===  ===  rath 0 0   908  1.9961E+00
+--
+    p ca45      -->     n sc45 ===  ===  ths8 2 1  -909 -5.2433E-01
+    n sc45      -->     p ca45 ===  ===  ths8 2 0   909  5.2433E-01
+--
+  he4 ca45      -->     n ti48 ===  ===  ths8 2 0   910  2.0330E+00
+    n ti48      -->   he4 ca45 ===  ===  ths8 2 1  -910 -2.0330E+00
+--
+  he4 ca45      -->     p sc48 ===  ===  rath 0 1  -911 -1.1736E+00
+    p sc48      -->   he4 ca45 ===  ===  rath 0 0   911  1.1736E+00
+--
+    p ca46      -->     n sc46 ===  ===  rath 0 1  -912 -2.1626E+00
+    n sc46      -->     p ca46 ===  ===  rath 0 0   912  2.1626E+00
+--
+  he4 ca46      -->     n ti49 ===  ===  ths8 2 1  -913 -2.2355E-01
+    n ti49      -->   he4 ca46 ===  ===  ths8 2 0   913  2.2355E-01
+--
+  he4 ca46      -->     p sc49 ===  ===  rath 0 1  -914 -1.4439E+00
+    p sc49      -->   he4 ca46 ===  ===  rath 0 0   914  1.4439E+00
+--
+    p ca47      -->     n sc47 ===  ===  ths8 2 0   915  1.2094E+00
+    n sc47      -->     p ca47 ===  ===  ths8 2 1  -915 -1.2094E+00
+--
+  he4 ca47      -->     n ti50 ===  ===  ths8 2 0   916  3.4393E+00
+    n ti50      -->   he4 ca47 ===  ===  ths8 2 1  -916 -3.4393E+00
+--
+    p ca48      -->     n sc48 ===  ===  rath 0 1  -917 -5.0303E-01
+    n sc48      -->     p ca48 ===  ===  rath 0 0   917  5.0303E-01
+--
+  he4 ca48      -->     n ti51 ===  ===  rath 0 1  -918 -1.3800E-01
+    n ti51      -->   he4 ca48 ===  ===  rath 0 0   918  1.3800E-01
+--
+  he4 sc43      -->     n  v46 ===  ===  ths8 2 1  -919 -4.7601E+00
+    n  v46      -->   he4 sc43 ===  ===  ths8 2 0   919  4.7601E+00
+--
+  he4 sc43      -->     p ti46 ===  ===  ths8 2 0   920  3.0748E+00
+    p ti46      -->   he4 sc43 ===  ===  ths8 2 1  -920 -3.0748E+00
+--
+    p sc44      -->     n ti44 ===  ===  ths8 2 1  -921 -1.0501E+00
+    n ti44      -->     p sc44 ===  ===  ths8 2 0   921  1.0501E+00
+--
+  he4 sc44      -->     n  v47 ===  ===  ths8 2 1  -922 -1.4571E+00
+    n  v47      -->   he4 sc44 ===  ===  ths8 2 0   922  1.4571E+00
+--
+  he4 sc44      -->     p ti47 ===  ===  ths8 2 0   923  2.2560E+00
+    p ti47      -->   he4 sc44 ===  ===  ths8 2 1  -923 -2.2560E+00
+--
+    p sc45      -->     n ti45 ===  ===  ths8 2 1  -924 -2.8444E+00
+    n ti45      -->     p sc45 ===  ===  ths8 2 0   924  2.8444E+00
+--
+  he4 sc45      -->     n  v48 ===  ===  ths8 2 1  -925 -2.2403E+00
+    n  v48      -->   he4 sc45 ===  ===  ths8 2 0   925  2.2403E+00
+--
+  he4 sc45      -->     p ti48 ===  ===  ths8 2 0   926  2.5573E+00
+    p ti48      -->   he4 sc45 ===  ===  ths8 2 1  -926 -2.5573E+00
+--
+    p sc46      -->     n ti46 ===  ===  rath 0 0   927  1.5850E+00
+    n ti46      -->     p sc46 ===  ===  rath 0 1  -927 -1.5850E+00
+--
+  he4 sc46      -->     n  v49 ===  ===  rath 0 0   928  5.5490E-01
+    n  v49      -->   he4 sc46 ===  ===  rath 0 1  -928 -5.5490E-01
+--
+  he4 sc46      -->     p ti49 ===  ===  rath 0 0   929  1.9391E+00
+    p ti49      -->   he4 sc46 ===  ===  rath 0 1  -929 -1.9391E+00
+--
+    p sc47      -->     n ti47 ===  ===  ths8 2 1  -930 -1.8271E-01
+    n ti47      -->     p sc47 ===  ===  ths8 2 0   930  1.8271E-01
+--
+  he4 sc47      -->     n  v50 ===  ===  ths8 2 1  -931 -7.5913E-01
+    n  v50      -->   he4 sc47 ===  ===  ths8 2 0   931  7.5913E-01
+--
+  he4 sc47      -->     p ti50 ===  ===  rath 0 0   932  2.2299E+00
+    p ti50      -->   he4 sc47 ===  ===  rath 0 1  -932 -2.2299E+00
+--
+    p sc48      -->     n ti48 ===  ===  rath 0 0   933  3.2066E+00
+    n ti48      -->     p sc48 ===  ===  rath 0 1  -933 -3.2066E+00
+--
+  he4 sc48      -->     n  v51 ===  ===  rath 0 0   934  2.0547E+00
+    n  v51      -->   he4 sc48 ===  ===  rath 0 1  -934 -2.0547E+00
+--
+  he4 sc48      -->     p ti51 ===  ===  rath 0 0   935  3.6503E-01
+    p ti51      -->   he4 sc48 ===  ===  rath 0 1  -935 -3.6503E-01
+--
+    p sc49      -->     n ti49 ===  ===  rath 0 0   936  1.2203E+00
+    n ti49      -->     p sc49 ===  ===  rath 0 1  -936 -1.2203E+00
+--
+  he4 sc49      -->     n  v52 ===  ===  rath 0 1  -937 -7.6275E-01
+    n  v52      -->   he4 sc49 ===  ===  rath 0 0   937  7.6275E-01
+--
+  he4 ti44      -->     p  v47 ===  ===  chw0 2 0  -938 -4.0701E-01
+    p  v47      -->   he4 ti44 ===  ===  chw0 2 1   938  4.0701E-01
+--
+  he4 ti45      -->     n cr48 ===  ===  ths8 2 1  -939 -1.8331E+00
+    n cr48      -->   he4 ti45 ===  ===  ths8 2 0   939  1.8331E+00
+--
+  he4 ti45      -->     p  v48 ===  ===  ths8 2 0   940  6.0407E-01
+    p  v48      -->   he4 ti45 ===  ===  ths8 2 1  -940 -6.0407E-01
+--
+    p ti46      -->     n  v46 ===  ===  ths8 2 1  -941 -7.8349E+00
+    n  v46      -->     p ti46 ===  ===  ths8 2 0   941  7.8349E+00
+--
+  he4 ti46      -->     n cr49 ===  ===  ths8 2 1  -942 -4.4405E+00
+    n cr49      -->   he4 ti46 ===  ===  ths8 2 0   942  4.4405E+00
+--
+  he4 ti46      -->     p  v49 ===  ===  ths8 2 1  -943 -1.0301E+00
+    p  v49      -->   he4 ti46 ===  ===  ths8 2 0   943  1.0301E+00
+--
+    p ti47      -->     n  v47 ===  ===  ths8 2 1  -944 -3.7132E+00
+    n  v47      -->     p ti47 ===  ===  ths8 2 0   944  3.7132E+00
+--
+  he4 ti47      -->     n cr50 ===  ===  ths8 2 1  -945 -3.2089E-01
+    n cr50      -->   he4 ti47 ===  ===  ths8 2 0   945  3.2089E-01
+--
+  he4 ti47      -->     p  v50 ===  ===  ths8 2 1  -946 -5.7641E-01
+    p  v50      -->   he4 ti47 ===  ===  ths8 2 0   946  5.7641E-01
+--
+    p ti48      -->     n  v48 ===  ===  ths8 2 1  -947 -4.7977E+00
+    n  v48      -->     p ti48 ===  ===  ths8 2 0   947  4.7977E+00
+--
+  he4 ti48      -->     n cr51 ===  ===  ths8 2 1  -948 -2.6869E+00
+    n cr51      -->   he4 ti48 ===  ===  ths8 2 0   948  2.6869E+00
+--
+  he4 ti48      -->     p  v51 ===  ===  ths8 2 1  -949 -1.1519E+00
+    p  v51      -->   he4 ti48 ===  ===  ths8 2 0   949  1.1519E+00
+--
+    p ti49      -->     n  v49 ===  ===  ths8 2 1  -950 -1.3842E+00
+    n  v49      -->     p ti49 ===  ===  ths8 2 0   950  1.3842E+00
+--
+  he4 ti49      -->     n cr52 ===  ===  ths8 2 0   951  1.2088E+00
+    n cr52      -->   he4 ti49 ===  ===  ths8 2 1  -951 -1.2088E+00
+--
+  he4 ti49      -->     p  v52 ===  ===  rath 0 1  -952 -1.9831E+00
+    p  v52      -->   he4 ti49 ===  ===  rath 0 0   952  1.9831E+00
+--
+    p ti50      -->     n  v50 ===  ===  ths8 2 1  -953 -2.9890E+00
+    n  v50      -->     p ti50 ===  ===  ths8 2 0   953  2.9890E+00
+--
+  he4 ti50      -->     n cr53 ===  ===  ths8 2 1  -954 -1.7912E+00
+    n cr53      -->   he4 ti50 ===  ===  ths8 2 0   954  1.7912E+00
+--
+    p ti51      -->     n  v51 ===  ===  rath 0 0   955  1.6897E+00
+    n  v51      -->     p ti51 ===  ===  rath 0 1  -955 -1.6897E+00
+--
+  he4 ti51      -->     n cr54 ===  ===  rath 0 0   956  1.5554E+00
+    n cr54      -->   he4 ti51 ===  ===  rath 0 1  -956 -1.5554E+00
+--
+  he4  v46      -->     p cr49 ===  ===  ths8 2 0   957  3.3945E+00
+    p cr49      -->   he4  v46 ===  ===  ths8 2 1  -957 -3.3945E+00
+--
+  he4  v47      -->     n mn50 ===  ===  ths8 2 1  -958 -5.0246E+00
+    n mn50      -->   he4  v47 ===  ===  ths8 2 0   958  5.0246E+00
+--
+  he4  v47      -->     p cr50 ===  ===  ths8 2 0   959  3.3923E+00
+    p cr50      -->   he4  v47 ===  ===  ths8 2 1  -959 -3.3923E+00
+--
+    p  v48      -->     n cr48 ===  ===  ths8 2 1  -960 -2.4372E+00
+    n cr48      -->     p  v48 ===  ===  ths8 2 0   960  2.4372E+00
+--
+  he4  v48      -->     n mn51 ===  ===  ths8 2 1  -961 -1.8791E+00
+    n mn51      -->   he4  v48 ===  ===  ths8 2 0   961  1.8791E+00
+--
+  he4  v48      -->     p cr51 ===  ===  ths8 2 0   962  2.1108E+00
+    p cr51      -->   he4  v48 ===  ===  ths8 2 1  -962 -2.1108E+00
+--
+    p  v49      -->     n cr49 ===  ===  ths8 2 1  -963 -3.4104E+00
+    n cr49      -->     p  v49 ===  ===  ths8 2 0   963  3.4104E+00
+--
+  he4  v49      -->     n mn52 ===  ===  ths8 2 1  -964 -2.9006E+00
+    n mn52      -->   he4  v49 ===  ===  ths8 2 0   964  2.9006E+00
+--
+  he4  v49      -->     p cr52 ===  ===  ths8 2 0   965  2.5930E+00
+    p cr52      -->   he4  v49 ===  ===  ths8 2 1  -965 -2.5930E+00
+--
+    p  v50      -->     n cr50 ===  ===  ths8 2 0   966  2.5552E-01
+    n cr50      -->     p  v50 ===  ===  ths8 2 1  -966 -2.5552E-01
+--
+  he4  v50      -->     n mn53 ===  ===  ths8 2 1  -967 -1.8145E-01
+    n mn53      -->   he4  v50 ===  ===  ths8 2 0   967  1.8145E-01
+--
+  he4  v50      -->     p cr53 ===  ===  ths8 2 0   968  1.1977E+00
+    p cr53      -->   he4  v50 ===  ===  ths8 2 1  -968 -1.1977E+00
+--
+    p  v51      -->     n cr51 ===  ===  ths8 2 1  -969 -1.5350E+00
+    n cr51      -->     p  v51 ===  ===  ths8 2 0   969  1.5350E+00
+--
+  he4  v51      -->     n mn54 ===  ===  ths8 2 1  -970 -2.2938E+00
+    n mn54      -->   he4  v51 ===  ===  ths8 2 0   970  2.2938E+00
+--
+  he4  v51      -->     p cr54 ===  ===  ths8 2 1  -971 -1.3428E-01
+    p cr54      -->   he4  v51 ===  ===  ths8 2 0   971  1.3428E-01
+--
+    p  v52      -->     n cr52 ===  ===  rath 0 0   972  3.1919E+00
+    n cr52      -->     p  v52 ===  ===  rath 0 1  -972 -3.1919E+00
+--
+  he4  v52      -->     n mn55 ===  ===  rath 0 0   973  6.2147E-01
+    n mn55      -->   he4  v52 ===  ===  rath 0 1  -973 -6.2147E-01
+--
+  he4 cr48      -->     p mn51 ===  ===  ths8 2 0   974  5.5803E-01
+    p mn51      -->   he4 cr48 ===  ===  ths8 2 1  -974 -5.5803E-01
+--
+  he4 cr49      -->     n fe52 ===  ===  ths8 2 1  -975 -2.6463E+00
+    n fe52      -->   he4 cr49 ===  ===  ths8 2 0   975  2.6463E+00
+--
+  he4 cr49      -->     p mn52 ===  ===  ths8 2 0   976  5.0985E-01
+    p mn52      -->   he4 cr49 ===  ===  ths8 2 1  -976 -5.0985E-01
+--
+    p cr50      -->     n mn50 ===  ===  ths8 2 1  -977 -8.4168E+00
+    n mn50      -->     p cr50 ===  ===  ths8 2 0   977  8.4168E+00
+--
+  he4 cr50      -->     n fe53 ===  ===  ths8 2 1  -978 -4.9616E+00
+    n fe53      -->   he4 cr50 ===  ===  ths8 2 0   978  4.9616E+00
+--
+  he4 cr50      -->     p mn53 ===  ===  ths8 2 1  -979 -4.3697E-01
+    p mn53      -->   he4 cr50 ===  ===  ths8 2 0   979  4.3697E-01
+--
+    p cr51      -->     n mn51 ===  ===  ths8 2 1  -980 -3.9899E+00
+    n mn51      -->     p cr51 ===  ===  ths8 2 0   980  3.9899E+00
+--
+  he4 cr51      -->     n fe54 ===  ===  ths8 2 1  -981 -8.4384E-01
+    n fe54      -->   he4 cr51 ===  ===  ths8 2 0   981  8.4384E-01
+--
+  he4 cr51      -->     p mn54 ===  ===  ths8 2 1  -982 -7.5883E-01
+    p mn54      -->   he4 cr51 ===  ===  ths8 2 0   982  7.5883E-01
+--
+    p cr52      -->     n mn52 ===  ===  ths8 2 1  -983 -5.4936E+00
+    n mn52      -->     p cr52 ===  ===  ths8 2 0   983  5.4936E+00
+--
+  he4 cr52      -->     n fe55 ===  ===  ths8 2 1  -984 -3.5839E+00
+    n fe55      -->   he4 cr52 ===  ===  ths8 2 0   984  3.5839E+00
+--
+  he4 cr52      -->     p mn55 ===  ===  ths8 2 1  -985 -2.5704E+00
+    p mn55      -->   he4 cr52 ===  ===  ths8 2 0   985  2.5704E+00
+--
+    p cr53      -->     n mn53 ===  ===  ths8 2 1  -986 -1.3792E+00
+    n mn53      -->     p cr53 ===  ===  ths8 2 0   986  1.3792E+00
+--
+  he4 cr53      -->     n fe56 ===  ===  ths8 2 1  -987 -3.2588E-01
+    n fe56      -->   he4 cr53 ===  ===  ths8 2 0   987  3.2588E-01
+--
+    p cr54      -->     n mn54 ===  ===  ths8 2 1  -988 -2.1595E+00
+    n mn54      -->     p cr54 ===  ===  ths8 2 0   988  2.1595E+00
+--
+  he4 cr54      -->     n fe57 ===  ===  ths8 2 1  -989 -2.3989E+00
+    n fe57      -->   he4 cr54 ===  ===  ths8 2 0   989  2.3989E+00
+--
+  he4 mn50      -->     n co53 ===  ===  ths8 2 1  -990 -5.6153E+00
+    n co53      -->   he4 mn50 ===  ===  ths8 2 0   990  5.6153E+00
+--
+  he4 mn50      -->     p fe53 ===  ===  ths8 2 0   991  3.4552E+00
+    p fe53      -->   he4 mn50 ===  ===  ths8 2 1  -991 -3.4552E+00
+--
+  he4 mn51      -->     n co54 ===  ===  ths8 2 1  -992 -5.8808E+00
+    n co54      -->   he4 mn51 ===  ===  ths8 2 0   992  5.8808E+00
+--
+  he4 mn51      -->     p fe54 ===  ===  ths8 2 0   993  3.1461E+00
+    p fe54      -->   he4 mn51 ===  ===  ths8 2 1  -993 -3.1461E+00
+--
+    p mn52      -->     n fe52 ===  ===  ths8 2 1  -994 -3.1562E+00
+    n fe52      -->     p mn52 ===  ===  ths8 2 0   994  3.1562E+00
+--
+  he4 mn52      -->     n co55 ===  ===  ths8 2 1  -995 -2.3240E+00
+    n co55      -->   he4 mn52 ===  ===  ths8 2 0   995  2.3240E+00
+--
+  he4 mn52      -->     p fe55 ===  ===  ths8 2 0   996  1.9097E+00
+    p fe55      -->   he4 mn52 ===  ===  ths8 2 1  -996 -1.9097E+00
+--
+    p mn53      -->     n fe53 ===  ===  ths8 2 1  -997 -4.5247E+00
+    n fe53      -->     p mn53 ===  ===  ths8 2 0   997  4.5247E+00
+--
+  he4 mn53      -->     n co56 ===  ===  ths8 2 1  -998 -4.2957E+00
+    n co56      -->   he4 mn53 ===  ===  ths8 2 0   998  4.2957E+00
+--
+  he4 mn53      -->     p fe56 ===  ===  ths8 2 0   999  1.0533E+00
+    p fe56      -->   he4 mn53 ===  ===  ths8 2 1  -999 -1.0533E+00
+--
+    p mn54      -->     n fe54 ===  ===  ths8 2 1 -1000 -8.5011E-02
+    n fe54      -->     p mn54 ===  ===  ths8 2 0  1000  8.5011E-02
+--
+  he4 mn54      -->     n co57 ===  ===  ths8 2 1 -1001 -1.8580E+00
+    n co57      -->   he4 mn54 ===  ===  ths8 2 0  1001  1.8580E+00
+--
+  he4 mn54      -->     p fe57 ===  ===  ths8 2 1 -1002 -2.3940E-01
+    p fe57      -->   he4 mn54 ===  ===  ths8 2 0  1002  2.3940E-01
+--
+    p mn55      -->     n fe55 ===  ===  ths8 2 1 -1003 -1.0134E+00
+    n fe55      -->     p mn55 ===  ===  ths8 2 0  1003  1.0134E+00
+--
+  he4 mn55      -->     n co58 ===  ===  ths8 2 1 -1004 -3.5116E+00
+    n co58      -->   he4 mn55 ===  ===  ths8 2 0  1004  3.5116E+00
+--
+  he4 mn55      -->     p fe58 ===  ===  ths8 2 1 -1005 -4.2132E-01
+    p fe58      -->   he4 mn55 ===  ===  ths8 2 0  1005  4.2132E-01
+--
+  he4 fe52      -->     p co55 ===  ===  ths8 2 0  1006  8.3218E-01
+    p co55      -->   he4 fe52 ===  ===  ths8 2 1 -1006 -8.3218E-01
+--
+    p fe53      -->     n co53 ===  ===  ths8 2 1 -1007 -9.0705E+00
+    n co53      -->     p fe53 ===  ===  ths8 2 0  1007  9.0705E+00
+--
+  he4 fe53      -->     n ni56 ===  ===  ths8 2 1 -1008 -2.6862E+00
+    n ni56      -->   he4 fe53 ===  ===  ths8 2 0  1008  2.6862E+00
+--
+  he4 fe53      -->     p co56 ===  ===  ths8 2 0  1009  2.2901E-01
+    p co56      -->   he4 fe53 ===  ===  ths8 2 1 -1009 -2.2901E-01
+--
+    p fe54      -->     n co54 ===  ===  ths8 2 1 -1010 -9.0269E+00
+    n co54      -->     p fe54 ===  ===  ths8 2 0  1010  9.0269E+00
+--
+  he4 fe54      -->     n ni57 ===  ===  ths8 2 1 -1011 -5.8171E+00
+    n ni57      -->   he4 fe54 ===  ===  ths8 2 0  1011  5.8171E+00
+--
+  he4 fe54      -->     p co57 ===  ===  ths8 2 1 -1012 -1.7730E+00
+    p co57      -->   he4 fe54 ===  ===  ths8 2 0  1012  1.7730E+00
+--
+    p fe55      -->     n co55 ===  ===  ths8 2 1 -1013 -4.2337E+00
+    n co55      -->     p fe55 ===  ===  ths8 2 0  1013  4.2337E+00
+--
+  he4 fe55      -->     n ni58 ===  ===  ths8 2 1 -1014 -2.8989E+00
+    n ni58      -->   he4 fe55 ===  ===  ths8 2 0  1014  2.8989E+00
+--
+  he4 fe55      -->     p co58 ===  ===  ths8 2 1 -1015 -2.4981E+00
+    p co58      -->   he4 fe55 ===  ===  ths8 2 0  1015  2.4981E+00
+--
+    p fe56      -->     n co56 ===  ===  ths8 2 1 -1016 -5.3490E+00
+    n co56      -->     p fe56 ===  ===  ths8 2 0  1016  5.3490E+00
+--
+  he4 fe56      -->     n ni59 ===  ===  ths8 2 1 -1017 -5.0967E+00
+    n ni59      -->   he4 fe56 ===  ===  ths8 2 0  1017  5.0967E+00
+--
+  he4 fe56      -->     p co59 ===  ===  ths8 2 1 -1018 -3.2414E+00
+    p co59      -->   he4 fe56 ===  ===  ths8 2 0  1018  3.2414E+00
+--
+    p fe57      -->     n co57 ===  ===  ths8 2 1 -1019 -1.6186E+00
+    n co57      -->     p fe57 ===  ===  ths8 2 0  1019  1.6186E+00
+--
+  he4 fe57      -->     n ni60 ===  ===  ths8 2 1 -1020 -1.3551E+00
+    n ni60      -->   he4 fe57 ===  ===  ths8 2 0  1020  1.3551E+00
+--
+    p fe58      -->     n co58 ===  ===  ths8 2 1 -1021 -3.0903E+00
+    n co58      -->     p fe58 ===  ===  ths8 2 0  1021  3.0903E+00
+--
+  he4 fe58      -->     n ni61 ===  ===  ths8 2 1 -1022 -3.5796E+00
+    n ni61      -->   he4 fe58 ===  ===  ths8 2 0  1022  3.5796E+00
+--
+  he4 co53      -->     p ni56 ===  ===  ths8 2 0  1023  6.3842E+00
+    p ni56      -->   he4 co53 ===  ===  ths8 2 1 -1023 -6.3842E+00
+--
+  he4 co54      -->     n cu57 ===  ===  ths8 2 1 -1024 -6.3475E+00
+    n cu57      -->   he4 co54 ===  ===  ths8 2 0  1024  6.3475E+00
+--
+  he4 co54      -->     p ni57 ===  ===  ths8 2 0  1025  3.2098E+00
+    p ni57      -->   he4 co54 ===  ===  ths8 2 1 -1025 -3.2098E+00
+--
+  he4 co55      -->     n cu58 ===  ===  ths8 2 1 -1026 -8.0085E+00
+    n cu58      -->   he4 co55 ===  ===  ths8 2 0  1026  8.0085E+00
+--
+  he4 co55      -->     p ni58 ===  ===  ths8 2 0  1027  1.3348E+00
+    p ni58      -->   he4 co55 ===  ===  ths8 2 1 -1027 -1.3348E+00
+--
+    p co56      -->     n ni56 ===  ===  ths8 2 1 -1028 -2.9152E+00
+    n ni56      -->     p co56 ===  ===  ths8 2 0  1028  2.9152E+00
+--
+  he4 co56      -->     n cu59 ===  ===  ths8 2 1 -1029 -5.3285E+00
+    n cu59      -->   he4 co56 ===  ===  ths8 2 0  1029  5.3285E+00
+--
+  he4 co56      -->     p ni59 ===  ===  ths8 2 0  1030  2.5226E-01
+    p ni59      -->   he4 co56 ===  ===  ths8 2 1 -1030 -2.5226E-01
+--
+    p co57      -->     n ni57 ===  ===  ths8 2 1 -1031 -4.0441E+00
+    n ni57      -->     p co57 ===  ===  ths8 2 0  1031  4.0441E+00
+--
+  he4 co57      -->     n cu60 ===  ===  ths8 2 1 -1032 -6.6468E+00
+    n cu60      -->   he4 co57 ===  ===  ths8 2 0  1032  6.6468E+00
+--
+  he4 co57      -->     p ni60 ===  ===  ths8 2 0  1033  2.6353E-01
+    p ni60      -->   he4 co57 ===  ===  ths8 2 1 -1033 -2.6353E-01
+--
+    p co58      -->     n ni58 ===  ===  ths8 2 1 -1034 -4.0075E-01
+    n ni58      -->     p co58 ===  ===  ths8 2 0  1034  4.0075E-01
+--
+  he4 co58      -->     n cu61 ===  ===  ths8 2 1 -1035 -3.5092E+00
+    n cu61      -->   he4 co58 ===  ===  ths8 2 0  1035  3.5092E+00
+--
+  he4 co58      -->     p ni61 ===  ===  ths8 2 1 -1036 -4.8929E-01
+    p ni61      -->   he4 co58 ===  ===  ths8 2 0  1036  4.8929E-01
+--
+    p co59      -->     n ni59 ===  ===  ths8 2 1 -1037 -1.8553E+00
+    n ni59      -->     p co59 ===  ===  ths8 2 0  1037  1.8553E+00
+--
+  he4 co59      -->     n cu62 ===  ===  ths8 2 1 -1038 -5.0886E+00
+    n cu62      -->   he4 co59 ===  ===  ths8 2 0  1038  5.0886E+00
+--
+  he4 co59      -->     p ni62 ===  ===  ths8 2 1 -1039 -3.4732E-01
+    p ni62      -->   he4 co59 ===  ===  ths8 2 0  1039  3.4732E-01
+--
+  he4 ni56      -->     n zn59 ===  ===  ths8 2 1 -1040 -1.2338E+01
+    n zn59      -->   he4 ni56 ===  ===  ths8 2 0  1040  1.2338E+01
+--
+  he4 ni56      -->     p cu59 ===  ===  ths8 2 1 -1041 -2.4132E+00
+    p cu59      -->   he4 ni56 ===  ===  ths8 2 0  1041  2.4132E+00
+--
+    p ni57      -->     n cu57 ===  ===  ths8 2 1 -1042 -9.5573E+00
+    n cu57      -->     p ni57 ===  ===  ths8 2 0  1042  9.5573E+00
+--
+  he4 ni57      -->     n zn60 ===  ===  ths8 2 1 -1043 -7.5559E+00
+    n zn60      -->   he4 ni57 ===  ===  ths8 2 0  1043  7.5559E+00
+--
+  he4 ni57      -->     p cu60 ===  ===  ths8 2 1 -1044 -2.6027E+00
+    p cu60      -->   he4 ni57 ===  ===  ths8 2 0  1044  2.6027E+00
+--
+    p ni58      -->     n cu58 ===  ===  ths8 2 1 -1045 -9.3434E+00
+    n cu58      -->     p ni58 ===  ===  ths8 2 0  1045  9.3434E+00
+--
+  he4 ni58      -->     n zn61 ===  ===  ths8 2 1 -1046 -9.5313E+00
+    n zn61      -->   he4 ni58 ===  ===  ths8 2 0  1046  9.5313E+00
+--
+  he4 ni58      -->     p cu61 ===  ===  ths8 2 1 -1047 -3.1085E+00
+    p cu61      -->   he4 ni58 ===  ===  ths8 2 0  1047  3.1085E+00
+--
+    p ni59      -->     n cu59 ===  ===  ths8 2 1 -1048 -5.5807E+00
+    n cu59      -->     p ni59 ===  ===  ths8 2 0  1048  5.5807E+00
+--
+  he4 ni59      -->     n zn62 ===  ===  ths8 2 1 -1049 -5.6350E+00
+    n zn62      -->   he4 ni59 ===  ===  ths8 2 0  1049  5.6350E+00
+--
+  he4 ni59      -->     p cu62 ===  ===  ths8 2 1 -1050 -3.2332E+00
+    p cu62      -->   he4 ni59 ===  ===  ths8 2 0  1050  3.2332E+00
+--
+    p ni60      -->     n cu60 ===  ===  ths8 2 1 -1051 -6.9103E+00
+    n cu60      -->     p ni60 ===  ===  ths8 2 0  1051  6.9103E+00
+--
+  he4 ni60      -->     n zn63 ===  ===  ths8 2 1 -1052 -7.9059E+00
+    n zn63      -->   he4 ni60 ===  ===  ths8 2 0  1052  7.9059E+00
+--
+  he4 ni60      -->     p cu63 ===  ===  ths8 2 1 -1053 -3.7573E+00
+    p cu63      -->   he4 ni60 ===  ===  ths8 2 0  1053  3.7573E+00
+--
+    p ni61      -->     n cu61 ===  ===  ths8 2 1 -1054 -3.0199E+00
+    n cu61      -->     p ni61 ===  ===  ths8 2 0  1054  3.0199E+00
+--
+  he4 ni61      -->     n zn64 ===  ===  ths8 2 1 -1055 -3.8640E+00
+    n zn64      -->   he4 ni61 ===  ===  ths8 2 0  1055  3.8640E+00
+--
+  he4 ni61      -->     p cu64 ===  ===  ths8 2 1 -1056 -3.6613E+00
+    p cu64      -->   he4 ni61 ===  ===  ths8 2 0  1056  3.6613E+00
+--
+    p ni62      -->     n cu62 ===  ===  ths8 2 1 -1057 -4.7412E+00
+    n cu62      -->     p ni62 ===  ===  ths8 2 0  1057  4.7412E+00
+--
+  he4 ni62      -->     n zn65 ===  ===  ths8 2 1 -1058 -6.4805E+00
+    n zn65      -->   he4 ni62 ===  ===  ths8 2 0  1058  6.4805E+00
+--
+  he4 ni62      -->     p cu65 ===  ===  ths8 2 1 -1059 -4.3465E+00
+    p cu65      -->   he4 ni62 ===  ===  ths8 2 0  1059  4.3465E+00
+--
+    p ni63      -->     n cu63 ===  ===  ths8 2 1 -1060 -7.1537E-01
+    n cu63      -->     p ni63 ===  ===  ths8 2 0  1060  7.1537E-01
+--
+  he4 ni63      -->     n zn66 ===  ===  ths8 2 1 -1061 -2.2597E+00
+    n zn66      -->   he4 ni63 ===  ===  ths8 2 0  1061  2.2597E+00
+--
+    p ni64      -->     n cu64 ===  ===  ths8 2 1 -1062 -2.4567E+00
+    n cu64      -->     p ni64 ===  ===  ths8 2 0  1062  2.4567E+00
+--
+  he4 cu57      -->     p zn60 ===  ===  ths8 2 0  1063  2.0014E+00
+    p zn60      -->   he4 cu57 ===  ===  ths8 2 1 -1063 -2.0014E+00
+--
+  he4 cu58      -->     p zn61 ===  ===  ths8 2 1 -1064 -1.8790E-01
+    p zn61      -->   he4 cu58 ===  ===  ths8 2 0  1064  1.8790E-01
+--
+    p cu59      -->     n zn59 ===  ===  ths8 2 1 -1065 -9.9251E+00
+    n zn59      -->     p cu59 ===  ===  ths8 2 0  1065  9.9251E+00
+--
+  he4 cu59      -->     n ga62 ===  ===  ths8 2 1 -1066 -1.0018E+01
+    n ga62      -->   he4 cu59 ===  ===  ths8 2 0  1066  1.0018E+01
+--
+  he4 cu59      -->     p zn62 ===  ===  ths8 2 1 -1067 -5.4285E-02
+    p zn62      -->   he4 cu59 ===  ===  ths8 2 0  1067  5.4285E-02
+--
+    p cu60      -->     n zn60 ===  ===  ths8 2 1 -1068 -4.9532E+00
+    n zn60      -->     p cu60 ===  ===  ths8 2 0  1068  4.9532E+00
+--
+  he4 cu60      -->     n ga63 ===  ===  ths8 2 1 -1069 -7.4438E+00
+    n ga63      -->   he4 cu60 ===  ===  ths8 2 0  1069  7.4438E+00
+--
+  he4 cu60      -->     p zn63 ===  ===  ths8 2 1 -1070 -9.9556E-01
+    p zn63      -->   he4 cu60 ===  ===  ths8 2 0  1070  9.9556E-01
+--
+    p cu61      -->     n zn61 ===  ===  ths8 2 1 -1071 -6.4228E+00
+    n zn61      -->     p cu61 ===  ===  ths8 2 0  1071  6.4228E+00
+--
+  he4 cu61      -->     n ga64 ===  ===  ths8 2 1 -1072 -8.7966E+00
+    n ga64      -->   he4 cu61 ===  ===  ths8 2 0  1072  8.7966E+00
+--
+  he4 cu61      -->     p zn64 ===  ===  ths8 2 1 -1073 -8.4410E-01
+    p zn64      -->   he4 cu61 ===  ===  ths8 2 0  1073  8.4410E-01
+--
+    p cu62      -->     n zn62 ===  ===  ths8 2 1 -1074 -2.4018E+00
+    n zn62      -->     p cu62 ===  ===  ths8 2 0  1074  2.4018E+00
+--
+  he4 cu62      -->     p zn65 ===  ===  ths8 2 1 -1075 -1.7393E+00
+    p zn65      -->   he4 cu62 ===  ===  ths8 2 0  1075  1.7393E+00
+--
+    p cu63      -->     n zn63 ===  ===  ths8 2 1 -1076 -4.1486E+00
+    n zn63      -->     p cu63 ===  ===  ths8 2 0  1076  4.1486E+00
+--
+  he4 cu63      -->     p zn66 ===  ===  ths8 2 1 -1077 -1.5443E+00
+    p zn66      -->   he4 cu63 ===  ===  ths8 2 0  1077  1.5443E+00
+--
+    p cu64      -->     n zn64 ===  ===  ths8 2 1 -1078 -2.0273E-01
+    n zn64      -->     p cu64 ===  ===  ths8 2 0  1078  2.0273E-01
+--
+    p cu65      -->     n zn65 ===  ===  ths8 2 1 -1079 -2.1340E+00
+    n zn65      -->     p cu65 ===  ===  ths8 2 0  1079  2.1340E+00
+--
+  he4 zn59      -->     p ga62 ===  ===  ths8 2 1 -1080 -9.2574E-02
+    p ga62      -->   he4 zn59 ===  ===  ths8 2 0  1080  9.2574E-02
+--
+  he4 zn60      -->     n ge63 ===  ===  ths8 2 1 -1081 -1.2899E+01
+    n ge63      -->   he4 zn60 ===  ===  ths8 2 0  1081  1.2899E+01
+--
+  he4 zn60      -->     p ga63 ===  ===  ths8 2 1 -1082 -2.4907E+00
+    p ga63      -->   he4 zn60 ===  ===  ths8 2 0  1082  2.4907E+00
+--
+  he4 zn61      -->     n ge64 ===  ===  ths8 2 1 -1083 -7.6742E+00
+    n ge64      -->   he4 zn61 ===  ===  ths8 2 0  1083  7.6742E+00
+--
+  he4 zn61      -->     p ga64 ===  ===  ths8 2 1 -1084 -2.3738E+00
+    p ga64      -->   he4 zn61 ===  ===  ths8 2 0  1084  2.3738E+00
+--
+    p zn62      -->     n ga62 ===  ===  ths8 2 1 -1085 -9.9634E+00
+    n ga62      -->     p zn62 ===  ===  ths8 2 0  1085  9.9634E+00
+--
+    p zn63      -->     n ga63 ===  ===  ths8 2 1 -1086 -6.4483E+00
+    n ga63      -->     p zn63 ===  ===  ths8 2 0  1086  6.4483E+00
+--
+    p zn64      -->     n ga64 ===  ===  ths8 2 1 -1087 -7.9525E+00
+    n ga64      -->     p zn64 ===  ===  ths8 2 0  1087  7.9525E+00
+--
+    p ga63      -->     n ge63 ===  ===  ths8 2 1 -1088 -1.0408E+01
+    n ge63      -->     p ga63 ===  ===  ths8 2 0  1088  1.0408E+01
+--
+    p ga64      -->     n ge64 ===  ===  ths8 2 1 -1089 -5.3003E+00
+    n ge64      -->     p ga64 ===  ===  ths8 2 0  1089  5.3003E+00
+--
+    p    d      -->     n    p    p ===  cf88 1 1 -1090 -2.2246E+00
+    n    p    p -->     p    d           cf88 1 0  1090  2.2246E+00
+--
+  he3  he3      -->     p    p  he4 ===  nacr 1 0  1091  1.2860E+01
+    p    p  he4 -->   he3  he3           nacr 1 1 -1091 -1.2860E+01
+--
+    d  li7      -->     n  he4  he4 ===  cf88 1 0  1092  1.5122E+01
+    n  he4  he4 -->     d  li7           cf88 1 1 -1092 -1.5122E+01
+--
+    d  be7      -->     p  he4  he4 ===  cf88 1 0  1093  1.6766E+01
+    p  he4  he4 -->     d  be7           cf88 1 1 -1093 -1.6766E+01
+--
+    p  be9      -->     d  he4  he4 ===  cf88 1 0  1094  6.5186E-01
+    p  be9      -->     d  he4  he4 ===  cf88 2 0  1094  6.5186E-01
+    p  be9      -->     d  he4  he4 ===  cf88 2 0  1094  6.5186E-01
+    d  he4  he4 -->     p  be9           cf88 1 1 -1094 -6.5186E-01
+    d  he4  he4 -->     p  be9           cf88 2 1 -1094 -6.5186E-01
+    d  he4  he4 -->     p  be9           cf88 2 1 -1094 -6.5186E-01
+--
+    n   b8      -->     p  he4  he4 ===   wag 1 0  1095  1.8854E+01
+    p  he4  he4 -->     n   b8            wag 1 1 -1095 -1.8854E+01
+--
+    p  b11      -->   he4  he4  he4 ===  nacr 1 0  1096  8.6822E+00
+    p  b11      -->   he4  he4  he4 ===  nacr 2 0  1096  8.6822E+00
+  he4  he4  he4 -->     p  b11           nacr 1 1 -1096 -8.6822E+00
+  he4  he4  he4 -->     p  b11           nacr 2 1 -1096 -8.6822E+00
+--
+  he3  li7      -->     n    p  he4  he4 mafo 1 0  1097  9.6282E+00
+    n    p  he4  he4 -->   he3  li7           mafo 1 1 -1097 -9.6282E+00
+--
+  he3  be7      -->     p    p  he4  he4 mafo 1 0  1098  1.1272E+01
+    p    p  he4  he4 -->   he3  be7           mafo 1 1 -1098 -1.1272E+01
+--
+    p  be9      -->     n    p  he4  he4 cf88 1 0 -1099 -1.5727E+00
+    p  be9      -->     n    p  he4  he4 cf88 2 0 -1099 -1.5727E+00
+    n    p  he4  he4 -->     p  be9           cf88 1 1  1099  1.5727E+00
+    n    p  he4  he4 -->     p  be9           cf88 2 1  1099  1.5727E+00
+           1
+   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18
+  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36
+  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54
+  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72
+  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90
+  91  92  93  94  95  96  97  98  99 100 101 102 103 104 105 106 107 108
+ 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126
+ 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144
+ 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160
+           2
+   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18
+  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36
+  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54
+  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72
+  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90
+  91  92  93  94  95  96  97  98  99 100 101 102 103 104 105 106 107 108
+ 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126
+ 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144
+ 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160
+           3
+   1   2   3   4   5   6   7   8   9  14  15  17  18
+           4
+   1   2   3   4   5   6   7   8
+           5
+   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18
+  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36
+  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54
+  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72
+  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90
+  91  92  93  94  95  96  97  98  99 100 101 102 103 104 105 106 107 108
+ 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126
+ 127 128 129 130 131 132 133 134 135 136 137 139 140 141 142 143 144 145
+ 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160
+           6
+   1   2   3   4   5   6   7   8   9  11
+           7
+   1   2   3   4   5   6   7   8  11  12
+           8
+   1   2   3   4   5   6   7   8  10  11
+           9
+   1   2   3   5   6   9  11  13
+          10
+   1   2   5   8  10
+          11
+   1   2   5   6   7   8   9  11  12  14  16
+          12
+   1   2   5   7  11  12  13  15  17
+          13
+   1   2   5   9  12  13  14  16  18  20  21  29  34  35  36  41  42  49
+          14
+   1   2   3   5  11  13  14  15  16  17  21
+          15
+   1   2   3   5  12  14  15  17  18  22  23
+          16
+   1   2   5  11  13  14  16  17  19  21
+          17
+   1   2   3   5  12  14  15  16  17  18  19  20  22  24  25
+          18
+   1   2   3   5  13  15  17  18  20  21  23  25  26
+          19
+   1   2   5  16  17  19  20  24  27
+          20
+   1   2   5  13  17  18  19  20  21  25  27  28
+          21
+   1   2   5  13  14  16  18  20  21  22  24  26  28  29  36  41  42  49
+          22
+   1   2   5  15  17  21  22  23  24  25  29  30
+          23
+   1   2   5  15  18  22  23  25  26  30  31
+          24
+   1   2   5  17  19  21  22  24  25  27  29  32
+          25
+   1   2   5  17  18  20  22  23  24  25  26  27  28  30  32  33
+          26
+   1   2   5  18  21  23  25  26  28  29  31  33  34
+          27
+   1   2   5  19  20  24  25  27  28  32
+          28
+   1   2   5  20  21  25  26  27  28  29  33  35
+          29
+   1   2   5  13  21  22  24  26  28  29  30  32  34  35  36  42  49
+          30
+   1   2   5  22  23  25  29  30  31  32  33  36  37
+          31
+   1   2   5  23  26  30  31  33  34  37  38
+          32
+   1   2   5  24  25  27  29  30  32  33  36  39
+          33
+   1   2   5  25  26  28  30  31  32  33  34  35  37  39  40
+          34
+   1   2   5  13  26  29  31  33  34  35  36  38  40  41
+          35
+   1   2   5  13  28  29  33  34  35  36  40
+          36
+   1   2   5  13  21  29  30  32  34  35  36  37  39  41  42
+          37
+   1   2   5  30  31  33  36  37  38  39  40  42  43
+          38
+   1   2   5  31  34  37  38  40  41  43  44
+          39
+   1   2   5  32  33  36  37  39  40  42  47
+          40
+   1   2   5  33  34  35  37  38  39  40  41  43  47  48
+          41
+   1   2   5  13  21  34  36  38  40  41  42  44  48  49
+          42
+   1   2   5  13  21  29  36  37  39  41  42  43  47  49  52
+          43
+   1   2   5  37  38  40  42  43  44  47  48  50  52  53
+          44
+   1   2   5  38  41  43  44  45  48  49  51  53  54
+          45
+   1   2   5  44  45  46  49  50  54  55
+          46
+   1   2   5  45  46  50  51  55  56
+          47
+   1   2   5  39  40  42  43  47  48  52  57
+          48
+   1   2   5  40  41  43  44  47  48  49  53  57  58
+          49
+   1   2   5  13  21  29  41  42  44  45  48  49  50  52  54  58  59
+          50
+   1   2   5  43  45  46  49  50  51  52  53  55  59  60
+          51
+   1   2   5  44  46  50  51  53  54  56  60  61
+          52
+   1   2   5  42  43  47  49  50  52  53  57  59  62
+          53
+   1   2   5  43  44  48  50  51  52  53  54  57  58  60  62  63
+          54
+   1   2   5  44  45  49  51  53  54  55  58  59  61  63  64
+          55
+   1   2   5  45  46  50  54  55  56  59  60  64  65
+          56
+   1   2   5  46  51  55  56  60  61  65  66
+          57
+   1   2   5  47  48  52  53  57  58  62  67
+          58
+   1   2   5  48  49  53  54  57  58  59  63  67  68
+          59
+   1   2   5  49  50  52  54  55  58  59  60  62  64  68  69
+          60
+   1   2   5  50  51  53  55  56  59  60  61  62  63  65  69  70
+          61
+   1   2   5  51  54  56  60  61  63  64  66  70  71
+          62
+   1   2   5  52  53  57  59  60  62  63  67  69  72
+          63
+   1   2   5  53  54  58  60  61  62  63  64  67  68  70  72  73
+          64
+   1   2   5  54  55  59  61  63  64  65  68  69  71  73  74
+          65
+   1   2   5  55  56  60  64  65  66  69  70  74  75
+          66
+   1   2   5  56  61  65  66  70  71  75  76
+          67
+   1   2   5  57  58  62  63  67  68  72
+          68
+   1   2   5  58  59  63  64  67  68  69  73
+          69
+   1   2   5  59  60  62  64  65  68  69  70  72  74  81
+          70
+   1   2   5  60  61  63  65  66  69  70  71  72  73  75  81  82
+          71
+   1   2   5  61  64  66  70  71  73  74  76  82  83
+          72
+   1   2   5  62  63  67  69  70  72  73  81  88
+          73
+   1   2   5  63  64  68  70  71  72  73  74  82  88  89
+          74
+   1   2   5  64  65  69  71  73  74  75  81  83  89  90
+          75
+   1   2   5  65  66  70  74  75  76  81  82  84  90  91
+          76
+   1   2   5  66  71  75  76  77  82  83  85  91  92
+          77
+   1   2   5  76  77  78  83  84  86  92  93
+          78
+   1   2   5  77  78  79  84  85  87  93  94
+          79
+   1   2   5  78  79  80  85  86  94  95
+          80
+   1   2   5  79  80  86  87  95
+          81
+   1   2   5  69  70  72  74  75  81  82  88  90  96  97
+          82
+   1   2   5  70  71  73  75  76  81  82  83  88  89  91  97  98
+          83
+   1   2   5  71  74  76  77  82  83  84  89  90  92  98  99
+          84
+   1   2   5  75  77  78  83  84  85  90  91  93  99 100
+          85
+   1   2   5  76  78  79  84  85  86  91  92  94 100 101
+          86
+   1   2   5  77  79  80  85  86  87  92  93  95 101 102
+          87
+   1   2   5  78  80  86  87  93  94 102
+          88
+   1   2   5  72  73  81  82  88  89  97 103
+          89
+   1   2   5  73  74  82  83  88  89  90  96  98 103 104
+          90
+   1   2   5  74  75  81  83  84  89  90  91  96  97  99 104 105
+          91
+   1   2   5  75  76  82  84  85  90  91  92  97  98 100 105 106
+          92
+   1   2   5  76  77  83  85  86  91  92  93  98  99 101 106 107
+          93
+   1   2   5  77  78  84  86  87  92  93  94  99 100 102 107 108
+          94
+   1   2   5  78  79  85  87  93  94  95 100 101 108 109
+          95
+   1   2   5  79  80  86  94  95 101 102 109
+          96
+   1   2   5  81  89  90  96  97 104 110
+          97
+   1   2   5  81  82  88  90  91  96  97  98 103 105 110 111
+          98
+   1   2   5  82  83  89  91  92  97  98  99 103 104 106 111 112
+          99
+   1   2   5  83  84  90  92  93  98  99 100 104 105 107 112 113
+         100
+   1   2   5  84  85  91  93  94  99 100 101 105 106 108 113 114
+         101
+   1   2   5  85  86  92  94  95 100 101 102 106 107 109 114 115
+         102
+   1   2   5  86  87  93  95 101 102 107 108 115
+         103
+   1   2   5  88  89  97  98 103 104 111 116
+         104
+   1   2   5  89  90  96  98  99 103 104 105 110 112 116 117
+         105
+   1   2   5  90  91  97  99 100 104 105 106 110 111 113 117 118
+         106
+   1   2   5  91  92  98 100 101 105 106 107 111 112 114 118 119
+         107
+   1   2   5  92  93  99 101 102 106 107 108 112 113 115 119 120
+         108
+   1   2   5  93  94 100 102 107 108 109 113 114 120 121
+         109
+   1   2   5  94  95 101 108 109 114 115 121 122
+         110
+   1   2   5  96  97 104 105 110 111 117 123 124
+         111
+   1   2   5  97  98 103 105 106 110 111 112 116 118 124 125
+         112
+   1   2   5  98  99 104 106 107 111 112 113 116 117 119 125 126
+         113
+   1   2   5  99 100 105 107 108 112 113 114 117 118 120 126 127
+         114
+   1   2   5 100 101 106 108 109 113 114 115 118 119 121 127 128
+         115
+   1   2   5 101 102 107 109 114 115 119 120 122 128 129
+         116
+   1   2   5 103 104 111 112 116 117 123 125 130
+         117
+   1   2   5 104 105 110 112 113 116 117 118 123 124 126 130 131
+         118
+   1   2   5 105 106 111 113 114 117 118 119 124 125 127 131 132
+         119
+   1   2   5 106 107 112 114 115 118 119 120 125 126 128 132 133
+         120
+   1   2   5 107 108 113 115 119 120 121 126 127 129 133 134
+         121
+   1   2   5 108 109 114 120 121 122 127 128 134 135
+         122
+   1   2   5 109 115 121 122 128 129 135 136
+         123
+   1   2   5 110 116 117 123 124 130 139
+         124
+   1   2   5 110 111 117 118 123 124 125 131 139 140
+         125
+   1   2   5 111 112 116 118 119 124 125 126 130 132 140 141
+         126
+   1   2   5 112 113 117 119 120 125 126 127 130 131 133 141 142
+         127
+   1   2   5 113 114 118 120 121 126 127 128 131 132 134 142 143
+         128
+   1   2   5 114 115 119 121 122 127 128 129 132 133 135 143 144
+         129
+   1   2   5 115 120 122 128 129 133 134 136 144 145
+         130
+   1   2   5 116 117 123 125 126 130 131 139 141 148 149
+         131
+   1   2   5 117 118 124 126 127 130 131 132 139 140 142 149 150
+         132
+   1   2   5 118 119 125 127 128 131 132 133 140 141 143 148 150 151
+         133
+   1   2   5 119 120 126 128 129 132 133 134 141 142 144 151 152
+         134
+   1   2   5 120 121 127 129 133 134 135 142 143 145 152 153
+         135
+   1   2   5 121 122 128 134 135 136 143 144 146 153 154
+         136
+   1   2   5 122 129 135 136 137 144 145 147 154 155
+         137
+   1   2   5 136 137 138 145 146 155
+         138
+   1   2 137 138 146 147
+         139
+   1   2   5 123 124 130 131 139 140 149
+         140
+   1   2   5 124 125 131 132 139 140 141 148 150 156
+         141
+   1   2   5 125 126 130 132 133 140 141 142 148 149 151 156 157
+         142
+   1   2   5 126 127 131 133 134 141 142 143 149 150 152 157 158
+         143
+   1   2   5 127 128 132 134 135 142 143 144 150 151 153 158
+         144
+   1   2   5 128 129 133 135 136 143 144 145 151 152 154
+         145
+   1   2   5 129 134 136 137 144 145 146 152 153 155
+         146
+   1   2   5 135 137 138 145 146 147 153 154
+         147
+   1   2   5 136 138 146 147 154 155
+         148
+   1   2   5 130 140 141 148 149 156 159
+         149
+   1   2   5 130 131 139 141 142 148 149 150 157 159 160
+         150
+   1   2   5 131 132 140 142 143 149 150 151 156 158 160
+         151
+   1   2   5 132 133 141 143 144 150 151 152 156 157
+         152
+   1   2   5 133 134 142 144 145 151 152 153 157 158
+         153
+   1   2   5 134 135 143 145 146 152 153 154 158
+         154
+   1   2   5 135 136 144 146 147 153 154 155
+         155
+   1   2   5 136 137 145 147 154 155
+         156
+   1   2   5 140 141 148 150 151 156 157 159
+         157
+   1   2   5 141 142 149 151 152 156 157 158 159 160
+         158
+   1   2   5 142 143 150 152 153 157 158 160
+         159
+   1   2   5 148 149 156 157 159 160
+         160
+   1   2   5 149 150 157 158 159 160
