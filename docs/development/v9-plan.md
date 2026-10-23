@@ -22,9 +22,9 @@ As of 2026-10-23, `development` is
 | Work | Current result | Next step |
 | --- | --- | --- |
 | [#128: configuration](https://github.com/jaharris87/XNet/issues/128) | Merged: validated `xnet_controls_t`, programmatic configuration, layered standalone namelists, and migrated maintained inputs | Use the existing representation in the application interface |
-| [#127: starting CPU measurements](https://github.com/jaharris87/XNet/issues/127) | Serial dense CPU measurements for four network sizes on both facilities | Maintainer review of the completed results and MA48 deferral |
+| [#127: starting CPU measurements](https://github.com/jaharris87/XNet/issues/127) | Complete and accepted: serial dense CPU measurements for four network sizes on both facilities, with MA48 deferred | Use these results in #131's CPU/GPU comparison |
 | [#129: application interface and library](https://github.com/jaharris87/XNet/issues/129) | A procedural interface has been proposed; it is not approved or implemented | Check the proposal against real consumer calls and obtain the remaining interface decisions |
-| [#130: application integrations](https://github.com/jaharris87/XNet/issues/130) | Integration validation remains open | Exercise one real caller first, then the second, with application-side adapters |
+| [#130: application integrations](https://github.com/jaharris87/XNet/issues/130) | Integration validation remains open | CHIMERA first, then Flash-X, with application-side adapters |
 | [#131: CPU/GPU and application performance](https://github.com/jaharris87/XNet/issues/131) | Comparable GPU timings and later coupled measurements remain open | Stage A: standalone GPU comparisons now; stage B: resulting-code and repeated application burns after #129/#130 |
 | [#132: release checks](https://github.com/jaharris87/XNet/issues/132) | Not yet a release candidate | Verify the final implementation, supported platforms, and documentation |
 
@@ -39,9 +39,9 @@ They do not supply the missing network-size GPU timings.
 ## 1. Finish the standalone CPU/GPU starting measurements
 
 Keep the completed CPU collection in #127. Its reduced completion scope was
-approved separately; the GPU results are not a new condition for accepting
-that CPU collection. Record its maintainer acceptance and MA48 deferral when
-closing the issue.
+approved separately. The maintainer accepted its results and MA48 deferral
+and authorized closure on 2026-10-23. The GPU results are not an additional
+condition for that completed CPU collection.
 
 Collect the matching GPU measurements as stage A of #131. This is the next
 performance work, before interface-changing production work in #129. It does
@@ -83,8 +83,8 @@ and explain the compiler/library and batch-size differences. Cross-machine
 results are not an isolated comparison of OpenMP and OpenACC.
 
 MA48 was not configured for the CPU collection. A licensed-source location
-was not established on either facility. Report sparse measurements as
-deferred, subject to maintainer acceptance; do not infer facility-wide absence
+was not established on either facility. The maintainer accepted sparse
+measurement deferral for #127; do not infer facility-wide absence
 from an unset variable or missing module. Never redistribute HSL source.
 
 Finish stage A of #131 with compact CPU/GPU tables, raw repetitions, numerical
@@ -97,9 +97,8 @@ are not prerequisites for these starting measurements.
 
 #129 owns the XNet procedures, types, and conventional Make library target.
 #130 owns the application adapters and representative integration checks.
-Inspect both consumers before fixing the shared interface, then use one
-consumer to drive the first implementation. The maintainer selects the first
-consumer from accessible, representative code.
+Inspect both consumers before fixing the shared interface. The maintainer
+selected CHIMERA to drive the first implementation, followed by Flash-X.
 
 Start with the existing validated configuration and trace what the caller
 needs at initialization, for each burn, and at finalization. Keep species
