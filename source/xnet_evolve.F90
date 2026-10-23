@@ -241,19 +241,9 @@ Contains
           nname_out(ny+1) = '  Aux'
           yout(1:ny) = yo(:,izb) 
           yout(ny+1) = xext(izb)
-          If ( Size(zone_id,1) == 4 ) Then
-            Write(ab_fname,"(4(a,i3.3))") 'ab_fail_',zone_id(1,izb),'_',zone_id(2,izb), &
-              & '_',zone_id(3,izb),'_',zone_id(4,izb)
-          Else
-            Write(ab_fname,"(3(a,i3.3))") 'ab_fail_',zone_id(1,izb),'_',zone_id(2,izb),'_',zone_id(3,izb)
-          EndIf
+          Write(ab_fname,"(3(a,i3.3))") 'ab_fail_',zone_id(1,izb),'_',zone_id(2,izb),'_',zone_id(3,izb)
           Call write_xnet_inab(ab_fname,ab_fname,nname_out,yout,ierr)
-          If ( Size(zone_id,1) == 4 ) Then
-            Write(th_fname,"(4(a,i3.3))") 'th_fail_',zone_id(1,izb),'_',zone_id(2,izb), &
-              & '_',zone_id(3,izb),'_',zone_id(4,izb)
-          Else
-            Write(th_fname,"(3(a,i3.3))") 'th_fail_',zone_id(1,izb),'_',zone_id(2,izb),'_',zone_id(3,izb)
-          EndIf
+          Write(th_fname,"(3(a,i3.3))") 'th_fail_',zone_id(1,izb),'_',zone_id(2,izb),'_',zone_id(3,izb)
           Call write_xnet_th(th_fname,th_fname,tstart(izb),tstop(izb),t9start(izb),rhostart(izb),yestart(izb),ierr)
 
           Flush(lun_diag)

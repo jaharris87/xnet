@@ -70,6 +70,8 @@ or reorder composition or compute application nuclear-energy release.
 Applications retain those operations and their EOS/energy policy.
 
 `zone_id(:,lane)` has three or four integer components for diagnostics.
+Existing XNet failure filenames use the first three components. The planned
+error return will let each host report its own identifiers.
 Short batches and inactive holes are supported. Inactive lanes preserve
 temperature, Ye, composition and restart hint, and return zero loss/counters.
 Scientific values in inactive lanes are not read. An all-inactive batch
