@@ -43,10 +43,11 @@ approved separately. The maintainer accepted its results and MA48 deferral
 and authorized closure on 2026-10-23. The GPU results are not an additional
 condition for that completed CPU collection.
 
-Collect the matching GPU measurements as stage A of #131. This is the next
-performance work, before interface-changing production work in #129. It does
-not depend on #129 or on coupled captures from #130. The later coupled
-measurements are stage B of #131.
+Collect the matching GPU measurements as stage A of #131 before integrating
+interface changes or making before/after performance claims. An isolated
+unmerged #129 implementation may proceed while measurements run from the
+pinned source below. Stage A does not depend on #129 or on coupled captures
+from #130. The later coupled measurements are stage B of #131.
 
 Use source and inputs from development commit
 `3825c705b26f11ea67f43d6098452a3d53379dfb` for both facilities. This is the
