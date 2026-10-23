@@ -1,9 +1,19 @@
-# Pre-v9 benchmark measurements
+# Standalone benchmark measurements
 
-This directory contains the small benchmark runner for issue #127. It records
-timings and numerical results from the historical XNet source revision
-`86e867c2a64267a674ce4fbf6a3064af39e2f4e0`. It is not a general benchmark
-framework, a facility interface, or a system for qualifying a platform.
+This directory contains the small benchmark runner introduced for issue #127.
+The runner targets historical XNet source revision
+`86e867c2a64267a674ce4fbf6a3064af39e2f4e0`; the commands below describe that
+supported input path. The [v9 plan](../../docs/development/v9-plan.md) separates
+the current standalone CPU/GPU starting measurements from later application
+performance work.
+
+For the current collection, the maintainer selected development commit
+`3825c705b26f11ea67f43d6098452a3d53379dfb` for source and inputs on both
+Frontier and Perlmutter. The [CPU results and reproduction notes](https://github.com/jaharris87/XNet/issues/127#issuecomment-6371001835)
+record the local registry-SHA selection and external namelist launch script
+used with that source. These are development-source results, not timings of
+the historical revision. The runner has not been changed to provide a general
+development-source input mode.
 
 Do not modify the historical source. If a compiler or runtime configuration
 requires a source patch, report that measurement as `UNAVAILABLE`. Later XNet
@@ -104,8 +114,10 @@ python3 test/benchmark/run.py \
 The runner was tested with a serial CPU build, a two-thread OpenMP CPU build,
 and a single-GPU Frontier build. Each test retained the wall time, build and
 input revisions, command, XNet timers and counters, raw output, and numerical
-comparison. MPI scaling, MPI+GPU, ranks-per-GPU, batch and network sweeps,
-MA48 scaling, and self-heating sensitivity remain to be measured for #127.
+comparison. The Perlmutter GPU smoke and its historical-source limitation are
+documented in [#152](https://github.com/jaharris87/XNet/issues/152#issuecomment-5938123533).
+These small smoke tests do not replace the comparable CPU/GPU measurements
+described below.
 
 The output directory contains `result.json`, the build log/configuration,
 compiler version, generated controlled inputs, and one directory per raw
@@ -138,7 +150,21 @@ diagnostics, and raw output are available for inspection.
 Comparison limits are maintainer decisions. Do not widen them to make a new
 toolchain pass.
 
-## Measurements to collect for issue #127
+## Current measurements and later characterization
+
+Issue #127's completed CPU collection uses alpha, CCSN52, SN160, and ECSN350 with
+1024 zones, self-heating off, and one setup run followed by five repetitions.
+Serial dense CPU results are complete on both Frontier and Perlmutter.
+The next step, stage A of #131, is a matching single-rank, single-GPU
+measurement on each facility, using the same source/input commit and GPU
+batch size 16. This starting point is not a claim of optimal batch size.
+It does not depend on the future embedding interface.
+Report Setup and burn/component timers separately from launcher-inclusive
+wall time, and compare numerical results after every timed execution.
+
+Stage B of #131 covers the resulting-code and application measurements. The
+broader finite matrix is a set of possible studies to select for concrete
+questions, not a list that must all run before #127 can finish:
 
 The planned measurements answer specific performance questions rather than
 forming a Cartesian product:
@@ -156,8 +182,13 @@ forming a Cartesian product:
 9. historical `batch_alpha` and `heat_sn160` comparability points.
 
 Use one setup run followed by five retained repetitions unless the observed
-behavior justifies a different count. If the historical source is incompatible
-with a configuration, record that measurement as unavailable and continue.
+behavior justifies a different count. A standalone repetition is a new process
+and includes initialization, not a persistent application burn call. Record
+unavailable configurations and MA48 licensing/availability limitations.
+Historical-source experiments remain unmodified; identify any different
+source class separately. Keep full facility run directories and debugging
+files in external storage and preserve compact useful results in issue/PR
+records or a scientific/performance summary.
 
 ## Future coupled XNet measurements
 

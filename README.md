@@ -9,6 +9,9 @@ execution (post-processing nucleosynthesis). However, with the appropriate
 interfaces, XNet has been used in a variety of large scale simulation
 packages, including FLASH, CHIMERA and several other codes.
 
+The [v9 development plan](docs/development/v9-plan.md) describes the current
+configuration, application-interface, CPU/GPU measurement, and release work.
+
 Building XNet
 -------------
 
