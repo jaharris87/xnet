@@ -23,7 +23,7 @@ As of 2026-10-23, `development` is
 | --- | --- | --- |
 | [#128: configuration](https://github.com/jaharris87/XNet/issues/128) | Merged: validated `xnet_controls_t`, programmatic configuration, layered standalone namelists, and migrated maintained inputs | Use the existing representation in the application interface |
 | [#127: starting CPU measurements](https://github.com/jaharris87/XNet/issues/127) | Complete and accepted: serial dense CPU measurements for four network sizes on both facilities, with MA48 deferred | Use these results in #131's CPU/GPU comparison |
-| [#129: application interface and library](https://github.com/jaharris87/XNet/issues/129) | A procedural interface has been proposed; it is not approved or implemented | Check the proposal against real consumer calls and obtain the remaining interface decisions |
+| [#129: application interface and library](https://github.com/jaharris87/XNet/issues/129) | CHIMERA-first initialize/burn/finalize direction approved; implementation remains open | Prove CPU equivalence with table EOS, then implement recoverable burn failures |
 | [#130: application integrations](https://github.com/jaharris87/XNet/issues/130) | Integration validation remains open | CHIMERA first, then Flash-X, with application-side adapters |
 | [#131: CPU/GPU and application performance](https://github.com/jaharris87/XNet/issues/131) | Comparable GPU timings and later coupled measurements remain open | Stage A: standalone GPU comparisons now; stage B: resulting-code and repeated application burns after #129/#130 |
 | [#132: release checks](https://github.com/jaharris87/XNet/issues/132) | Not yet a release candidate | Verify the final implementation, supported platforms, and documentation |
@@ -107,11 +107,18 @@ Use ordinary Fortran procedures and the existing compile-time provider
 practices. Keep one XNet instance and document concurrency restrictions.
 
 The previous #129 signatures and ownership proposal are design material,
-not approval to implement them unchanged. Before production implementation,
-resolve the public units and array layouts, timestep meaning, recoverable
-failure behavior, supported concurrency, and ownership of MPI, EOS, and GPU
-resources with the maintainer. Do not require the maintainer to approve every
-private helper routine.
+not approval to implement them unchanged. The maintainer approved a smaller
+[initialize/burn/finalize direction](https://github.com/jaharris87/XNet/issues/129#issuecomment-6372794913):
+constant-condition batches, temperature in K, XNet-order mass fractions,
+active lanes, auxiliary composition, and the existing penultimate-timestep
+meaning. Start with CHIMERA table-EOS CPU equivalence, then add recoverable
+burn failures before claiming a recovery-capable library. Keep the first
+slice's existing fatal numerical paths documented. MPI/OpenMP and caller-owned
+GPU validation remain required before claiming those modes.
+
+Review detailed signatures and MPI/EOS/GPU ownership in the implementation.
+Bring consequential changes to these decisions back to the maintainer;
+private helper routines do not each need approval.
 
 The first useful implementation should build a driver-free library, exercise
 repeated burns through its public procedures, preserve reusable setup, and
