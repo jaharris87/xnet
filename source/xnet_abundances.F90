@@ -31,6 +31,18 @@ Module xnet_abundances
 
 Contains
 
+  Subroutine abundances_initialize
+    ! Allocate the reusable abundance workspace after the network size is known.
+    Use nuclear_data, Only: ny
+    Use xnet_controls, Only: nzevolve
+    Implicit None
+    Allocate (y(ny,nzevolve),yo(ny,nzevolve),yt(ny,nzevolve),ydot(ny,nzevolve),ystart(ny,nzevolve))
+    Allocate (xext(nzevolve),aext(nzevolve),zext(nzevolve))
+    y = 0.0 ; yo = 0.0 ; yt = 0.0 ; ydot = 0.0 ; ystart = 0.0
+    xext = 0.0 ; aext = 0.0 ; zext = 0.0
+    Return
+  End Subroutine abundances_initialize
+
   Subroutine y_moment_internal(y,ye,ytot,abar,zbar,z2bar,zibar,xext,yext,zext)
     !-----------------------------------------------------------------------------------------------
     ! This routine calculates moments of the abundance distribution for the EOS.
@@ -183,5 +195,19 @@ Contains
 
     Return
   End Subroutine y_moment_vector
+
+  Subroutine abundances_finalize
+    ! Release XNet-owned CPU allocations.
+    Implicit None
+    If ( Allocated(ystart) ) Deallocate (ystart)
+    If ( Allocated(yo) ) Deallocate (yo)
+    If ( Allocated(y) ) Deallocate (y)
+    If ( Allocated(yt) ) Deallocate (yt)
+    If ( Allocated(ydot) ) Deallocate (ydot)
+    If ( Allocated(xext) ) Deallocate (xext)
+    If ( Allocated(aext) ) Deallocate (aext)
+    If ( Allocated(zext) ) Deallocate (zext)
+    Return
+  End Subroutine abundances_finalize
 
 End Module xnet_abundances

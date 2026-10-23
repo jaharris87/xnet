@@ -316,4 +316,18 @@ Contains
     Return
   End Subroutine nnu_rate
 
+  Subroutine nnu_finalize
+    ! Release XNet-owned CPU allocations.
+    Implicit None
+    If ( Allocated(tmevnu) ) Deallocate (tmevnu)
+    If ( Allocated(fluxcms) ) Deallocate (fluxcms)
+    If ( Allocated(ltnu) ) Deallocate (ltnu)
+    If ( Allocated(fluxnu) ) Deallocate (fluxnu)
+    If ( Allocated(irl) ) Deallocate (irl)
+    If ( Allocated(nuspec) ) Deallocate (nuspec)
+    If ( Allocated(sigmanu) ) Deallocate (sigmanu)
+    If ( Allocated(rnnu) ) Deallocate (rnnu)
+    Return
+  End Subroutine nnu_finalize
+
 End Module xnet_nnu

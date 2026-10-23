@@ -72,6 +72,7 @@ OBJ_DIR := $(BUILD_DIR)/obj
 MOD_DIR := $(BUILD_DIR)/mod
 PP_DIR := $(BUILD_DIR)/pp
 BIN_DIR := $(BUILD_DIR)/bin
+LIB_DIR := $(BUILD_DIR)/lib
 CONFIG := $(BUILD_DIR)/config.txt
 
 REQUESTED_GOALS := $(if $(MAKECMDGOALS),$(MAKECMDGOALS),xnet)

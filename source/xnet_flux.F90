@@ -199,4 +199,15 @@ Contains
     Return
   End Subroutine flux_check
 
+  Subroutine flux_finalize
+    ! Release XNet-owned CPU allocations.
+    Implicit None
+    If ( Allocated(flx) ) Deallocate (flx)
+    If ( Allocated(flx_int) ) Deallocate (flx_int)
+    If ( Allocated(dcflx) ) Deallocate (dcflx)
+    If ( Allocated(ifl_orig) ) Deallocate (ifl_orig)
+    If ( Allocated(ifl_term) ) Deallocate (ifl_term)
+    Return
+  End Subroutine flux_finalize
+
 End Module xnet_flux

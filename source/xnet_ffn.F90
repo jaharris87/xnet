@@ -420,4 +420,21 @@ Contains
     Return
   End Subroutine effphase
 
+  Subroutine ffn_finalize
+    ! Release XNet-owned CPU allocations.
+    Implicit None
+    If ( Allocated(ffn_ec) ) Deallocate (ffn_ec)
+    If ( Allocated(ffn_beta) ) Deallocate (ffn_beta)
+    If ( Allocated(ffnsum) ) Deallocate (ffnsum)
+    If ( Allocated(ffnenu) ) Deallocate (ffnenu)
+    If ( Allocated(qkffn) ) Deallocate (qkffn)
+    If ( Allocated(ffn_qval) ) Deallocate (ffn_qval)
+    If ( Allocated(phasei) ) Deallocate (phasei)
+    If ( Allocated(dphaseidt9) ) Deallocate (dphaseidt9)
+    If ( Allocated(has_logft) ) Deallocate (has_logft)
+    If ( Allocated(rffn) ) Deallocate (rffn)
+    If ( Allocated(dlnrffndt9) ) Deallocate (dlnrffndt9)
+    Return
+  End Subroutine ffn_finalize
+
 End Module xnet_ffn

@@ -191,6 +191,12 @@ make -j xnse
 `xnet` with explicit supported selectors. Target presence records a build
 recipe, not a support claim.
 
+`make -j libxnet` builds `lib/libxnet.a`, module files, and `xnet-config.mk`
+under the selected build directory. The archive excludes the standalone and
+utility main programs. The initial public API supports dense serial CPU
+calls; see [embedding.md](embedding.md) for data conventions, external linking,
+and the remaining fatal error paths.
+
 ## Focused component and executable tests
 
 The Fortran component suite includes a complete serial XNet executable

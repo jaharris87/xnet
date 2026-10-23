@@ -411,4 +411,17 @@ Contains
     Return
   End Subroutine salpeter_ratio_vector
 
+  Subroutine eos_finalize
+    ! Release XNet-owned CPU allocations.
+    Implicit None
+    If ( Allocated(ye) ) Deallocate (ye)
+    If ( Allocated(ytot) ) Deallocate (ytot)
+    If ( Allocated(abar) ) Deallocate (abar)
+    If ( Allocated(zbar) ) Deallocate (zbar)
+    If ( Allocated(z2bar) ) Deallocate (z2bar)
+    If ( Allocated(zibar) ) Deallocate (zibar)
+    If ( Allocated(sratio) ) Deallocate (sratio)
+    Return
+  End Subroutine eos_finalize
+
 End Module xnet_eos

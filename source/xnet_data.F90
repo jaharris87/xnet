@@ -665,6 +665,34 @@ Contains
     Return
   End Subroutine format_nuclear_data
 
+  Subroutine nuclear_data_finalize
+    ! Release XNet-owned CPU allocations.
+    Implicit None
+    If ( Allocated(nname) ) Deallocate (nname)
+    If ( Allocated(aa) ) Deallocate (aa)
+    If ( Allocated(zz) ) Deallocate (zz)
+    If ( Allocated(nn) ) Deallocate (nn)
+    If ( Allocated(be) ) Deallocate (be)
+    If ( Allocated(mex) ) Deallocate (mex)
+    If ( Allocated(mm) ) Deallocate (mm)
+    If ( Allocated(ia) ) Deallocate (ia)
+    If ( Allocated(iz) ) Deallocate (iz)
+    If ( Allocated(in) ) Deallocate (in)
+    If ( Allocated(zz2) ) Deallocate (zz2)
+    If ( Allocated(zz53) ) Deallocate (zz53)
+    If ( Allocated(zzi) ) Deallocate (zzi)
+    If ( Allocated(zseq) ) Deallocate (zseq)
+    If ( Allocated(zseq53) ) Deallocate (zseq53)
+    If ( Allocated(zseqi) ) Deallocate (zseqi)
+    If ( Allocated(it9i) ) Deallocate (it9i)
+    If ( Allocated(t9i) ) Deallocate (t9i)
+    If ( Allocated(g) ) Deallocate (g)
+    If ( Allocated(gg) ) Deallocate (gg)
+    If ( Allocated(angm) ) Deallocate (angm)
+    If ( Allocated(dlngdt9) ) Deallocate (dlngdt9)
+    Return
+  End Subroutine nuclear_data_finalize
+
 End Module nuclear_data
 
 Module reaction_data
@@ -1107,5 +1135,73 @@ Contains
 
     Return
   End Subroutine enudot
+
+  Subroutine reaction_data_finalize
+    ! Release XNet-owned CPU allocations.
+    Implicit None
+    If ( Allocated(n1i) ) Deallocate (n1i)
+    If ( Allocated(n2i) ) Deallocate (n2i)
+    If ( Allocated(n3i) ) Deallocate (n3i)
+    If ( Allocated(n4i) ) Deallocate (n4i)
+    If ( Allocated(rc1) ) Deallocate (rc1)
+    If ( Allocated(rc2) ) Deallocate (rc2)
+    If ( Allocated(rc3) ) Deallocate (rc3)
+    If ( Allocated(rc4) ) Deallocate (rc4)
+    If ( Allocated(csect1) ) Deallocate (csect1)
+    If ( Allocated(csect2) ) Deallocate (csect2)
+    If ( Allocated(csect3) ) Deallocate (csect3)
+    If ( Allocated(csect4) ) Deallocate (csect4)
+    If ( Allocated(dcsect1dt9) ) Deallocate (dcsect1dt9)
+    If ( Allocated(dcsect2dt9) ) Deallocate (dcsect2dt9)
+    If ( Allocated(dcsect3dt9) ) Deallocate (dcsect3dt9)
+    If ( Allocated(dcsect4dt9) ) Deallocate (dcsect4dt9)
+    If ( Allocated(iwk1) ) Deallocate (iwk1)
+    If ( Allocated(iwk2) ) Deallocate (iwk2)
+    If ( Allocated(iwk3) ) Deallocate (iwk3)
+    If ( Allocated(iwk4) ) Deallocate (iwk4)
+    If ( Allocated(ires1) ) Deallocate (ires1)
+    If ( Allocated(ires2) ) Deallocate (ires2)
+    If ( Allocated(ires3) ) Deallocate (ires3)
+    If ( Allocated(ires4) ) Deallocate (ires4)
+    If ( Allocated(irev1) ) Deallocate (irev1)
+    If ( Allocated(irev2) ) Deallocate (irev2)
+    If ( Allocated(irev3) ) Deallocate (irev3)
+    If ( Allocated(irev4) ) Deallocate (irev4)
+    If ( Allocated(q1) ) Deallocate (q1)
+    If ( Allocated(q2) ) Deallocate (q2)
+    If ( Allocated(q3) ) Deallocate (q3)
+    If ( Allocated(q4) ) Deallocate (q4)
+    If ( Allocated(iffn) ) Deallocate (iffn)
+    If ( Allocated(innu) ) Deallocate (innu)
+    If ( Allocated(la) ) Deallocate (la)
+    If ( Allocated(le) ) Deallocate (le)
+    If ( Allocated(mu1) ) Deallocate (mu1)
+    If ( Allocated(mu2) ) Deallocate (mu2)
+    If ( Allocated(mu3) ) Deallocate (mu3)
+    If ( Allocated(mu4) ) Deallocate (mu4)
+    If ( Allocated(n11) ) Deallocate (n11)
+    If ( Allocated(n21) ) Deallocate (n21)
+    If ( Allocated(n22) ) Deallocate (n22)
+    If ( Allocated(n31) ) Deallocate (n31)
+    If ( Allocated(n32) ) Deallocate (n32)
+    If ( Allocated(n33) ) Deallocate (n33)
+    If ( Allocated(n41) ) Deallocate (n41)
+    If ( Allocated(n42) ) Deallocate (n42)
+    If ( Allocated(n43) ) Deallocate (n43)
+    If ( Allocated(n44) ) Deallocate (n44)
+    If ( Allocated(n10) ) Deallocate (n10)
+    If ( Allocated(n20) ) Deallocate (n20)
+    If ( Allocated(n30) ) Deallocate (n30)
+    If ( Allocated(n40) ) Deallocate (n40)
+    If ( Allocated(a1) ) Deallocate (a1)
+    If ( Allocated(a2) ) Deallocate (a2)
+    If ( Allocated(a3) ) Deallocate (a3)
+    If ( Allocated(a4) ) Deallocate (a4)
+    If ( Allocated(b1) ) Deallocate (b1)
+    If ( Allocated(b2) ) Deallocate (b2)
+    If ( Allocated(b3) ) Deallocate (b3)
+    If ( Allocated(b4) ) Deallocate (b4)
+    Return
+  End Subroutine reaction_data_finalize
 
 End Module reaction_data

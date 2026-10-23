@@ -879,25 +879,20 @@ Contains
     Return
   End Subroutine resize_output_controls
 
-  Subroutine apply_standalone_controls(controls,data_dir)
-    !-----------------------------------------------------------------------------------------------
-    ! Copy the standalone controls to the module variables used by XNet.
-    !-----------------------------------------------------------------------------------------------
-    Use xnet_util, Only: xnet_terminate
+  Subroutine apply_xnet_controls(controls,ierr,message)
+    ! Apply validated controls and allocate reusable execution controls, without standalone filenames.
     Implicit None
-
-    ! Input variables
     Type(xnet_controls_t), Intent(in) :: controls
+    Integer, Intent(out) :: ierr
+    Character(*), Intent(out) :: message
 
-    ! Output variables
-    Character(*), Intent(out) :: data_dir
-
-    ! Local variables
-    Character(256) :: message
-    Integer :: ierr
-
-    Call validate_standalone_controls(controls,ierr,message)
-    If ( ierr /= 0 ) Call xnet_terminate(Trim(message))
+    Call validate_xnet_controls(controls,ierr,message)
+    If ( ierr /= 0 ) Return
+    If ( Allocated(zone_id) ) Then
+      ierr = 1
+      message = 'XNet execution controls are already allocated'
+      Return
+    EndIf
 
     descript = controls%description
     szone = controls%szone
@@ -927,7 +922,6 @@ Contains
     ev_file_base = controls%ev_file_base
     bin_file_base = controls%bin_file_base
     nnucout = controls%nnucout
-    data_dir = controls%data_dir
 
     ! The BDF integrator does not need the additional Backward-Euler change limits.
     If ( isolv == 3 ) Then
@@ -935,12 +929,19 @@ Contains
       changemxt = 1.0e10_dp
     EndIf
 
+
     nzevolve = nzbatchmx*nthread
-    Allocate(zone_id(3,nzevolve),lzactive(nzevolve),iweak(nzevolve),lun_ev(nzevolve),lun_ts(nzevolve))
-    Allocate(kmon(5,nzevolve),ktot(5,nzevolve),inab_file(nzone),thermo_file(nzone))
-    Allocate(output_nuc(nnucout),inucout(nnucout))
-    inab_file = controls%inab_files(:nzone)
-    thermo_file = controls%thermo_files(:nzone)
+    Allocate(zone_id(3,nzevolve),lzactive(nzevolve),iweak(nzevolve),lun_ev(nzevolve),lun_ts(nzevolve),iaux(nzevolve))
+    Allocate(kmon(5,nzevolve),ktot(5,nzevolve),output_nuc(nnucout),inucout(nnucout))
+    zone_id = 0
+    lzactive = .false.
+    iweak = iweak0
+    iaux = 0
+    lun_ev = 0
+    lun_ts = 0
+    kmon = 0
+    ktot = 0
+    inucout = 0
     If ( nnucout > 0 ) output_nuc = controls%output_nuclei(:nnucout)
     Write(nnucout_string,'(i4)') nnucout
     nnucout_string = Adjustl(nnucout_string)
@@ -951,16 +952,32 @@ Contains
     zb_hi = zb_offset+nzbatchmx
     !$omp end parallel
 
-    ! Keep the device copies synchronized after the controls are applied.
     !XDIR XUPDATE XASYNC(tid) &
     !XDIR XDEVICE(iheat,iscrn,iconvc,ymin)
-
     !XDIR XENTER_DATA XASYNC(tid) &
     !XDIR XCREATE(lzactive,iweak,kmon,ktot)
+    Return
+  End Subroutine apply_xnet_controls
 
+  Subroutine apply_standalone_controls(controls,data_dir)
+    ! Add standalone filenames to the common execution controls.
+    Use xnet_util, Only: xnet_terminate
+    Implicit None
+    Type(xnet_controls_t), Intent(in) :: controls
+    Character(*), Intent(out) :: data_dir
+    Character(256) :: message
+    Integer :: ierr
+
+    Call validate_standalone_controls(controls,ierr,message)
+    If ( ierr /= 0 ) Call xnet_terminate(Trim(message))
+    Call apply_xnet_controls(controls,ierr,message)
+    If ( ierr /= 0 ) Call xnet_terminate(Trim(message))
+    data_dir = controls%data_dir
+    Allocate(inab_file(nzone),thermo_file(nzone))
+    inab_file = controls%inab_files(:nzone)
+    thermo_file = controls%thermo_files(:nzone)
     Return
   End Subroutine apply_standalone_controls
-
   Subroutine read_controls(data_dir)
     !-----------------------------------------------------------------------------------------------
     ! Read and apply the standalone XNet controls.
@@ -1144,4 +1161,22 @@ Contains
 
     Return
   End Subroutine broadcast_xnet_controls
+  Subroutine controls_finalize
+    ! Release XNet-owned CPU allocations.
+    Implicit None
+    If ( Allocated(zone_id) ) Deallocate (zone_id)
+    If ( Allocated(iweak) ) Deallocate (iweak)
+    If ( Allocated(lzactive) ) Deallocate (lzactive)
+    If ( Allocated(kmon) ) Deallocate (kmon)
+    If ( Allocated(ktot) ) Deallocate (ktot)
+    If ( Allocated(inucout) ) Deallocate (inucout)
+    If ( Allocated(lun_ts) ) Deallocate (lun_ts)
+    If ( Allocated(lun_ev) ) Deallocate (lun_ev)
+    If ( Allocated(output_nuc) ) Deallocate (output_nuc)
+    If ( Allocated(inab_file) ) Deallocate (inab_file)
+    If ( Allocated(thermo_file) ) Deallocate (thermo_file)
+    If ( Allocated(iaux) ) Deallocate (iaux)
+    Return
+  End Subroutine controls_finalize
+
 End Module xnet_controls

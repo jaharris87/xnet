@@ -81,7 +81,7 @@ Module xnet_nse
   Real(dp) :: zatst, za_min, za_max
   !$omp threadprivate(iye_za,iye_za_l,iye_za_u,iye_hvy,iye_hvy_l,iye_hvy_u,iye_fe,iye_fe_l,iye_fe_u,zatst)
 
-  Public :: nse_initialize, nse_solve
+  Public :: nse_initialize, nse_solve, nse_finalize
 
 Contains
 
@@ -234,6 +234,26 @@ Contains
 
     Return
   End Subroutine nse_initialize
+
+  Subroutine nse_finalize
+    !-----------------------------------------------------------------------------------------------
+    ! This routine releases the arrays allocated by nse_initialize.
+    !-----------------------------------------------------------------------------------------------
+    Implicit None
+
+    !$omp parallel default(shared)
+    If ( allocated(xnse) ) Deallocate (xnse)
+    If ( allocated(ynse) ) Deallocate (ynse)
+    If ( allocated(unse) ) Deallocate (unse)
+    If ( allocated(ggnse) ) Deallocate (ggnse)
+    If ( allocated(hnse) ) Deallocate (hnse)
+    !$omp end parallel
+
+    If ( allocated(mm52) ) Deallocate (mm52)
+    If ( allocated(intz) ) Deallocate (intz)
+
+    Return
+  End Subroutine nse_finalize
 
   Subroutine nse_inuc
     !-----------------------------------------------------------------------------------------------

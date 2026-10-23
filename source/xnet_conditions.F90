@@ -47,6 +47,35 @@ Module xnet_conditions
 
 Contains
 
+  Subroutine conditions_initialize(history_capacity)
+    ! The standalone driver needs full histories; constant-condition callers need two endpoints.
+    Use xnet_controls, Only: nzevolve
+    Implicit None
+    Integer, Intent(in) :: history_capacity
+    Allocate (tdel(nzevolve),tdel_next(nzevolve),tdel_old(nzevolve), &
+      & t(nzevolve),tt(nzevolve),to(nzevolve), &
+      & t9(nzevolve),t9t(nzevolve),t9o(nzevolve),t9dot(nzevolve), &
+      & rho(nzevolve),rhot(nzevolve),rhoo(nzevolve), &
+      & ye(nzevolve),yet(nzevolve),yeo(nzevolve), &
+      & cv(nzevolve),etae(nzevolve),detaedt9(nzevolve), &
+      & nt(nzevolve),ntt(nzevolve),nto(nzevolve),ints(nzevolve),intso(nzevolve))
+    tdel = 0.0 ; tdel_next = 0.0 ; tdel_old = 0.0
+    t = 0.0 ; tt = 0.0 ; to = 0.0
+    t9 = 0.0 ; t9t = 0.0 ; t9o = 0.0 ; t9dot = 0.0
+    rho = 0.0 ; rhot = 0.0 ; rhoo = 0.0
+    ye = 0.0 ; yet = 0.0 ; yeo = 0.0
+    cv = 0.0 ; etae = 0.0 ; detaedt9 = 0.0
+    nt = 0 ; ntt = 0 ; nto = 0 ; ints = 0 ; intso = 0
+    Allocate (nstart(nzevolve),tstart(nzevolve),tstop(nzevolve),tdelstart(nzevolve), &
+      & t9start(nzevolve),rhostart(nzevolve),yestart(nzevolve),nh(nzevolve), &
+      & th(history_capacity,nzevolve),t9h(history_capacity,nzevolve), &
+      & rhoh(history_capacity,nzevolve),yeh(history_capacity,nzevolve))
+    nstart = 0 ; tstart = 0.0 ; tstop = 0.0 ; tdelstart = 0.0
+    t9start = 0.0 ; rhostart = 0.0 ; yestart = 0.0 ; nh = 0
+    th = 0.0 ; t9h = 0.0 ; rhoh = 0.0 ; yeh = 0.0
+    Return
+  End Subroutine conditions_initialize
+
   Subroutine t9rhofind_scalar(kstep,tf,nf,t9f,rhof,ns,ts,t9s,rhos)
     !-----------------------------------------------------------------------------------------------
     ! This routine calculates t9 and rho as a function of time, either via interpolation or from an
@@ -151,5 +180,47 @@ Contains
 
     Return
   End Subroutine t9rhofind_vector
+
+  Subroutine conditions_finalize
+    ! Release XNet-owned CPU allocations.
+    Implicit None
+    If ( Allocated(t) ) Deallocate (t)
+    If ( Allocated(tt) ) Deallocate (tt)
+    If ( Allocated(to) ) Deallocate (to)
+    If ( Allocated(tdel) ) Deallocate (tdel)
+    If ( Allocated(tdel_next) ) Deallocate (tdel_next)
+    If ( Allocated(tdel_old) ) Deallocate (tdel_old)
+    If ( Allocated(t9t) ) Deallocate (t9t)
+    If ( Allocated(rhot) ) Deallocate (rhot)
+    If ( Allocated(yet) ) Deallocate (yet)
+    If ( Allocated(t9) ) Deallocate (t9)
+    If ( Allocated(rho) ) Deallocate (rho)
+    If ( Allocated(ye) ) Deallocate (ye)
+    If ( Allocated(t9o) ) Deallocate (t9o)
+    If ( Allocated(rhoo) ) Deallocate (rhoo)
+    If ( Allocated(yeo) ) Deallocate (yeo)
+    If ( Allocated(t9dot) ) Deallocate (t9dot)
+    If ( Allocated(cv) ) Deallocate (cv)
+    If ( Allocated(etae) ) Deallocate (etae)
+    If ( Allocated(detaedt9) ) Deallocate (detaedt9)
+    If ( Allocated(nt) ) Deallocate (nt)
+    If ( Allocated(ntt) ) Deallocate (ntt)
+    If ( Allocated(nto) ) Deallocate (nto)
+    If ( Allocated(ints) ) Deallocate (ints)
+    If ( Allocated(intso) ) Deallocate (intso)
+    If ( Allocated(nh) ) Deallocate (nh)
+    If ( Allocated(nstart) ) Deallocate (nstart)
+    If ( Allocated(tstart) ) Deallocate (tstart)
+    If ( Allocated(tstop) ) Deallocate (tstop)
+    If ( Allocated(tdelstart) ) Deallocate (tdelstart)
+    If ( Allocated(t9start) ) Deallocate (t9start)
+    If ( Allocated(rhostart) ) Deallocate (rhostart)
+    If ( Allocated(yestart) ) Deallocate (yestart)
+    If ( Allocated(th) ) Deallocate (th)
+    If ( Allocated(t9h) ) Deallocate (t9h)
+    If ( Allocated(rhoh) ) Deallocate (rhoh)
+    If ( Allocated(yeh) ) Deallocate (yeh)
+    Return
+  End Subroutine conditions_finalize
 
 End Module xnet_conditions

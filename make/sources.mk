@@ -1,5 +1,5 @@
 # Production source lists, object paths, and BUILD_DIR configuration checking.
-CORE_SRC := $(addprefix $(SOURCE_DIR)/,xnet_controls.F90 xnet_data.F90 xnet_output.F90 \
+CORE_SRC := $(addprefix $(SOURCE_DIR)/,xnet_api.F90 xnet_controls.F90 xnet_data.F90 xnet_output.F90 \
   xnet_abundances.F90 xnet_conditions.F90 xnet_constants.F90 xnet_evolve.F90 xnet_fd.F90 \
   xnet_ffn.F90 xnet_flux.F90 xnet_gpu.F90 xnet_integrate.F90 xnet_integrate_bdf.F90 \
   xnet_integrate_be.F90 xnet_linalg.F90 xnet_match.F90 xnet_nnu.F90 xnet_nse.F90 \
@@ -61,6 +61,10 @@ CPP_INCLUDE_FLAGS := -I$(SOURCE_DIR) $(sort $(addprefix -I,$(dir $(SOURCE_FREE_S
   $(EOS_FREE_SRC) $(SOLVER_FREE_SRC) $(GPU_FREE_SRC)))) \
   $(filter -I%,$(FFLAGS) $(F90FLAGS) $(LAPACK_INC) $(SOLVER_INC)) $(MPI_INCLUDE_FLAGS)
 CPP_DEFINITION_FLAGS := $(filter -D% -U%,$(FFLAGS) $(F90FLAGS)) $(GPU_DEFINES)
+# The first embedding API supports the serial CPU dense-solver build.
+ifeq ($(MATRIX_SOLVER):$(MPI_MODE):$(OPENMP_MODE):$(GPU_MODE),dense:OFF:OFF:OFF)
+  CPP_DEFINITION_FLAGS += -DXNET_EMBEDDING_CPU
+endif
 CPP_EFFECTIVE_FLAGS := -P -C -nostdinc $(CPP_INCLUDE_FLAGS) $(CPP_DEFINITION_FLAGS)
 ifneq ($(filter CCE CRAY,$(PE_ENV)),)
   ifeq ($(OPENMP_OL_MODE),ON)
@@ -107,14 +111,28 @@ LAPACK_OBJ := $(foreach source,$(LAPACK_FIXED_SRC),$(call lapack_obj,$(source)))
 SOLVER_OBJ := $(SOLVER_FREE_OBJ) $(SOLVER_FIXED_OBJ)
 
 XNET_SOURCE_OBJ := $(foreach source,$(sort $(CORE_SRC) $(DRIVER_SRC) $(MPI_SRC) $(SPARSE_SRC)),$(call source_obj,$(source)))
+LIBXNET_SOURCE_OBJ := $(foreach source,$(sort $(CORE_SRC) $(MPI_SRC) $(SPARSE_SRC)),$(call source_obj,$(source)))
 XNSE_SOURCE_OBJ := $(foreach source,$(sort $(XNSE_CORE_SRC) $(XNSE_MAIN_SRC) $(MPI_SRC)),$(call source_obj,$(source)))
 SETUP_SOURCE_OBJ := $(foreach source,$(sort $(SETUP_CORE_SRC) $(MPI_SRC)),$(call source_obj,$(source)))
 XNET_OBJ := $(XNET_SOURCE_OBJ) $(EOS_OBJ) $(SOLVER_OBJ) $(LAPACK_OBJ) $(GPU_OBJ)
+LIBXNET_OBJ := $(LIBXNET_SOURCE_OBJ) $(EOS_OBJ) $(SOLVER_OBJ) $(LAPACK_OBJ) $(GPU_OBJ)
 XNSE_OBJ := $(XNSE_SOURCE_OBJ) $(EOS_OBJ) $(LAPACK_OBJ)
 SETUP_OBJ := $(SETUP_SOURCE_OBJ)
 XNET_EXE := $(BIN_DIR)/xnet
 XNSE_EXE := $(BIN_DIR)/xnse
 NET_SETUP_EXE := $(BIN_DIR)/net_setup
+XNET_ARCHIVE := $(LIB_DIR)/libxnet.a
+XNET_CONFIG_MK := $(BUILD_DIR)/xnet-config.mk
+
+# External Fortran callers use the same compiler and numerical-library link
+# options as this build. Module files are compiler-specific.
+XNET_FC := $(COMPILE_FC)
+XNET_MOD_DIR := $(MOD_DIR)
+XNET_MODFLAGS := -I$(MOD_DIR)
+XNET_FFLAGS := $(strip $(COMPILE_FFLAGS) $(COMPILE_F90FLAGS) $(LAPACK_INC) $(SOLVER_INC) $(GPU_MODULE_FLAGS))
+XNET_LDR := $(LDR)
+XNET_LDFLAGS := $(strip $(LDFLAGS) $(SOLVER_LIBDIR) $(LAPACK_LIBDIR))
+XNET_LIBS := $(strip $(SOLVER_LIBS) $(LAPACK_LIBS))
 
 # Record only paths relevant to the selected configuration. The complete
 # source and flag records below provide practical stale-object protection.
@@ -173,13 +191,13 @@ CONFIG_RECORD_ARGUMENTS = \
   'HIPFORT_DIR=$(CONFIG_HIPFORT_DIR)' 'ROCM_DIR=$(CONFIG_ROCM_DIR)' \
   'HELMHOLTZ_PATH=$(CONFIG_HELMHOLTZ_PATH)'
 
-.PHONY: xnet xnse net_setup all xinab xnet_gpu FORCE
+.PHONY: xnet libxnet xnse net_setup all xinab xnet_gpu FORCE
 FORCE:
 $(CONFIG): FORCE
 	@$(ROOT_DIR)/make/update-config.sh '$@' $(CONFIG_RECORD_ARGUMENTS)
 
 $(SOURCE_OBJ_DIR) $(EOS_OBJ_DIR) $(SOLVER_OBJ_DIR) $(LAPACK_OBJ_DIR) $(GPU_OBJ_DIR) \
-$(SOURCE_PP_DIR) $(EOS_PP_DIR) $(SOLVER_PP_DIR) $(GPU_PP_DIR) $(MOD_DIR) $(BIN_DIR): | $(CONFIG)
+$(SOURCE_PP_DIR) $(EOS_PP_DIR) $(SOLVER_PP_DIR) $(GPU_PP_DIR) $(MOD_DIR) $(BIN_DIR) $(LIB_DIR): | $(CONFIG)
 	@mkdir -p '$@'
 
 BUILD_LOGIC_INPUTS := $(ROOT_DIR)/Makefile $(ROOT_DIR)/Makefile.opt \
