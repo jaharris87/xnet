@@ -106,9 +106,11 @@ No automatic renormalization or repair is performed.
 Status does not make deep failures recoverable. Existing malformed-network
 readers, EOS/provider failures, allocation failures, and solver exhaustion can
 still terminate execution. `full_net` can write failure inputs before
-termination. Failed-lane continuation and application recovery are not yet
-implemented. They require separate tests and implementation before being
-claimed.
+termination. A required follow-up will report exhausted-burn errors to the
+host for its own fatal shutdown, without changing standalone termination.
+Application retry, rollback and successful-lane continuation are not supported
+or required for this interface. Future fallback to another integration method
+is separate work, not a promise that a failed library instance can be reused.
 
 Finalization releases CPU allocations owned by XNet and its selected
 standalone EOS provider. It never initializes/finalizes MPI or a GPU runtime.
