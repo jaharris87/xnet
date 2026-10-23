@@ -144,7 +144,7 @@ Module xnet_integrate_bdf
   Integer, Parameter :: BDF_STATUS_SUCCESS =  0
   Integer, Parameter :: BDF_STATUS_FAIL    =  1
 
-  Public :: solve_bdf, bdf_init
+  Public :: solve_bdf, bdf_init, bdf_finalize
 
   Private :: bdf_reset, bdf_adjust, bdf_update, bdf_predict, bdf_step, bdf_check
   Private :: bdf_correct, bdf_eta, bdf_stab
@@ -486,6 +486,78 @@ Contains
 
     Return
   End Subroutine bdf_init
+
+  Subroutine bdf_finalize
+    !-----------------------------------------------------------------------------------------------
+    ! This routine releases the CPU workspace allocated by bdf_init.
+    !-----------------------------------------------------------------------------------------------
+    Implicit None
+
+    If ( allocated(A_pascal) ) Deallocate (A_pascal)
+    If ( allocated(Ainv_pascal) ) Deallocate (Ainv_pascal)
+    If ( allocated(rtol) ) Deallocate (rtol)
+    If ( allocated(atol) ) Deallocate (atol)
+    If ( allocated(bdf_active) ) Deallocate (bdf_active)
+    If ( allocated(retry_ts) ) Deallocate (retry_ts)
+    If ( allocated(nit_nrslv) ) Deallocate (nit_nrslv)
+    If ( allocated(nit_nr) ) Deallocate (nit_nr)
+    If ( allocated(nit_ts) ) Deallocate (nit_ts)
+    If ( allocated(ierr_nr) ) Deallocate (ierr_nr)
+    If ( allocated(ierr_ts) ) Deallocate (ierr_ts)
+    If ( allocated(nerr_ts) ) Deallocate (nerr_ts)
+    If ( allocated(ncf_ts) ) Deallocate (ncf_ts)
+    If ( allocated(q) ) Deallocate (q)
+    If ( allocated(deltaq) ) Deallocate (deltaq)
+    If ( allocated(j_age) ) Deallocate (j_age)
+    If ( allocated(p_age) ) Deallocate (p_age)
+    If ( allocated(q_age) ) Deallocate (q_age)
+    If ( allocated(nscon) ) Deallocate (nscon)
+    If ( allocated(sddat) ) Deallocate (sddat)
+    If ( allocated(z) ) Deallocate (z)
+    If ( allocated(z0) ) Deallocate (z0)
+    If ( allocated(zt0) ) Deallocate (zt0)
+    If ( allocated(hvec) ) Deallocate (hvec)
+    If ( allocated(lvec) ) Deallocate (lvec)
+    If ( allocated(dt_scale) ) Deallocate (dt_scale)
+    If ( allocated(etaq) ) Deallocate (etaq)
+    If ( allocated(eta) ) Deallocate (eta)
+    If ( allocated(eta_next) ) Deallocate (eta_next)
+    If ( allocated(gam) ) Deallocate (gam)
+    If ( allocated(gamhat) ) Deallocate (gamhat)
+    If ( allocated(gamratio) ) Deallocate (gamratio)
+    If ( allocated(ewt) ) Deallocate (ewt)
+    If ( allocated(acor) ) Deallocate (acor)
+    If ( allocated(acorp) ) Deallocate (acorp)
+    If ( allocated(acnrm) ) Deallocate (acnrm)
+    If ( allocated(crate) ) Deallocate (crate)
+    If ( allocated(tq) ) Deallocate (tq)
+    If ( allocated(tq2save) ) Deallocate (tq2save)
+    If ( allocated(ydot0) ) Deallocate (ydot0)
+    If ( allocated(t9dot0) ) Deallocate (t9dot0)
+    If ( allocated(restore) ) Deallocate (restore)
+    If ( allocated(rescale) ) Deallocate (rescale)
+    If ( allocated(rebuild) ) Deallocate (rebuild)
+    If ( allocated(refactor) ) Deallocate (refactor)
+    If ( allocated(iterate) ) Deallocate (iterate)
+    If ( allocated(converged) ) Deallocate (converged)
+    If ( allocated(eval_rates) ) Deallocate (eval_rates)
+    If ( allocated(diag) ) Deallocate (diag)
+    If ( allocated(mult) ) Deallocate (mult)
+    If ( allocated(yrhs) ) Deallocate (yrhs)
+    If ( allocated(dy) ) Deallocate (dy)
+    If ( allocated(t9rhs) ) Deallocate (t9rhs)
+    If ( allocated(dt9) ) Deallocate (dt9)
+    If ( allocated(dvec) ) Deallocate (dvec)
+    If ( allocated(del) ) Deallocate (del)
+    If ( allocated(delp) ) Deallocate (delp)
+    If ( allocated(dcon) ) Deallocate (dcon)
+    If ( allocated(errorq) ) Deallocate (errorq)
+    If ( allocated(acorhat) ) Deallocate (acorhat)
+    If ( allocated(detect) ) Deallocate (detect)
+    If ( allocated(ldflag) ) Deallocate (ldflag)
+
+    Return
+  End Subroutine bdf_finalize
 
   Subroutine bdf_reset
     !-----------------------------------------------------------------------------------------------

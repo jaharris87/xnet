@@ -16,14 +16,16 @@ implementation requirements, results, and maintainer decisions.
 
 ## Where we are
 
-As of 2026-10-23, `development` is
-`3825c705b26f11ea67f43d6098452a3d53379dfb`.
+The starting CPU/GPU measurements use source and inputs from
+`3825c705b26f11ea67f43d6098452a3d53379dfb`. Later development does not change
+that comparison source. See [#126](https://github.com/jaharris87/XNet/issues/126)
+for current implementation status.
 
 | Work | Current result | Next step |
 | --- | --- | --- |
 | [#128: configuration](https://github.com/jaharris87/XNet/issues/128) | Merged: validated `xnet_controls_t`, programmatic configuration, layered standalone namelists, and migrated maintained inputs | Use the existing representation in the application interface |
 | [#127: starting CPU measurements](https://github.com/jaharris87/XNet/issues/127) | Complete and accepted: serial dense CPU measurements for four network sizes on both facilities, with MA48 deferred | Use these results in #131's CPU/GPU comparison |
-| [#129: application interface and library](https://github.com/jaharris87/XNet/issues/129) | CHIMERA-first initialize/burn/finalize direction approved; implementation remains open | Prove CPU equivalence with table EOS, then implement recoverable burn failures |
+| [#129: application interface and library](https://github.com/jaharris87/XNet/issues/129) | Initial dense serial CPU API/archive and default-EOS equivalence tests in [PR #158](https://github.com/jaharris87/XNet/pull/158); application validation remains open | Return exhausted-burn errors for host-controlled fatal shutdown; validate CHIMERA table EOS |
 | [#130: application integrations](https://github.com/jaharris87/XNet/issues/130) | Integration validation remains open | CHIMERA first, then Flash-X, with application-side adapters |
 | [#131: CPU/GPU and application performance](https://github.com/jaharris87/XNet/issues/131) | Comparable GPU timings and later coupled measurements remain open | Stage A: standalone GPU comparisons now; stage B: resulting-code and repeated application burns after #129/#130 |
 | [#132: release checks](https://github.com/jaharris87/XNet/issues/132) | Not yet a release candidate | Verify the final implementation, supported platforms, and documentation |
@@ -43,10 +45,11 @@ approved separately. The maintainer accepted its results and MA48 deferral
 and authorized closure on 2026-10-23. The GPU results are not an additional
 condition for that completed CPU collection.
 
-Collect the matching GPU measurements as stage A of #131. This is the next
-performance work, before interface-changing production work in #129. It does
-not depend on #129 or on coupled captures from #130. The later coupled
-measurements are stage B of #131.
+Collect the matching GPU measurements as stage A of #131 before integrating
+interface changes or making before/after performance claims. An isolated
+unmerged #129 implementation may proceed while measurements run from the
+pinned source below. Stage A does not depend on #129 or on coupled captures
+from #130. The later coupled measurements are stage B of #131.
 
 Use source and inputs from development commit
 `3825c705b26f11ea67f43d6098452a3d53379dfb` for both facilities. This is the
@@ -111,10 +114,17 @@ not approval to implement them unchanged. The maintainer approved a smaller
 [initialize/burn/finalize direction](https://github.com/jaharris87/XNet/issues/129#issuecomment-6372794913):
 constant-condition batches, temperature in K, XNet-order mass fractions,
 active lanes, auxiliary composition, and the existing penultimate-timestep
-meaning. Start with CHIMERA table-EOS CPU equivalence, then add recoverable
-burn failures before claiming a recovery-capable library. Keep the first
-slice's existing fatal numerical paths documented. MPI/OpenMP and caller-owned
-GPU validation remain required before claiming those modes.
+meaning. Use CHIMERA table EOS for the first application integration; tests
+with the standalone EOS do not establish that integration. The maintainer
+[clarified the failure policy](https://github.com/jaharris87/XNet/issues/129#issuecomment-6374869197):
+exhaustion after XNet's internal adaptive retries is fatal. The embedded API
+must report it so the host can perform its own shutdown; standalone XNet keeps
+its existing termination behavior. Application retry, rollback and
+successful-lane continuation are not required. Fallback to surrogate or
+alternative integration methods is possible later work, not part of this
+implementation. Keep the first slice's existing fatal paths documented.
+MPI/OpenMP and caller-owned GPU validation remain required before claiming
+those modes.
 
 Review detailed signatures and MPI/EOS/GPU ownership in the implementation.
 Bring consequential changes to these decisions back to the maintainer;

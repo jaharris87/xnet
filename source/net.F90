@@ -22,10 +22,10 @@ Program net
   Use xnet_parallel, Only: parallel_finalize, parallel_initialize, parallel_myproc, parallel_nprocs, &
     & parallel_IOProcessor
   Use reaction_data, Only: read_reaction_data
-  Use xnet_abundances, Only: ystart, yo, y, yt, ydot, xext, zext, aext
+  Use xnet_abundances, Only: ystart, yo, y, yt, ydot, xext, zext, aext, abundances_initialize
   Use xnet_conditions, Only: t, tt, to, tdel, tdel_next, tdel_old, t9t, rhot, yet, t9, rho, ye, &
     & t9o, rhoo, yeo, t9dot, cv, etae, detaedt9, nt, ntt, nto, ints, intso, nstart, tstart, tstop, &
-    & tdelstart, t9start, rhostart, yestart, nh, th, t9h, rhoh, yeh, nhmx, t9rhofind
+    & tdelstart, t9start, rhostart, yestart, nh, th, t9h, rhoh, yeh, nhmx, t9rhofind, conditions_initialize
   Use xnet_controls, Only: descript, iconvc, idiag, iheat, inucout, iprocess, iscrn, isolv, &
     & itsout, iweak0, nnucout, nnucout_string, output_nuc, szone, nzone, zone_id, changemx, tolm, tolc, &
     & yacc, ymin, tdel_maxmult, kstmx, kitmx, ev_file_base, bin_file_base, thermo_file, inab_file, &
@@ -165,38 +165,9 @@ Program net
   ! This is essentially a ceiling function for integer division
   batch_count = (nzone + nzbatchmx - 1) / nzbatchmx
 
-  ! Set sizes of abundance arrays
-  Allocate (y(ny,nzevolve),yo(ny,nzevolve),yt(ny,nzevolve),ydot(ny,nzevolve),ystart(ny,nzevolve))
-  Allocate (xext(nzevolve),aext(nzevolve),zext(nzevolve),iaux(nzevolve))
-  y = 0.0 ; yo = 0.0 ; yt = 0.0 ; ydot = 0.0 ; ystart = 0.0
-  xext = 0.0 ; aext = 0.0 ; zext = 0.0 ; iaux = 0
-
-  ! Allocate conditions arrays
-  Allocate (tdel(nzevolve),tdel_next(nzevolve),tdel_old(nzevolve), &
-    &       t(nzevolve),tt(nzevolve),to(nzevolve), &
-    &       t9(nzevolve),t9t(nzevolve),t9o(nzevolve),t9dot(nzevolve), &
-    &       rho(nzevolve),rhot(nzevolve),rhoo(nzevolve), &
-    &       ye(nzevolve),yet(nzevolve),yeo(nzevolve), &
-    &       cv(nzevolve),etae(nzevolve),detaedt9(nzevolve), &
-    &       nt(nzevolve),ntt(nzevolve),nto(nzevolve), &
-    &       ints(nzevolve),intso(nzevolve))
-  tdel  = 0.0 ; tdel_next = 0.0 ; tdel_old = 0.0
-  t     = 0.0 ; tt        = 0.0 ; to       = 0.0
-  t9    = 0.0 ; t9t       = 0.0 ; t9o      = 0.0 ; t9dot = 0.0
-  rho   = 0.0 ; rhot      = 0.0 ; rhoo     = 0.0
-  ye    = 0.0 ; yet       = 0.0 ; yeo      = 0.0
-  cv    = 0.0 ; etae      = 0.0 ; detaedt9 = 0.0
-  nt    = 0   ; ntt       = 0   ; nto      = 0
-  ints  = 0   ; intso     = 0
-
-  ! Allocate thermo history arrays
-  Allocate (nstart(nzevolve),tstart(nzevolve),tstop(nzevolve),tdelstart(nzevolve), &
-    &       t9start(nzevolve),rhostart(nzevolve),yestart(nzevolve), &
-    &       nh(nzevolve),th(nhmx,nzevolve),t9h(nhmx,nzevolve),rhoh(nhmx,nzevolve), &
-    &       yeh(nhmx,nzevolve),tmevnu(nhmx,nnuspec,nzevolve),fluxcms(nhmx,nnuspec,nzevolve))
-  tstart = 0.0 ; tstop   = 0.0 ; tdelstart = 0.0 ; th      = 0.0
-  nstart = 0   ; t9start = 0.0 ; rhostart  = 0.0 ; yestart = 0.0
-  nh     = 0   ; t9h     = 0.0 ; rhoh      = 0.0 ; yeh     = 0.0
+  Call abundances_initialize
+  Call conditions_initialize(nhmx)
+  Allocate (tmevnu(nhmx,nnuspec,nzevolve),fluxcms(nhmx,nnuspec,nzevolve))
   tmevnu = 0.0 ; fluxcms = 0.0
 
   ! Allocate zone description arrays

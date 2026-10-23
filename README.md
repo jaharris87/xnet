@@ -40,6 +40,11 @@ preprocessed sources, and programs under the selected directory. See
 `Makefile.opt` for the principal compiler, parallel, solver, EOS, and
 accelerator choices.
 
+`make -j libxnet` also produces a static archive and compiler-specific module
+files for the initial dense serial CPU embedding interface. See the
+[Fortran embedding guide](docs/development/embedding.md) for its three
+procedures, data conventions, and current error-handling limits.
+
 Before you dig deep into the source code, we suggest you learn the
 basics of how thermonuclear reaction networks function, from one of the following sources.
 

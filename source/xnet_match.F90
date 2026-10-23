@@ -78,4 +78,18 @@ Contains
     Return
   End Subroutine read_match_data
 
+  Subroutine match_finalize
+    ! Release XNet-owned CPU allocations.
+    Implicit None
+    If ( Allocated(nflx) ) Deallocate (nflx)
+    If ( Allocated(iwflx) ) Deallocate (iwflx)
+    If ( Allocated(ifl1) ) Deallocate (ifl1)
+    If ( Allocated(ifl2) ) Deallocate (ifl2)
+    If ( Allocated(ifl3) ) Deallocate (ifl3)
+    If ( Allocated(ifl4) ) Deallocate (ifl4)
+    If ( Allocated(qflx) ) Deallocate (qflx)
+    If ( Allocated(descx) ) Deallocate (descx)
+    Return
+  End Subroutine match_finalize
+
 End Module xnet_match

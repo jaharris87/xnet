@@ -25,7 +25,7 @@ Module xnet_integrate_be
   Real(dp), Allocatable :: t9rhs(:), dt9(:), relt9(:)
   Logical , Allocatable :: iterate(:), eval_rates(:), rebuild(:)
 
-  Public :: solve_be, be_init
+  Public :: solve_be, be_init, be_finalize
 
 Contains
 
@@ -554,5 +554,36 @@ Contains
     !XDIR XCOPYIN(xtot,xtot_init,rdt,mult,yrhs,dy,reldy,t9rhs,dt9,relt9)
 
   End Subroutine be_init
+
+  Subroutine be_finalize
+    !-----------------------------------------------------------------------------------------------
+    ! This routine releases the CPU workspace allocated by be_init.
+    !-----------------------------------------------------------------------------------------------
+    Implicit None
+
+    Nullify(testn)
+    If ( allocated(inr) ) Deallocate (inr)
+    If ( allocated(mykts) ) Deallocate (mykts)
+    If ( allocated(lzstep) ) Deallocate (lzstep)
+    If ( allocated(testc) ) Deallocate (testc)
+    If ( allocated(testc2) ) Deallocate (testc2)
+    If ( allocated(testm) ) Deallocate (testm)
+    If ( allocated(toln) ) Deallocate (toln)
+    If ( allocated(xtot) ) Deallocate (xtot)
+    If ( allocated(xtot_init) ) Deallocate (xtot_init)
+    If ( allocated(rdt) ) Deallocate (rdt)
+    If ( allocated(mult) ) Deallocate (mult)
+    If ( allocated(yrhs) ) Deallocate (yrhs)
+    If ( allocated(dy) ) Deallocate (dy)
+    If ( allocated(reldy) ) Deallocate (reldy)
+    If ( allocated(t9rhs) ) Deallocate (t9rhs)
+    If ( allocated(dt9) ) Deallocate (dt9)
+    If ( allocated(relt9) ) Deallocate (relt9)
+    If ( allocated(iterate) ) Deallocate (iterate)
+    If ( allocated(eval_rates) ) Deallocate (eval_rates)
+    If ( allocated(rebuild) ) Deallocate (rebuild)
+
+    Return
+  End Subroutine be_finalize
 
 End Module xnet_integrate_be

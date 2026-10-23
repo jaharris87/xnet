@@ -16,7 +16,7 @@ else
 endif
 $(2): $(3) | $(call parent_dir,$(2)) $(MOD_DIR)
 	$(COMPILE_FC) $(COMPILE_FFLAGS) \
-	  $(if $(filter xnet_controls.F90,$(notdir $(1))),$(XNET_CONTROLS_FFLAGS)) \
+	  $(if $(filter xnet_controls.F90 xnet_api.F90,$(notdir $(1))),$(XNET_CONTROLS_FFLAGS)) \
 	  $(COMPILE_F90FLAGS) $(MODULE_FLAGS) \
 	  $(LAPACK_INC) $(SOLVER_INC) $(CPP_INCLUDE_FLAGS) $(GPU_MODULE_FLAGS) \
 	  -c '$$<' -o '$$@'
@@ -39,6 +39,7 @@ $(foreach source,$(SOLVER_FIXED_SRC),$(eval $(call compile_fixed_form,$(source),
 $(foreach source,$(LAPACK_FIXED_SRC),$(eval $(call compile_fixed_form,$(source),$(call lapack_obj,$(source)))))
 
 xnet: $(XNET_EXE)
+libxnet: $(XNET_ARCHIVE) $(XNET_CONFIG_MK)
 xnse: $(XNSE_EXE)
 net_setup: $(NET_SETUP_EXE)
 all: xnet xnse net_setup
@@ -48,6 +49,26 @@ xnet_gpu: ; @echo 'xnet_gpu is unsupported; use xnet with explicit GPU selectors
 $(XNET_EXE): $(XNET_OBJ) | $(BIN_DIR)
 	$(LDR) $(LDFLAGS) -o '$@.$$$$.tmp' $(XNET_OBJ) $(SOLVER_LIBDIR) $(SOLVER_LIBS) \
 	  $(LAPACK_LIBDIR) $(LAPACK_LIBS) && mv '$@.$$$$.tmp' '$@'
+$(XNET_ARCHIVE): $(LIBXNET_OBJ) | $(LIB_DIR)
+	@rm -f '$@.$$$$.tmp'
+	$(AR) rcs '$@.$$$$.tmp' $(LIBXNET_OBJ) && mv '$@.$$$$.tmp' '$@'
+
+# Escape Make metacharacters so including this build-local file preserves the
+# resolved settings. config.txt already rejects single quotes and line breaks.
+escape_config_mk = $(subst \#,$(backslash)\#,$(subst $$,$$$$,$(1)))
+backslash := $(subst x,,x\x)
+$(XNET_CONFIG_MK): $(CONFIG) $(BUILD_LOGIC_INPUTS)
+	@printf '%s\n' \
+	  '# Fortran module files require the compiler used for this XNet build.' \
+	  'XNET_FC := $(call escape_config_mk,$(XNET_FC))' \
+	  'XNET_MOD_DIR := $(call escape_config_mk,$(XNET_MOD_DIR))' \
+	  'XNET_MODFLAGS := $(call escape_config_mk,$(XNET_MODFLAGS))' \
+	  'XNET_ARCHIVE := $(call escape_config_mk,$(XNET_ARCHIVE))' \
+	  'XNET_FFLAGS := $(call escape_config_mk,$(XNET_FFLAGS))' \
+	  'XNET_LDR := $(call escape_config_mk,$(XNET_LDR))' \
+	  'XNET_LDFLAGS := $(call escape_config_mk,$(XNET_LDFLAGS))' \
+	  'XNET_LIBS := $(call escape_config_mk,$(XNET_LIBS))' \
+	  > '$@.$$$$.tmp' && mv '$@.$$$$.tmp' '$@'
 $(XNSE_EXE): $(XNSE_OBJ) | $(BIN_DIR)
 	$(LDR) $(LDFLAGS) -o '$@.$$$$.tmp' $(XNSE_OBJ) $(LAPACK_LIBDIR) $(LAPACK_LIBS) && mv '$@.$$$$.tmp' '$@'
 $(NET_SETUP_EXE): $(SETUP_OBJ) | $(BIN_DIR)

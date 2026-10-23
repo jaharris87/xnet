@@ -469,4 +469,53 @@ Contains
     Return
   End Subroutine screen_blend
 
+  Subroutine screening_finalize
+    ! Release XNet-owned CPU allocations.
+    Implicit None
+    If ( Allocated(h1) ) Deallocate (h1)
+    If ( Allocated(h2) ) Deallocate (h2)
+    If ( Allocated(h3) ) Deallocate (h3)
+    If ( Allocated(h4) ) Deallocate (h4)
+    If ( Allocated(dh1dt9) ) Deallocate (dh1dt9)
+    If ( Allocated(dh2dt9) ) Deallocate (dh2dt9)
+    If ( Allocated(dh3dt9) ) Deallocate (dh3dt9)
+    If ( Allocated(dh4dt9) ) Deallocate (dh4dt9)
+    If ( Allocated(z21) ) Deallocate (z21)
+    If ( Allocated(z22) ) Deallocate (z22)
+    If ( Allocated(z31) ) Deallocate (z31)
+    If ( Allocated(z32) ) Deallocate (z32)
+    If ( Allocated(z33) ) Deallocate (z33)
+    If ( Allocated(z41) ) Deallocate (z41)
+    If ( Allocated(z42) ) Deallocate (z42)
+    If ( Allocated(z43) ) Deallocate (z43)
+    If ( Allocated(z44) ) Deallocate (z44)
+    If ( Allocated(iz21) ) Deallocate (iz21)
+    If ( Allocated(iz22) ) Deallocate (iz22)
+    If ( Allocated(iz31) ) Deallocate (iz31)
+    If ( Allocated(iz32) ) Deallocate (iz32)
+    If ( Allocated(iz33) ) Deallocate (iz33)
+    If ( Allocated(iz41) ) Deallocate (iz41)
+    If ( Allocated(iz42) ) Deallocate (iz42)
+    If ( Allocated(iz43) ) Deallocate (iz43)
+    If ( Allocated(iz44) ) Deallocate (iz44)
+    If ( Allocated(z2c) ) Deallocate (z2c)
+    If ( Allocated(z3c) ) Deallocate (z3c)
+    If ( Allocated(z4c) ) Deallocate (z4c)
+    If ( Allocated(iz2c) ) Deallocate (iz2c)
+    If ( Allocated(iz3c) ) Deallocate (iz3c)
+    If ( Allocated(iz4c) ) Deallocate (iz4c)
+    If ( Allocated(zeta2w) ) Deallocate (zeta2w)
+    If ( Allocated(zeta2i) ) Deallocate (zeta2i)
+    If ( Allocated(zeta3w) ) Deallocate (zeta3w)
+    If ( Allocated(zeta3i) ) Deallocate (zeta3i)
+    If ( Allocated(zeta4w) ) Deallocate (zeta4w)
+    If ( Allocated(zeta4i) ) Deallocate (zeta4i)
+    If ( Allocated(ztilde) ) Deallocate (ztilde)
+    If ( Allocated(zinter) ) Deallocate (zinter)
+    If ( Allocated(lambda0) ) Deallocate (lambda0)
+    If ( Allocated(gammae) ) Deallocate (gammae)
+    If ( Allocated(dztildedt9) ) Deallocate (dztildedt9)
+    Return
+  End Subroutine screening_finalize
+
 End Module xnet_screening
